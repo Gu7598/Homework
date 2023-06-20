@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><document><he>
+<title type="content"><title>‫עזרה של המדפסת‬</title></title>
+<t01 type="content"><bold16gold>לא נמצאה מדפסת ברשת</bold16gold><br/><br/><body>תוכנית ההתקנה לא מצליחה למצוא את המדפסת ברשת.
+<br/>כדי לאפשר ל-HP להדריך אותך בשלבי מציאת המדפסת ברשת, לחץ על <bold12>‏הנחה אותי‏</bold12>‏.
+<br/>משתמשים מתקדמים יכולים ללחוץ על "שלבים מתקדמים לפתרון בעיות" כדי לקרוא שלבים בטקסט בלבד למציאת המדפסת ברשת.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t02 type="content"><bodyLinkLine1>» שלבים מתקדמים לפתרון בעיות</bodyLinkLine1><br/><bodyLinkLine2/></t02>
+<t03 type="content"><bold16gold>שלבים לפתרון בעיית מדפסת לא נמצאה</bold16gold> 
+<br/><bodyNumList>1. ודא כי המוצר מופעל ומוכן.
+2. ודא כי המוצר מחובר לרשת באמצעות היציאה והכבל המתאימים. בדוק את כל חיבורי הכבלים כדי לוודא שהחיבור מאובטח ובמקום הנכון. אם הבעיה נמשכת, נסה להשתמש בכבל אחר או ביציאות אחרות ברכזת או במודם הקליטה/שידור. נורית הפעילות בצבע ענבר ונורית מצב ההתקשרות בצבע ירוק, ליד חיבור היציאה בחלק האחורי של המוצר, אמורות לדלוק.
+3. מלוח הבקרה של המוצר, הדפס דף תצורה ואתר את כתובת ה-IP של המוצר.
+4. השתמש בשורת הפקודה כדי לבצע פעולת ping‏ למוצר מהמחשב. לדוגמה: ping 192.168.45.39 </bodyNumList><bodyMargin>אם ניתן לבצע פעולת ping‏ למחשב, ודא שהתצורה של כתובת ה-‏IP‏ עבור המוצר במחשב, נכונה. אם היא נכונה, מחק את המוצר והוסף אותו מחדש.
+אם פעולת ה-ping נכשלה, ודא שרכזות הרשת פועלות ולאחר מכן ודא שתצורת הרשת, המוצר והמחשב מוגדרות כולן עבור אותה רשת. ודא שפקודת ה-Ping בוצעה בהצלחה עבור התקנים אחרים ברשת (אם לא, ייתכן שחומת האש חוסמת את פקודת ה-ping).‏
+או, נסה לפתוח את שרת האינטרנט המשובץ כדי לוודא שהמחשב מקיים תקשורת עם המוצר.</bodyMargin><br/></t03>
+<t04 type="content"><bold16gold>איתור המדפסת ברשת קווית</bold16gold><br/><br/><body>ודא שהמוצר פועל ועם חיווי <bold12>‏מוכן</bold12>.</body></t04>
+<t05 type="content"><bold16gold>איתור המדפסת ברשת קווית</bold16gold><br/><br/><body>ודא כי כבל רשת פעיל מחובר ליציאת הרשת במוצר.</body></t05>
+<t06 type="content"><bold16gold>איתור המדפסת ברשת קווית</bold16gold><br/><br/><body>אם המוצר מחובר לרשת בצורה תקינה, אמורה להיות לו כתובת IP. הדפס דף תצורה של המוצר ואתר את כתובת ה-IP בדף התצורה.</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t07 type="content"><bodyLinkLine1>» כיצד להדפיס דף תצורה</bodyLinkLine1><br/><bodyLinkLine2/></t07>
+<t08 type="content"><bold16gold>איתור המדפסת ברשת קווית</bold16gold><br/><br/><body>הזן את כתובת ה-IP באופן ידני לתיבה המתאימה בתוכנית ההתקנה ולאחר מכן המשך בהתקנת התוכנה.
+<br/>אם תוכנית ההתקנה עדיין לא מצליחה למצוא את המוצר ברשת, ייתכן שיש לך תוכנת חומת אש המונעת את איתור המוצר. HP ממליצה לך שלא להשבית את תוכנת חומת האש שלך. אך אפשר לתוכניות של HP להמשיך לפעול על-ידי בחירה באפשרות "המשך" או "בטל חסימה" או "אפשר"‏ כשתתבקש לכך על-ידי תוכנת חומת האש או האנטי-וירוס. חסימה של התקנה יכולה לגרום לה להיכשל.
+<br/>אם תוכנת אבטחה אינה חוסמת את האיתור, ייתכן שהמוצר מחובר לרשת משנה שונה מזו של המחשב שברשותך. פנה אל מנהל הרשת שלך לסיוע נוסף.</body></t08>
+<t09 type="content"><bold16gold>הפעל את המוצר</bold16gold><br/><br/><body><bold12>הערה:</bold12> ודא שהסרת את כל סרטי האריזה ומנעולי המשלוח. ודא שטענת נייר במגש הנייר.
+<br/>חבר את כבל המתח למוצר ולשקע AC מוארק ולאחר מכן לחץ על לחצן ההפעלה של המוצר למצב <bold12>‏מופעל‏</bold12>.</body></t09>
+<t10 type="content"><bold16gold>חיבור כבל רשת</bold16gold><br/><br/><body>חבר כבל רשת פעיל ליציאת הרשת במוצר. המתן מספר דקות עד שהמוצר יגדיר כתובת IP ברשת.
+<br/>אם האורות ביציאת הרשת אינם מהבהבים, כבל הרשת אינו פעיל. ודא שהכבל מחובר לרשת פעילה. אם כן, שקול לנסות כבל אחר או בדוק את תקינות הכבל על התקן אחר.</body></t10>
+
+<guideButt type="content"><butt11>הנחה אותי</butt11></guideButt><backButt type="content"><butt11>הקודם</butt11></backButt><showButt type="content"><butt11>הראה לי</butt11></showButt><nextButt type="content"><butt11>הבא</butt11></nextButt><contButt type="content"><butt11>המשך</butt11></contButt><exitButt type="content"><butt11>יציאה</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>הדפסת דף תצורה</bold16gold><br/><br/><body>בחר את סוג לוח הבקרה במדפסת:</body></tx00>
+<tx00L01 type="content"><bodyLink>» טקסט בלבד (קטן)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» מסך מגע (קטן)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» אין תצוגה</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» טקסט בלבד (גדול)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» מסך מגע (גדול)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. אם במדפסת קיים לחצן 'תפריט הגדרות' (A), לחץ על לחצן 'תפריט הגדרות'. אם במדפסת לא קיים לחצן 'תפריט הגדרות', עבור לשלב הבא.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. השתמש בלחצני החצים (B) כדי לנווט אל <bold12>דוחות</bold12> ולאחר מכן לחץ על הלחצן <bold12>OK</bold12>‎‏ (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. השתמש בלחצני החצים כדי לנווט אל <bold12>דוח תצורה</bold12> ולאחר מכן לחץ על הלחצן <bold12>OK</bold12>.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. יודפס דוח תצורה. כתובת ה-IP מופיעה כ-IPv4 או IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>בסוג זה של לוח בקרה, ניתן לראות את כתובת ה-IP בתצוגה:
+<br/>אם המדפסת מחוברת לרשת דרך כבל רשת, גע בלחצן 'רשת' (A) במסך דף הבית כדי להציג את כתובת ה-IP. אם כתובת ה-IP אינה מופיעה, המדפסת אינה מקיימת תקשורת עם הרשת. בדוק מחדש את חיבורי הכבלים.
+<br/>אם המדפסת מחוברת לרשת באופן אלחוטי, גע בלחצן 'אלחוט' (B) במסך דף הבית כדי להציג את כתובת ה-IP. אם כתובת ה-IP אינה מופיעה, פעל לפי ההוראות בתצוגת לוח הבקרה.</body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>במדפסות עם לחצנים, וללא תצוגה, הלחצן או שילוב הלחצנים להדפסת דף תצורה משתנים.</body><br/><br/><bodyNumList>1. אם במדפסת קיים רק לחצן ביטול (A), לחץ לחיצה ממושכת על לחצן הביטול במשך שתיים עד שלוש שניות. אם לא מודפס דף תצורה, עבור לשלב הבא.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. אם במדפסת קיים לחצן ביטול (A) ולחצן חידוש פעולה (B), לחץ לחיצה ממושכת על שני הלחצנים במשך שתי שניות. אם לא מודפס דף תצורה, לחץ רק על לחצן חידוש הפעולה (B) במשך שתיים עד שלוש שניות. אם לא מודפס דף תצורה, עבור לשלב הבא.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. אם לא מודפס דף תצורה, פנה לשירות התמיכה המקומי.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>בסוג זה של לוח בקרה, ניתן לראות את כתובת ה-IP בתצוגה שבמסך <bold12>מוכן</bold12>. אם לא נראית כתובת IP במסך <bold12>מוכן</bold12>, בדוק את חיבור הרשת של המדפסת.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>בסוג זה של לוח בקרה, ניתן לראות את כתובת ה-IP בתצוגה.</body><br/><br/><bodyNumList>1. גע בלחצן <bold12>כתובת רשת</bold12> ‏(A‎‎‏) במסך דף הבית כדי להציג את כתובת ה-IP. אם כתובת ה-IP אינה מופיעה, המדפסת אינה מקיימת תקשורת עם הרשת. בדוק מחדש את חיבור הרשת.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» המשך עם העזרה</bodyLinkLine1></txCont><cpstring01 type="content">דוחות</cpstring01><cpstring02 type="content">דוח תצורה</cpstring02><cpstring03 type="content">מוכן</cpstring03><cpstring04 type="content">כתובת רשת</cpstring04></he></document>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	
+	<!-- 
+		Images
+	-->
+	<image name="product" x="467" y="263">assets/LJM1530.png</image>
+	<image name="logo" x="25" y="17">assets/logo.png</image>
+
+
+	<!-- 
+		CHM filenames.
+		A userGuide entry is required.
+	-->
+	<filenames>
+		<filename name="userGuide">LJM1530_use_||lngww||.chm</filename>
+		<filename name="supplies">Supplies2_0_||LNGWW||.chm</filename>
+	</filenames>
+
+
+	<!--
+		Product search string.  This string is added to all "Perform search on HP.com" searches to narrow the search.
+	-->
+	<productSearchString>LaserJet Pro M1530 MFP</productSearchString>
+
+
+	<!-- 
+		Commands allow you to pass the exe an action through the command line.  
+		ie Help.exe command=command2 will perform command2 after Help.exe loads
+		targetName - the name of the action to perform
+	-->
+	<commands>
+		<command targetName="jamInPrinter">jamInPrinter</command>
+		<command targetName="insufficientMemory">insufficientMemory</command>
+		<command targetName="cartridgeMissing">cartridgeMissing</command>
+		<command targetName="missingMemory">missingMemory</command>
+		<command targetName="defectiveMemory">defectiveMemory</command>
+		<command targetName="usedConsumable">usedConsumable</command>
+		<command targetName="replaceCartridgeOut">replaceCartridgeOut</command>
+		<command targetName="cartridgeVeryLow">cartridgeVeryLow</command>
+		<command targetName="cartridgeLow">cartridgeLow</command>
+		<command targetName="trayEmptyOrOpen">trayEmptyOrOpen</command>
+	</commands>
+
+	
+	<!--
+		Tokens are automatically replaced in all paths and URLs.
+		There are several dynamic predefined tokens, ||LNG||, ||LNGWW||, ||lng|| and ||lngww||.
+		||LNG|| - the current language abbreviation in uppercase (EN, ES, DE, ZHTW, ZHCN, ect)
+		||LNGWW|| - the current language abbreviation including a WW designation if appropriate in uppercase (ENWW, ESWW, DEWW, ZHTW, ZHCN, ect)
+		||lng|| - the current language abbreviation in lowercase (en, es, de, zhtw, zhcn, ect)
+		||lngww|| - the current language abbreviation including a WW designation if appropriate in lowercase (enww, esww, deww, zhtw, zhcn, ect)
+		||con|| - the Concentra number for the current language
+		||sq|| - the current search query
+		
+		Note: To create a token name, use only alpha characters surrounded by two pipe symbols. ie - ||token||   
+	 -->
+	<tokens>
+		<token name="||SAMPLE||" value="3422476" />
+	</tokens>
+
+
+	<!--
+		name - The name used to refer to this action.
+		display - viewer|chm|dialog|web
+	 -->
+	<targets>
+		<target name="userGuideDialogTarget" display="dialog">userGuideDialog</target>
+		<target name="onlineUserGuide" display="web"><![CDATA[http://h20000.www2.hp.com/bc/docs/support/SupportManual/||con||/||con||.pdf]]></target>
+		<target name="localUserGuide" display="chm" filename="userGuide">userguide.html</target>
+		<target name="searchHPCom" display="web"><![CDATA[http://search.hp.com/query.html?lang=||lng||&search=++&qt=||sq||&la=||lng||]]></target>
+		<target name="hPSite" display="web"><![CDATA[http://www.hp.com]]></target>
+		<target name="sureSupply" display="web"><![CDATA[https://h30042.www3.hp.com/suresupply/localize/index]]></target>
+		<target name="webSupport" display="web"><![CDATA[http://h20180.www2.hp.com/apps/Nav?h_pagetype=s-001&h_lang=||lng||&h_product=4188111&h_client=s-h-e009-1&h_page=hpcom&lang=||lng||]]></target>
+		<target name="printableQuickReference" display="chm" filename="userGuide">TEMP</target>
+		<target name="HPePrint" display="web"><![CDATA[http://www.hpeprintcenter.com]]></target>
+		
+		<target name="Controlpanelbuttons" display="chm" filename="userGuide">1_1_3_1_6_5.html</target>
+		<target name="controlPanelMessages" display="chm" filename="userGuide">1_1_3_12_6.html</target>
+		<target name="replaceThePrintCartridge" display="chm" filename="userGuide">1_1_3_11_10_4_2.html</target>
+		<target name="loadPaperTrays" display="chm" filename="userGuide">1_1_3_6_6.html</target>
+		<target name="getIpAddressOfAPrinterInNetwork" display="chm" filename="userGuide">1_1_3_11_2.html</target>
+		<target name="Faxtroubleshootingchecklist" display="chm" filename="userGuide">1_1_3_10_7_1.html</target>
+		
+		<target name="cancelPrintJob" display="chm" filename="userGuide">1_1_3_7_2.html</target>
+		<target name="openPrinterDriver" display="chm" filename="userGuide">1_1_3_7_4_2.html</target>
+		<target name="printOnBothSidesDuplex" display="chm" filename="userGuide">1_1_3_7_4_7.html</target>
+		<target name="printMultiplePagesPerSheet" display="chm" filename="userGuide">1_1_3_7_4_8.html</target>
+		<target name="PrintonSpecialPaper" display="chm" filename="userGuide">1_1_3_6_3.html</target>
+
+		<target name="makeMultipleCopies" display="chm" filename="userGuide">1_1_3_8_3_2.html</target>
+		<target name="reduceOrEnlargeCopies" display="chm" filename="userGuide">1_1_3_8_3_6.html</target>
+		<target name="copyIdentificationCards" display="chm" filename="userGuide">1_1_3_8_3_4.html</target>
+
+		<target name="scanADocument" display="chm" filename="userGuide">1_1_3_9_3_2_2.html</target>
+		<target name="makeMyScanLookBetter" display="chm" filename="userGuide">1_1_3_9_4_2_2.html</target>
+
+		<target name="useThePhoneBook" display="chm" filename="userGuide">1_1_3_10_3.html</target>
+		<target name="sendAFax" display="chm" filename="userGuide">1_1_3_10_6_8_1.html</target>
+		<target name="scheduleAFaxToBeSentLater" display="chm" filename="userGuide">1_1_3_10_6_8_8.html</target>
+		<target name="printAStoredFax" display="chm" filename="userGuide">1_1_3_10_6_9_2_2.html</target>
+		<target name="deleteFaxesFromMemory" display="chm" filename="userGuide">1_1_3_10_6_3.html</target>
+		
+		<target name="printInformationPages" display="chm" filename="userGuide">1_1_3_11_2.html</target>
+		<!--<target name="replaceThePrintCartridge" display="chm" filename="userGuide">TEMP</target> -->
+		<target name="printACleaningPage" display="chm" filename="userGuide">1_1_3_11_11_3.html</target>
+		<target name="cleanTheScannerGlass" display="chm" filename="userGuide">1_1_3_9_4_2.html</target>
+		<target name="cleanThePickupRoller" display="chm" filename="userGuide">1_1_3_11_11_1.html</target>
+		<target name="cleanTheSeparationPad" display="chm" filename="userGuide">1_1_3_11_11_2.html</target>
+		<target name="changeFaxSettings" display="chm" filename="userGuide">1_1_3_10_4.html</target>
+		
+		<target name="ProblemSolvingChecklist" display="chm" filename="userGuide">1_1_3_12_3.html</target>
+		<target name="clearAPaperJam" display="chm" filename="userGuide">1_1_3_12_8_5_2.html</target>
+		<target name="clearJamsFromTheDocumentFeeder" display="chm" filename="userGuide">1_1_3_12_8_5_3.html</target>
+		<target name="solvePrintQualityProblems" display="chm" filename="userGuide">1_1_3_12_8.html</target>
+		<target name="solvePaperHandlingProblems" display="chm" filename="userGuide">1_1_3_12_7.html</target>
+		<target name="solveCopyQualityProblems" display="chm" filename="userGuide">1_1_3_12_9_7.html</target>
+		<target name="solveScanQualityProblems" display="chm" filename="userGuide">1_1_3_9_4_2.html</target>
+		<target name="solveFaxProblems" display="chm" filename="userGuide">1_1_3_10_7_1.html</target>
+		
+		<target name="jamInPrinter" display="chm" filename="userGuide">1_1_3_12_8_4.html</target>
+		<target name="insufficientMemory" display="chm" filename="userGuide">1_1_3_12_7_3.html</target>
+		<target name="cartridgeMissing" display="chm" filename="userGuide">1_1_3_12_8_5_5.html</target>
+		<target name="TMP" display="chm" filename="supplies">9502.html</target>
+		<target name="missingMemory" display="chm" filename="supplies">9505.html</target>
+		<target name="defectiveMemory" display="chm" filename="supplies">9506.html</target>
+		<target name="usedConsumable" display="chm" filename="supplies">9507.html</target>
+		<target name="replaceCartridgeOut" display="chm" filename="supplies">9508.html</target>
+		<target name="cartridgeVeryLow" display="chm" filename="supplies">9509.html</target>
+		<target name="cartridgeLow" display="chm" filename="supplies">9510.html</target>
+		<target name="trayEmptyOrOpen" display="chm" filename="userGuide">1_1_3_6_6.html</target>
+	</targets>
+		
+	
+	<!-- 
+		List of language codes and their associated Primary Laguage Identifiers.
+		For the complete list see http://msdn.microsoft.com/en-us/library/ms776294%28VS.85%29.aspx#NotesPrim
+		This list also defines the list of available languages.  Any language that is not in this list will display EN.
+		These languages should *not* contain WW.
+	-->
+	<languageCodes>
+		<language name="AR">01</language>
+		<language name="BG">02</language>
+		<language name="CA">03</language>
+		<language name="CS">05</language>
+		<language name="DA">06</language>
+		<language name="DE">07</language>
+		<language name="EL">08</language>
+		<language name="EN">09</language>
+		<language name="ES">0a</language>
+		<language name="ET">25</language>
+		<language name="FI">0b</language>
+		<language name="FR">0c</language>
+		<language name="HE">0d</language>
+		<language name="HR">1a00</language>
+		<language name="HR">1a10</language>
+		<language name="HR">1a04</language>
+		<language name="HU">0e</language>
+		<language name="ID">21</language>
+		<language name="IT">10</language>
+		<language name="KK">3f</language>
+		<language name="KO">12</language>
+		<language name="LT">27</language>
+		<language name="LV">26</language>
+		<language name="NL">13</language>
+		<language name="NO">14</language>
+		<language name="PL">15</language>
+		<language name="PT">16</language>
+		<language name="RO">18</language>
+		<language name="RU">19</language>
+		<language name="SK">1b</language>
+		<language name="SL">24</language>
+		<language name="SR">1a7c</language>
+		<language name="SR">1a1c</language>
+		<language name="SR">1a18</language>
+		<language name="SR">1a0c</language>
+		<language name="SR">1a08</language>
+		<language name="SV">1d</language>
+		<language name="TH">1e</language>
+		<language name="TR">1f</language>
+		<language name="UK">22</language>
+		<language name="VI">2a</language>
+		<language name="ZHCN">0402</language>
+		<language name="ZHTW">0401</language>
+	</languageCodes>
+	
+	
+	<!-- 
+		List of Concentra codes.
+	-->
+	<concentraCodes>
+		<concentra name="ARWW">c01949524</concentra>
+		<concentra name="BGWW">c01949530</concentra>
+		<concentra name="CAWW">c01949541</concentra>
+		<concentra name="CSWW">c01949542</concentra>
+		<concentra name="DAWW">c01949558</concentra>
+		<concentra name="DEWW">c01949576</concentra>
+		<concentra name="ELWW">c01949598</concentra>
+		<concentra name="ENWW">c01948866</concentra>
+		<concentra name="ESWW">c01949608</concentra>
+		<concentra name="ETWW">c01949616</concentra>
+		<concentra name="FIWW">c01949622</concentra>
+		<concentra name="FRWW">c01949642</concentra>
+		<concentra name="HEWW">c01949653</concentra>
+		<concentra name="HRWW">c01949657</concentra>
+		<concentra name="HUWW">c01949661</concentra>
+		<concentra name="IDWW">c01949679</concentra>
+		<concentra name="ITWW">c01949691</concentra>
+		<concentra name="KKWW">c01949694</concentra>
+		<concentra name="KOWW">c01949696</concentra>
+		<concentra name="LTWW">c01949697</concentra>
+		<concentra name="LVWW">c01949698</concentra>
+		<concentra name="NLWW">c01949715</concentra>
+		<concentra name="NOWW">c01949716</concentra>
+		<concentra name="PLWW">c01949723</concentra>
+		<concentra name="PTWW">c01949730</concentra>
+		<concentra name="ROWW">c01949731</concentra>
+		<concentra name="RUWW">c01949733</concentra>
+		<concentra name="SKWW">c01949749</concentra>
+		<concentra name="SLWW">c01949750</concentra>
+		<concentra name="SRWW">c01949753</concentra>
+		<concentra name="SVWW">c01949786</concentra>
+		<concentra name="THWW">c01949813</concentra>
+		<concentra name="TRWW">c01949832</concentra>
+		<concentra name="UKWW">c01949835</concentra>
+		<concentra name="VIWW">c01949841</concentra>
+		<concentra name="ZHCN">c01949868</concentra>
+		<concentra name="ZHTW">c01949887</concentra>
+	</concentraCodes>
+</config>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Hledat na webu HP.com</span></text>
+	<text name="search">Hledat</text>
+	<text name="close">Zavřít</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">Řada HP LaserJet Pro<br/>M1530 MFP</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Nápověda a centrum informací</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Webová podpora</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» Služba SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Každodenní úlohy</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Správa a údržba</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Řešení problémů</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">RYCHLÉ HLEDÁNÍ</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Tlačítka ovládacího panelu</span></text><text targetName="controlPanelMessages"><span class="white14">» Zprávy ovládacího panelu</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Vyměnit tiskovou kazetu</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Vložení papíru do zásobníků</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Zjištění adresy IP tiskárny v síti</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Kontrolní seznam pro řešení potíží s faxem</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+			</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Procházení uživatelské příručky</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Tiskové úlohy </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Zrušit tiskovou úlohu</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Spustit ovladač tiskárny</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Tisk na obě strany (duplexní)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Tisk více stránek na list</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Tisk na speciální papír</span></text>		<text><span class="yellow12Bold">Úlohy kopírování </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Vytvoření více kopií</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Zmenšení nebo zvětšení kopie</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Kopírování identifikačních karet</span></text>
+		<text><span class="yellow12Bold">Úlohy skenování </span></text>
+		<text targetName="scanADocument"><span class="white12">» Skenování dokumentu</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Vylepšení kvality skenovaného obrazu</span></text>
+		<text><span class="yellow12Bold">Úlohy faxu </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Použít telefonní seznam</span></text>
+		<text targetName="sendAFax"><span class="white12">» Odeslání faxu</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Naplánování pozdějšího odeslání faxu</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Tisk uloženého faxu</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Odstranění faxů z paměti</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Tisk informačních stránek</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Vyměnit tiskovou kazetu</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Tisk čisticí stránky</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Čištění skla skeneru</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Vyčistit podávací válce</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Vyčistit oddělovací podložku</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Změnit nastavení faxu</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Kontrolní seznam pro řešení problémů</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Odstranění uvíznutého papíru</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Odstranění uvíznutého média z podavače dokumentů</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Zprávy ovládacího panelu</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Vyřešit problémy při manipulaci s papírem</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Řešení potíží s kvalitou tisku</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Řešení potíží s kvalitou kopie</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Řešení potíží s kvalitou naskenovaného obrazu</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Řešení problémů s faxem</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Otevřít uživatelskou příručku v mém počítači.</span></text>
+			<text><span class="white14">NEBO</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Otevřít nejnovější verzi na webu.</span></text>
+		</menuList>
+	</dialog>
+</document>

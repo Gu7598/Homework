@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document>
+<tr>
+<title type="content"><title>Yazıcı Yardım</title></title>
+<t00 type="content"><bold16gold>Yazıcı kablosuz ağda bulunamadı</bold16gold><br/><body>Yükleme programı yazıcıyı kablosuz ağ üzerinde bulamamaktadır.
+Aşağıdaki bağlantılardan durumunuzu en iyi açıklayanı tıklatın:</body></t00>
+<t00L1 type="content"><bodyLink>» Yazıcım bir kablosuz ağa bağlı ancak yükleme programı tarafından bulunamıyor.</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» Yazıcım kablosuz ağa bağlanamıyor.</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» Kablosuz ağ olup olmadığından emin değilim.</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» Yazıcımın ağ bağlantısını kabloludan kablosuza değiştiriyorum.</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>Yazıcıyı ağ üzerinde bulma</bold16gold><br/><body>Ürün ağa doğru bağlanmışsa, bir IP adresine sahip olması gerekir. Ürün Yapılandırma Sayfasını yazdırın ve Yapılandırma Sayfasında IP adresini bulun.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» Bir Yapılandırma Sayfasını Yazdırma</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>Yazıcıyı ağ üzerinde bulma</bold16gold><br/><body>Yükleme Programındaki ilgili kutuya IP adresini elle girin ve ardından ürünü yüklemeye devam edin.
+Buna rağmen yükleme programı ağ üzerinde ürünü bulamıyorsa, ürünün bulunmasını önleyen bir güvenlik duvarı yazılımınız vardır. HP, güvenlik duvarı yazılımınızı etkin halde bırakmanızı önerir. Güvenlik duvarı veya virüsten koruma yazılımı tarafından istendiğinde "Devam" veya "Engellemeyi Kaldır" ya da "İzin Ver" seçeneğini belirleyerek HP programlarının kullanılmasına izin verin. Bir yüklemenin engellenmesi, başarısız olmasına neden olabilir.
+Güvenlik yazılımı bulmayı engellemiyorsa, ürün, bilgisayarınızdan farklı bir alt ağa bağlanmış olabilir. Daha fazla yardım bilgisi için ağ yöneticisine başvurun.</body></t01a>
+<t02 type="content"><bold16gold>Yazıcıyı kablosuz ağ üzerinde kurma</bold16gold><br/><body>Ürüne güç geldiğinden ve <bold12>Hazır</bold12> işaretinin verildiğinden emin olun.</body></t02>
+<t03 type="content"><bold16gold>Yazıcıyı kablosuz ağ üzerinde kurma</bold16gold><br/><body>Kablosuz ağ bağlantısını öncelikle Wi-Fi Korumalı Kurulum (WPS) vasıtasıyla kurmayı denediyseniz ve bu başarısız olduysa, <bold12>Kablosuz USB kurulumu</bold12> yöntemini deneyin. USB kurulumu başarısız olursa, aşağıdaki <bold12>Devam</bold12> seçeneğini tıklatın.</body></t03>
+<t04 type="content"><bold16gold>Yazıcıyı kablosuz ağ üzerinde kurma</bold16gold><br/><body><bold12>Not:</bold12> Bu talimatları yalnızca <bold12>Kablosuz USB kurulumu</bold12> yöntemini deneyip başarısız olursanız takip edin.
+Bir kablosuz yönlendiriciyle birlikte etkin bir kablosuz ağınız bulunduğundan emin olun.</body></t04>
+<t05 type="content"><bold16gold>Yazıcıyı kablosuz ağ üzerinde kurma</bold16gold><br/><body>Yeni kablosuz yönlendiricilerin çoğunda, bir Wi-Fi Korumalı Kurulum (WPS) düğmesi bulunur. Bu düğme, WPS’yi destekleyen kablosuz ürünler için basit düğmeyle erişim imkanı sağlar.
+Kablosuz yönlendiricinizin WPS’yi destekleyip desteklemediğini kontrol edin.</body></t05>
+<t06 type="content"><bold16gold>Yazıcıyı kablosuz ağ üzerinde kurma</bold16gold><br/><body>Yazıcınızın sahip olduğu ekran türünü tanımlayın. Aşağıdaki <bold12>Dokunmatik ekran</bold12>, <bold12>İki satırlı</bold12> veya <bold12>Ekran yok</bold12> seçeneklerinden birini tıklatın.</body></t06>
+<t06L01 type="content"><bodyLink>» Dokunmatik Ekran</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» İki satırlı</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» Ekran yok</bodyLink></t06L03>
+<t07 type="content"><bold16gold>Ürüne güç verilmesi</bold16gold><br/><body><bold12>Not:</bold12> Tüm ambalaj bandı ve nakliye kilitlerini söktüğünüzden emin olun. Kağıt tepsisinde kağıt yüklü olduğundan emin olun.
+Güç kablosunu ürün ile topraklı bir AC prizi arasına bağlayın ve ardından ürün güç düğmesini <bold12>Açık</bold12> konumuna getirin.</body></t07>
+<t08 type="content"><bold16gold>Kablosuz USB kurulumu</bold16gold><br/><body>1. Yükleme programındaki <bold12>Geri</bold12> düğmesini tıklatın ve "Bir kablosuz kurulum yöntemi seç" talimatının verildiği ekrana gidin.
+2. <bold12>Kablosuz USB kurulumu</bold12> seçeneğini belirleyin ve ardından <bold12>İleri</bold12> düğmesini tıklatın. Ekrandaki talimatları takip edin.</body></t08>
+<t09 type="content"><bold16gold>Kablosuz ağ ve yönlendirici bulunup bulunmadığını tespit etme</bold16gold><br/><body>Bir &quot;kablosuz ağ&quot;, bilgisayar ve yazıcıların, ağ kabloları olmaksızın bir ağ yönlendiricisine bağlandığı bir bilgisayar ağıdır. Evlerin ve küçük ofislerin çoğunda, DSL veya Kablo modem aynı zamanda kablosuz yönlendiricidir. Internet’e bir DSL veya Kablo modem vasıtasıyla bağlanıyorsanız ve bilgisayarınız modeme kablosuz olarak bağlanıyorsa, muhtemelen bir kablosuz ağınız vardır.
+<bold12>Not:</bold12> Ancak bilgisayarınız modem veya yönlendiriciye bir kablo vasıtasıyla bağlanıyorsa, kablosuz yönlendirici veya kablosuz ağınız mevcut olmayabilir. Yine de kablosuz ağın mevcut olmadığı sonucuna varmadan önce tüm kontrolleri yapmanızı öneririz. Kablosuz fare veya kablosuz klavye gibi Bluetooth™ aksesuarlarının kullanılması, kablosuz ağın mevcut olduğu anlamına gelmez. Bu tür Bluetooth aksesuarlar, bir kablosuz ağ gerektirmez veya oluşturmaz. Daha iyi bir gösterge, bilgisayarınızda her zaman açık Internet erişiminin mevcut olmasıdır (bir çevirmeli hizmet kullanmaksızın erişim). (Çevirmeli Internet kullanıyorsanız, muhtemelen kablosuz ağınız yoktur.)
+<bold12>Not:</bold12> Dizüstü veya mobil bilgisayarlar (özellikle &quot;Netbook&quot;lar), kablo olmaksızın her zaman açık Internet’e sahip olabilir ancak bu tür bilgisayarların varlığı, her zaman yerel bir kablosuz yönlendiricinin bulunduğu anlamına gelmez.
+Yerel kablosuz yönlendirici tabanlı bir ağa sahip olup olmadığınızdan hala emin değilseniz aşağıdaki <bold12>Devam</bold12> seçeneğini tıklatın.</body></t09>
+<t11 type="content"><bold16gold>WPS kullanarak bağlanma</bold16gold><br/><body>Yönlendirici üzerindeki WPS düğmesine ve ardından yazıcı üzerindeki WPS düğmesine basın. Yazıcıda bir dokunmatik ekran mevcutsa, WPS düğmesi, <bold12>Kablosuz Menüsü</bold12> içinde olacaktır. İki cihaz birbirini tanıdıktan sonra, aşağıdaki <bold12>İleri</bold12> düğmesini tıklatın.</body></t11>
+<t14 type="content"><bold16gold>Dokunmatik ekran vasıtasıyla kablosuz kurulumu</bold16gold><br/><body>Ekranda <bold12>Kablosuz Menüsü</bold12> düğmesine ve ardından <bold12>Kablosuz Kurulum Sihirbazı</bold12> seçeneğine dokunun. Talimatları takip edin.
+<bold12>Not:</bold12> Ağ adını (SSID) ve ağ bir güvenli ağsa parolayı (WEP anahtarı veya WPA parolası) bilmeniz gerekir.</body></t14>
+<t14a type="content"><body>Yazıcı başarılı bir şekilde kablosuz ağa bağlanırsa, aşağıdaki <bold12>İleri</bold12> düğmesini tıklatın.
+Yazıcı halen kablosuz ağa bağlanamıyorsa, <bold12>EWS vasıtasıyla kablosuz kurulumu</bold12> bölümüne bakın.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» Ağ adı ve parolaları bulma</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» EWS vasıtasıyla kablosuz kurulumu</bodyLinkLine1><br/><bodyLinkLine2/></t14L02><note01 type="content"><note>Ağ adını (SSID) ve parolayı (WEP anahtarı veya WPA parolası) bilmiyorsanız, bunlar, bilgisayarınızın Ağ ve Paylaşım Merkezi bölümünde görüntülenebilir.
+Ayrıca yönlendiricinizin katıştırılmış Web sunucusunda (EWS) da görüntülenebilir. Yönlendiricinizin IP adresini yönlendiriciyle birlikte gelen belgeden bulun. Yönlendiricinin EWS’sini açmak için, bilgisayarınızdaki bir tarayıcının adres alanına IP adresini girin.</note> 
+</note01>
+<t16 type="content"><bold16gold>EWS vasıtasıyla kablosuz kurulumu</bold16gold><br/><body>Bu noktada, bir ağ kablosuyla yazıcıyı yönlendiriciye bağlamak suretiyle öncelikle bir kablolu ağ bağlantısı oluşturmaksızın bir kablosuz bağlantı oluşturulamaz.
+<bodyNumList>1. Yazıcı ve yönlendirici arasına bir ağ kablosu bağlayın.
+2. Yazıcının yönlendiriciden bir IP adresi alması için birkaç dakika bekleyin ve ardından yazıcının <bold12>Raporlar</bold12> menüsünden bir Ağ Raporu veya Yapılandırma Sayfası yazdırın. Sayfadan yazıcının IP adresini bulun.
+3. Bir Web tarayıcısı açın ve adres kutusuna yazıcının IP adresini girin (ve <bold12>Enter</bold12> tuşuna basın). Tarayıcıda yazıcının katıştırılmış Web sunucusu (EWS) açılmalıdır. EWS açılmazsa, yazıcı muhtemelen bilgisayardan farklı bir alt ağa bağlanmıştır.
+4. EWS’de, <bold12>Ağ işlemleri</bold12> sekmesine gidin ve ardından <bold12>Kablosuz Yapılandırma</bold12> seçeneğini tıklatın.
+5. <bold12>Etkin</bold12> düğmesini tıklatın. Ardından <bold12>Mevcut bir kablosuz ağa bağlan</bold12> seçeneğini tıklatın.
+6. Mevcut kablosuz ağların listesi görüntülenecektir. Bağlanmak istediğiniz ağı seçin.
+7. Seçilen ağın bir adsız ağ olduğu gösterilirse, <bold12>Bir Ağ Adı Girin</bold12> düğmesini tıklatın ve ardından metin kutusuna Ağ Adını (SSID) girin.
+8. Ağ için bir WEP anahtarı veya WPA parolası girilmesi gerekiyorsa, metin kutusuna doğru anahtar veya parolayı girin.
+9. Sayfanın altındaki <bold12>Uygula</bold12> düğmesini tıklatın.
+10. Yazıcıdaki ayarların kaydedilmesi için biraz bekleyin ve ardından ağ kablosunu yazıcıdan çıkartın. Yazıcı ağa kablosuz olarak bağlanmaya çalışacaktır.</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>Yükleme programına geri dönme</bold16gold><br/><bodyNumList>1. Yazıcıya herhangi bir USB kablosunun bağlı olmadığından emin olun. Yazılım yükleme programında, bir "Bağlantı Türü" seçmenizi isteyen ekrana gelene dek <bold12>Geri</bold12> düğmesini tıklatın.
+2. <bold12>Kablosuz ağ ile bağla</bold12> seçeneğini belirleyin ve ardından <bold12>İleri</bold12> düğmesini tıklatın.
+3. Yükleme programı ağda yazıcıyı arayacaktır. Yazıcı bulunduktan sonra yazılımı yüklemeye devam edin. </bodyNumList></t17>
+<t18 type="content"><bold16gold>Ağ Raporunu Yazdırma</bold16gold><br/><body>Bir Ağ Raporu, yazıcının kablosuz ağa bağlanmasını önleyebilecek bazı çakışmaları gösterebilir.
+Bir Ağ Raporunu yazdırmak için, yazıcının kontrol paneli üzerinden <bold12>Kablosuz Menüsü</bold12> bölümüne gidin ve ardından <bold12>Ağ Testini Çalıştır</bold12> seçeneğini belirleyin. Rapordaki talimatları takip edin. Çakışma düzeltildikten sonra, aşağıdaki <bold12>İleri</bold12> düğmesini tıklatın.</body></t18>
+<t19 type="content"><bold16gold>Varsayılan ayarları geri yükleme ve tekrar yükleme</bold16gold><br/><body><bold12>Not:</bold12> Devam etmeden önce yazıcıya herhangi bir ağ kablosunun BAĞLI OLMADIĞINDAN emin olun.
+HP, yazıcının ağ ayarlarını fabrika varsayılan ayarlarına geri getirmenizi ve ardından yüklemeyi denemenizi önerir.
+<bodyNumList>1. Yazıcıya bir USB kablosu bağlıysa, bu kabloyu yazıcıdan çıkartın.
+2. Yazıcının kontrol panelinde, <bold12>Kurulum Menüsü</bold12> bölümüne gidin.
+3. <bold12>Ağ Kurulumu</bold12> seçeneğini belirleyin.
+4. <bold12>Varsayılanları Geri Yükle</bold12> seçeneğini belirleyin.
+5. Yazılım yükleme programında, "Bir kablosuz kurulum yöntemi seç" talimatının verildiği ekrana gelene dek <bold12>Geri</bold12> düğmesini tıklatın.
+6. Tercih ettiğiniz kurulum yöntemini seçin ve normal şekilde talimatları takip edin.</bodyNumList></body></t19><guideButt type="content"><butt11>Yönlendir</butt11></guideButt><backButt type="content"><butt11>Geri</butt11></backButt><showButt type="content"><butt11>Göster</butt11></showButt><nextButt type="content"><butt11>İleri</butt11></nextButt><contButt type="content"><butt11>Devam</butt11></contButt><exitButt type="content"><butt11>Çıkış</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS çalışmıyor</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>Başarılı/İleri</butt11></successNextButt><failedTSbutt type="content"><butt11>Başarısız/Sorun Gider</butt11></failedTSbutt><noWPSradio type="content"><radioButt>WPS yok</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>WPS var</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>Bir Yapılandırma Sayfası Yazdırma</bold16gold><br/><body>Yazıcınızdaki kontrol paneli türünü seçin:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Salt metin (küçük)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Dokunmatik ekran (küçük)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Ekran yok</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Salt metin (büyük)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Dokunmatik ekran (büyük)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. Yazıcınızda Kurulum Menüsü düğmesi (A) varsa, Kurulum Menüsü düğmesine basın. Yazıcınızda Kurulum Menüsü düğmesi yoksa, bir sonraki adıma geçin.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. <bold12>Raporlar</bold12> bölümüne geçmek için ok düğmelerini (B) kullanın ve ardından <bold12>OK</bold12> düğmesine basın (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. <bold12>Raporları Yapılandır</bold12> bölümüne geçmek için ok düğmelerini (B) kullanın ve ardından <bold12>OK</bold12> düğmesine basın.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Bir Yapılandırma Raporu yazdırılır. IP adresi IPv4 veya IPv6 olarak listelenir.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>Bu tür kontrol panellerinde, IP adresi ekranda görüntülenmektedir:
+<br/><li>Yazıcınızın ağa ağ kablosu ile bağlı olması halinde, IP adresini görüntülemek için ana ekrandaki Ağ düğmesine (A) dokunun. IP adresi görüntülenmiyorsa, yazıcı ağ ile iletişim kuramıyordur. Kablo bağlantılarınızı yeniden kontrol edin.
+Yazıcınız ağa kablosuz olarak bağlanıyorsa, IP adresini görüntülemek için ana ekrandaki Kablosuz düğmesine (B) dokunun. IP adresi görüntülenmiyorsa, kontrol paneli ekranındaki yönergeleri izleyin.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>Düğmeleri olan ancak ekranı olmayan yazıcılarda, yapılandırma sayfasının yazdırılacağı düğme veya düğme kombinasyonu değişebilir.</body><br/><bodyNumList>1. Yazıcının yalnızca bir İptal düğmesi (A) varsa, İptal düğmesine basın ve düğmeyi iki-üç saniye boyunca basılı tutun. Herhangi bir yapılandırma sayfasının yazdırılmaması durumunda, bir sonraki adıma geçin.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Yazıcının bir İptal düğmesi (A) ve bir Devam düğmesi (B) varsa, aynı anda iki düğmeye de basın ve düğmeleri iki saniye boyunca basılı tutun. Herhangi bir yapılandırma sayfasının yazdırılmaması durumunda, iki-üç saniye boyunca yalnızca Devam düğmesine (B) basın. Herhangi bir yapılandırma sayfası yazdırılmazsa, bir sonraki adıma geçin.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Bir yapılandırma sayfasının yazdırmaması durumunda lütfen yerel desteğe başvurun.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Bu tür kontrol panellerinde, IP adresi <bold12>Hazır</bold12> ekranında görüntülenir. <bold12>Hazır</bold12> ekranında IP adresinin görüntülenmemesi durumunda, yazıcınızın ağ bağlantısını kontrol edin.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Bu tür kontrol panelleriyle, IP adresi ekranda görüntülenir.</body><br/><bodyNumList>1. IP adresini görüntülemek için ana ekrandaki <bold12>Ağ Adresi</bold12> düğmesine (A) dokunun. IP adresi görüntülenmiyorsa, yazıcı ağ ile iletişim kuramıyordur. Ağ bağlantınızı yeniden kontrol edin.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Yardım’a basarak devam edin.</bodyLinkLine1></txCont><cpstring01 type="content"><p>RAPORLAR</p></cpstring01><cpstring02 type="content"><p>YAPILANDIRMA RAP</p></cpstring02><cpstring03 type="content"><p>Hazır</p></cpstring03><cpstring04 type="content"><p>Ağ Adresi</p></cpstring04></tr></document>

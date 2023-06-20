@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document><fi>
+<title type="content"><title>Tulostimen ohje</title></title>
+<t00 type="content"><bold16gold>Tulostinta ei löytynyt langattomasta verkosta</bold16gold><br/><body>Asennusohjelma ei löydä tulostinta langattomasta verkosta.
+Valitse alla olevista linkeistä se, joka kuvaa tilannetta parhaiten:</body></t00>
+<t00L1 type="content"><bodyLink>» Tulostin on muodostanut yhteyden langattomaan verkkoon, mutta asennusohjelma ei löydä tulostinta.</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» Tulostin ei pysty muodostamaan yhteyttä langattomaan verkkoon.</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» En ole varma, onko käytössäni langaton verkko.</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» Muutan tulostimen kiinteän verkkoyhteyden langattomaksi verkkoyhteydeksi.</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>Tulostimen haku verkosta</bold16gold><br/><body>Jos tuotteen yhteyden muodostaminen verkkoon onnistuu, tuote saa IP-osoitteen. Tulosta tuotteen asetussivu ja etsi sivulta IP-osoite.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» Asetussivun tulostaminen</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>Tulostimen haku verkosta</bold16gold><br/><body>Lisää IP-osoite manuaalisesti asennusohjelman oikeaan ruutuun. Jatka sitten ohjelmiston asentamista.
+Palomuuriohjelmisto saattaa estää tuotteen löytämisen, jos asennusohjelma ei löydä tuotetta verkosta. Suosittelemme palomuuriohjelmiston käyttämistä. Muista sallia HP:n ohjelmien pääsy verkkoon vastaamalla palomuurin tai virustorjuntaohjelman esittämään kysymykseen Jatka, Poista esto tai Salli. Asennuksen estäminen voi aiheuttaa ohjelmiston virheen.
+Jos suojausohjelmisto ei estä hakemista, tuote saattaa olla muodostanut yhteyden johonkin muuhun kuin tietokoneen käyttämään aliverkkoon. Pyydä lisätietoja verkonvalvojalta.</body></t01a>
+<t02 type="content"><bold16gold>Tulostimen määrittäminen langattomaan verkkoon</bold16gold><br/><body>Varmista, että tuotteeseen on kytketty virta ja sen tila on <bold12>Valmis</bold12>.</body></t02>
+<t03 type="content"><bold16gold>Tulostimen määrittäminen langattomaan verkkoon</bold16gold><br/><body>Jos yritit muodostaa langattoman verkkoyhteyden WPS (WiFi Protected Setup) -määrityksen avulla, mutta se ei onnistunut, voit yrittää <bold12>langattoman yhteyden USB-määritystä</bold12>. Jos USB-määritys epäonnistuu, valitse <bold12>Jatka</bold12>-painike.</body></t03>
+<t04 type="content"><bold16gold>Tulostimen määrittäminen langattomaan verkkoon</bold16gold><br/><body><bold12>Huomautus:</bold12> Noudata näitä ohjeita vain, jos <bold12>langattoman yhteyden USB-määritys</bold12> epäonnistui.
+Varmista, että langattoman reitittimen käyttämä langaton verkko toimii.</body></t04>
+<t05 type="content"><bold16gold>Tulostimen määrittäminen langattomaan verkkoon</bold16gold><br/><body>Uusissa langattomissa reitittimissä on WPS (WiFi Protected Setup) -painike. Tämän painikkeen avulla WPS-määritystä tukeviin langattomiin tuotteisiin voi muodostaa yhteyden yksinkertaisesti painikkeen painalluksella.
+Tarkista, tukeeko langaton reititin WPS-määritystä.</body></t05>
+<t06 type="content"><bold16gold>Tulostimen määrittäminen langattomaan verkkoon</bold16gold><br/><body>Määritä tulostimen näytön tyyppi. Valitse <bold12>Kosketusnäyttö</bold12>, <bold12>Kaksi riviä</bold12> tai <bold12>Ei näyttöä</bold12>.</body></t06>
+<t06L01 type="content"><bodyLink>» Kosketusnäyttö</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» Kaksi riviä</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» Ei näyttöä</bodyLink></t06L03>
+<t07 type="content"><bold16gold>Virran kytkeminen tuotteeseen</bold16gold><br/><body><bold12>Huomautus:</bold12> Varmista, että pakkausteippi ja kuljetuslukot on poistettu. Varmista, että paperilokerossa on paperia.
+Liitä virtajohto tuotteeseen ja maadoitetun vaihtovirtapistorasiaan. Paina tuotteen virtapainike asentoon <bold12>Päällä</bold12>.</body></t07>
+<t08 type="content"><bold16gold>Langattoman yhteyden USB-määritys</bold16gold><br/><body>1. Valitse asennusohjelman <bold12>Takaisin</bold12>-painike ja palaa Valitse langattoman yhteyden määritysmenetelmä -näyttöön.
+2. Valitse <bold12>Langattoman yhteyden USB-määritys</bold12> ja valitse sitten <bold12>Seuraava</bold12>. Noudata näytössä olevia ohjeita.</body></t08>
+<t09 type="content"><bold16gold>Langattoman verkon ja reitittimen käytettävyyden selvittäminen</bold16gold><br/><body>Langaton verkko tarkoittaa tietokoneverkkoa, jossa tietokoneet ja tulostimet muodostavat yhteyden verkkoreitittimeen ilman verkkokaapeleita. Kodeissa ja pienissä toimistoissa DSL- tai kaapelimodeemi toimii usein myös langattomana reitittimenä. Käytössä on luultavasti langaton verkko, jos Internet-yhteys muodostetaan DSL- tai kaapelimodeemin avulla eikä tietokoneen Internet-yhteyden muodostamiseen tarvita verkkokaapelia.
+Jos tietokone muodostaa yhteyden modeemiin tai reitittimeen kaapelin avulla, käytössä oleva reititin tai verkko ei ehkä ole langaton. Suosittelemme silti jatkamaan ohjeiden noudattamista, ennen kuin voidaan todeta, että käytettävä verkko ei ole langaton.
+<bold12>Huomautus:</bold12> Bluetooth™-lisälaitteiden, kuten langattoman hiiren tai näppäimistön, käyttö ei osoita sitä, että käytettävissä olisi langaton verkko. Nämä Bluetooth-lisälaitteet eivät tarvitse langatonta verkkoa eivätkä ne myöskään muodosta sitä. Langattoman verkon käytön osoittaa paremmin se, että tietokone on jatkuvasti yhteydessä Internetiin ilman puhelinyhteyden muodostamista. (Jos Internet-yhteys muodostetaan puhelinverkkoyhteyden avulla, käytössä ei todennäköisesti ole langaton verkko.)
+<bold12>Huomautus:</bold12> Kannettavat tietokoneet tai mobiilitietokoneet, erityisesti Netbook-tietokoneet, voivat olla jatkuvasti yhteydessä Internetiin ilman verkkokaapeleita. Se ei kuitenkaan aina tarkoita sitä, että läheisyydessä on paikallinen langaton reititin.
+Jos et vieläkään varma, perustuuko verkkosi paikalliseen langattomaan reitittimeen, valitse <bold12>Jatka</bold12>.</body></t09>
+<t11 type="content"><bold16gold>Yhteyden muodostaminen WPS-määrityksen avulla</bold16gold><br/><body>Paina reitittimen WPS-painiketta ja sitten tulostimen WPS-painiketta. Jos tulostimessa on kosketusnäyttö, WPS-painike on <bold12>Langaton-valikossa</bold12>. Valitse <bold12>Seuraava</bold12>, kun nämä kaksi laitetta tunnistavat toisensa.</body></t11>
+<t14 type="content"><bold16gold>Langattoman yhteyden määritys kosketusnäytön avulla</bold16gold><br/><body>Kosketa näytössä <bold12>Langaton-valikko</bold12>-painiketta ja kosketa sitten <bold12>Ohjattu langattoman yhteyden määritys</bold12> -kohtaa. Noudata ohjeita.
+<bold12>Huomautus:</bold12> Jos verkko on suojattu, sinun on tiedettävä verkon nimi (SSID) ja salasana (WEP-avain tai WPA-salasana).</body></t14>
+<t14a type="content"><body>Jos tulostin muodostaa yhteyden langattomaan verkkoon, valitse <bold12>Seuraava</bold12>.
+Jos tulostin ei vieläkään muodosta yhteyttä verkkoon, katso kohta <bold12>Langattoman yhteyden määritys sulautetun Web-palvelimen avulla</bold12>.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» Etsi verkon nimi ja salasana</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» Langattoman yhteyden määritys sulautetun</bodyLinkLine1><br/><bodyLinkLine2>Web-palvelimen avulla</bodyLinkLine2></t14L02><note01 type="content"><note>Jos et tiedä verkon nimeä (SSID) ja salasanaa (WEP-avain tai WPA-salasana), voit löytää ne tietokoneen Verkko- ja jakamiskeskus -kohdasta.
+Verkon nimi ja salasana saatetaan mainita myös reitittimen sulautetussa Web-palvelimessa (EWS). Etsi reitittimen IP-osoite reitittimen mukana toimitetusta käyttöoppaasta. Syötä IP-osoite tietokoneen selaimen osoitekenttään, kun haluat avata reitittimen sulatetun Web-palvelimen.</note> 
+</note01>
+<t16 type="content"><bold16gold>Langattoman yhteyden määritys sulautetun Web-palvelimen avulla</bold16gold><br/><body>Langattoman yhteyden muodostusta varten on muodostettava ensin kiinteä verkkoyhteys. Se muodostetaan yhdistämällä tulostin reitittimeen verkkokaapelin avulla.
+<bodyNumList>1. Liitä verkkokaapeli tulostimeen ja reitittimeen.
+2. Odota muutama minuutti, kunnes tulostin saa reitittimeltä IP-osoitteen. Tulosta sitten verkkoraportti tai asetussivu tulostimen <bold12>Raportit</bold12>-valikon avulla. Etsi sivulta tulostimen IP-osoite.
+3. Avaa Web-selain ja syötä tulostimen IP-osoite osoiteruutuun (ja paina <bold12>Enter</bold12>-näppäintä). Tulostimen sulautettu Web-palvelin (EWS) avautuu selaimeen. Jos sulautettu Web-palvelin ei avaudu, tulostin on luultavasti muodostanut yhteyden eri aliverkkoon kuin tietokone.
+4. Siirry sulautetun Web-palvelimen <bold12>Verkko</bold12>-välilehteen ja valitse <bold12>Langattoman yhteyden asetukset</bold12>.
+5. Valitse <bold12>Käytössä</bold12>-painike. Valitse sitten <bold12>Liity aiempaan langattomaan verkkoon</bold12>.
+6. Näkyviin tulee käytettävissä olevien langattomien verkkojen luettelo. Valitse verkko, johon haluat muodostaa yhteyden.
+7. Jos valitulla verkolla ei ole nimeä, valitse <bold12>Anna verkkonimi</bold12> -painike. Kirjoita sitten tekstiruutuun verkon nimi (SSID).
+8. Jos WEP-avain tai WPA-salasana on pakollinen verkossa, kirjoita tekstiruutuun oikea avain tai salasana.
+9. Valitse sivun alareunasta <bold12>Käytä</bold12>.
+10. Odota hetki, kun asetukset tallennetaan tulostimeen. Irrota sitten verkkokaapeli tulostimesta. Tulostin yrittää muodostaa verkkoon yhteyden langattomasti.</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>Paluu asennusohjelmaan</bold16gold><br/><bodyNumList>1. Varmista, että tulostimeen ei ole liitetty USB-kaapelia. Valitse ohjelmiston asennusohjelman <bold12>Takaisin</bold12>-painike niin monta kertaa, että näytössä pyydetään valitsemaan yhteystyyppi.
+2. Valitse <bold12>Langaton verkkoyhteys</bold12> ja valitse sitten <bold12>Seuraava</bold12>.
+3. Asennusohjelma etsii tulostimen verkosta. Jatka ohjelmiston asennusta, kun tulostin on löydetty. </bodyNumList></t17>
+<t18 type="content"><bold16gold>Verkkoraportin tulostaminen</bold16gold><br/><body>Verkkoraportti voi paljastaa ristiriitoja, jotka voivat estää tulostinta muodostamasta yhteyttä langattomaan verkkoon.
+Voit tulostaa verkkoraportin siirtymällä tulostimen ohjauspaneelin <bold12>Langaton-valikkoon</bold12> ja valitsemalla <bold12>Aja verkon testi</bold12>. Noudata raportin ohjeita. Valitse <bold12>Seuraava</bold12>, kun ristiriita on ratkaistu.</body></t18>
+<t19 type="content"><bold16gold>Oletusasetusten palautus ja uudelleenasennus</bold16gold><br/><body><bold12>Huomautus:</bold12> Varmista, että tulostimeen EI ole liitetty verkkokaapelia, ennen kuin jatkat.
+On suositeltavaa palauttaa tulostimen verkkoasetukset tehdasasetuksiksi ennen asennuksen yrittämistä uudelleen.
+<bodyNumList>1. Jos tulostimeen on liitetty USB-kaapeli, irrota se.
+2. Siirry tulostimen ohjauspaneelin <bold12>Asetukset-valikkoon</bold12>.
+3. Valitse <bold12>Verkon määritys</bold12>.
+4. Valitse <bold12>Palauta oletusasetukset</bold12>.
+5. Valitse ohjelmiston asennusohjelman <bold12>Takaisin</bold12>-painike niin monta kertaa, että pääset palaamaan Valitse langattoman yhteyden määritysmenetelmä -näyttöön.
+6. Valitse haluamasi määritysmenetelmä ja seuraa ohjeita.</bodyNumList></body></t19><guideButt type="content"><butt11>Opas</butt11></guideButt><backButt type="content"><butt11>Edellinen</butt11></backButt><showButt type="content"><butt11>Näytä</butt11></showButt><nextButt type="content"><butt11>Seuraava</butt11></nextButt><contButt type="content"><butt11>Jatka</butt11></contButt><exitButt type="content"><butt11>Lopeta</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS ei toimi</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>Onnistui/Seuraava</butt11></successNextButt><failedTSbutt type="content"><butt11>Epäonnistui/Vianmääritys</butt11></failedTSbutt><noWPSradio type="content"><radioButt>Ei WPS-määritystä</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>WPS-määritys on käytössä</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>Asetussivun tulostaminen</bold16gold><br/><body>Valitse tulostimen ohjauspaneelin tyyppi:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Vain teksti (pieni)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Kosketusnäyttö (pieni)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Ei näyttöä</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Vain teksti (suuri)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Kosketusnäyttö (suuri)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. Jos tulostimessa on Asetukset-valikkopainike (A), paina sitä. Jos tulostimessa ei ole Asetukset-valikkopainiketta, siirry seuraavaan vaiheeseen.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Siirry nuolipainikkeilla (B) <bold12>Raportit</bold12>-kohtaan ja paina sitten <bold12>OK</bold12>-painiketta (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Siirry nuolipainikkeilla (B) <bold12>Kokoonpanorap.</bold12>-kohtaan ja paina sitten <bold12>OK</bold12>-painiketta (C).</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Asetussivu tulostuu. IP-osoitteena näkyy joko IPv4 tai IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>Tämän tyypin ohjauspaneelissa IP-osoitteen voi tarkastaa vain näytöstä:
+<br/><li>Jos tulostin on kytketty verkkoon verkkokaapelilla, tarkasta IP-osoite koskettamalla aloitusnäytön Verkko-painiketta (A). Jos IP-osoite ei tule näkyviin, tulostin ei ole yhteydessä verkkoon. Tarkista kaapeliliitännät.
+Jos tulostin on kytketty verkkoon langattomasti, tarkasta IP-osoite koskettamalla aloitusnäytön Langaton-painiketta (B). Jos IP-osoite ei tule näkyviin, toimi ohjauspaneelin näytön ohjeiden mukaan.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>Tulostimissa, joissa on painikkeita mutta ei näyttöä, asetussivun tulostamiseen käytettävä painike tai painikeyhdistelmä voi vaihdella.</body><br/><bodyNumList>1. Jos tulostimessa on vain Peruuta-painike (A), pidä sitä painettuna 2-3 sekuntia. Jos asetussivu ei tulostu, siirry seuraavaan vaiheeseen.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Jos tulostimessa on Peruuta-painike (A) ja Jatka-painike (B), pidä molempia painikkeita painettuna samanaikaisesti kaksi sekuntia. Jos asetussivu ei tulostu, paina vain Jatka-painiketta (B) 2-3 sekuntia. Jos asetussivu ei tulostu, siirry seuraavaan vaiheeseen.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Jos asetussivu ei tulostu, ota yhteyttä paikalliseen tukeen.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Tämän tyypin ohjauspaneelissa IP-osoitteen voi tarkastaa <bold12>Valmis</bold12>-näytöstä. Jos <bold12>Valmis</bold12>-näytössä ei näy IP-osoitetta, tarkista tulostimen verkkoyhteys.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Tämän tyypin ohjauspaneelissa IP-osoitteen voi tarkastaa näytöstä.</body><br/><bodyNumList>1. Tarkasta IP-osoite koskettamalla aloitusnäytön <bold12>Verkko-osoite</bold12>-painiketta (A). Jos IP-osoite ei tule näkyviin, tulostin ei ole yhteydessä verkkoon. Tarkista verkkoliitäntä.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Jatka ohjeen käyttöä</bodyLinkLine1></txCont><cpstring01 type="content"><p>Raportit</p></cpstring01><cpstring02 type="content"><p>Kokoonpanorap.</p></cpstring02><cpstring03 type="content"><p>Valmis</p></cpstring03><cpstring04 type="content"><p>Verkko-osoite</p></cpstring04></fi></document>

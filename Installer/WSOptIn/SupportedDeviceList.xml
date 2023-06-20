@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SupportedDeviceList>
+  <DeviceGroup type="ledm">
+    <DeviceObject assembly="LEDMXMLObjects" class="Com.HP.App.Device.HPLEDMDevice" />
+    <DriverNames>
+      <DriverName>HP LaserJet M1530 MFP Series PCL 6</DriverName>
+    </DriverNames>
+    <ModelNames>
+      <ModelName>HP LaserJet M1536dnf MFP</ModelName>
+      <ModelName>HP LaserJet M1537dnf MFP</ModelName>
+      <ModelName>HP LaserJet M1538dnf MFP</ModelName>
+      <ModelName>HP LaserJet M1539dnf MFP</ModelName>
+    </ModelNames>
+  </DeviceGroup>
+</SupportedDeviceList>

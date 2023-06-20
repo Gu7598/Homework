@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><document><cs>
+<title type="content"><title>Nápověda k tiskárně</title></title>
+<t01 type="content"><bold16gold>Tiskárna nebyla nalezena v síti</bold16gold><br/><body>Instalační program nemůže najít tiskárnu v síti.
+Chcete-li postupovat podle pokynů od společnosti HP k vyhledání tiskárny v síti, klikněte na možnost <bold12>Použít průvodce</bold12>.
+Pokročilí uživatelé mohou kliknout na možnost "Pokročilé možnosti řešení problémů" a vyhledat tiskárnu v síti pomocí výhradně textových pokynů.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t02 type="content"><bodyLinkLine1>» Pokročilé možnosti řešení problémů</bodyLinkLine1><br/><bodyLinkLine2/></t02>
+<t03 type="content"><bold16gold>Pokyny k řešení v případě, že tiskárna nebyla nalezena</bold16gold><br/><bodyNumList>1. Ověřte, že je produkt zapnut a připraven.
+2. Ověřte, že je produkt připojen k síti prostřednictvím vhodného portu a kabelu. Ověřte každé kabelové připojení, zda je pevné a správné. Pokud se problém nepodaří odstranit, zkuste použít jiný kabel nebo porty na rozbočovači nebo přijímači/vysílači. Žlutá kontrolka aktivity a zelená kontrolka stavu spojení vedle připojení k portu na zadní straně produktu musí svítit.
+3. Pomocí ovládacího panelu tiskárny vytiskněte konfigurační stránku a najděte adresu IP produktu.
+4. Pomocí příkazového řádku odešlete z počítače do tiskárny příkaz ping. Například: ping 192.168.45.39</bodyNumList><bodyMargin>Pokud odeslání příkazu ping do produktu funguje, ověřte v počítači správnost adresy IP produktu. Je-li správná, produkt odstraňte a znovu jej přidejte.
+Pokud odeslání příkazu ping selže, ověřte, že jsou zapnuty síťové rozbočovače. Potom ověřte, že je pro stejnou síť konfigurováno nastavení sítě, produkt i počítač. Ověřte, že odeslání příkazu ping funguje pro jiná zařízení v síti (pokud ne, příkaz ping může být blokován branou firewall).
+Případně zkuste otevřít implementovaný webový server a ověřte, že počítač komunikuje s produktem.</bodyMargin><br/></t03>
+<t04 type="content"><bold16gold>Zjištění tiskárny v pevné síti</bold16gold><br/><body>Ověřte, že je produkt zapnutý a indikuje stav <bold12>Připraveno</bold12>.</body></t04>
+<t05 type="content"><bold16gold>Zjištění tiskárny v pevné síti</bold16gold><br/><body>Ověřte, že je k síťovému portu produktu připojen aktivní síťový kabel.</body></t05>
+<t06 type="content"><bold16gold>Zjištění tiskárny v pevné síti</bold16gold><br/><body>Pokud je produkt správně připojen k síti, měl by mít adresu IP. Vytiskněte konfigurační stránku produktu a najděte na ní adresu IP.</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t07 type="content"><bodyLinkLine1>» Tisk konfigurační stránky</bodyLinkLine1><br/><bodyLinkLine2/></t07>
+<t08 type="content"><bold16gold>Zjištění tiskárny v pevné síti</bold16gold><br/><body>Před pokračováním v instalaci softwaru zadejte ručně adresu IP do příslušného pole instalačního programu.
+Pokud instalační program stále nemůže produkt v síti najít, ve zjištění produktu může bránit software brány firewall. Společnost HP doporučuje ponechat bránu firewall zapnutou. Abyste mohli pokračovat, je třeba povolit všechny programy HP tím, že na výzvu brány firewall nebo antivirového programu vyberte možnost "Pokračovat", "Odblokovat" nebo "Povolit". Blokování instalace může způsobit selhání tohoto procesu.
+Pokud bezpečnostní software zjišťování neblokuje, produkt může být připojen k podsíti z jiného počítače. O další pomoc požádejte správce sítě.</body></t08>
+<t09 type="content"><bold16gold>Zapnutí produktu</bold16gold><br/><body><bold12>Poznámka:</bold12> Ověřte, že byla odstraněna veškerá balicí páska a přepravní západky. Ověřte, že v zásobníku papíru není papír.
+Připojte produkt napájecím kabelem k uzemněné elektrické zásuvce a potom stiskněte tlačítko napájení na produktu (stav <bold12>Zapnuto</bold12>).</body></t09>
+<t10 type="content"><bold16gold>Připojení síťového kabelu</bold16gold><br/><body>Připojte aktivní síťový kabel k síťovému portu produktu. Počkejte několik minut, až produkt získá adresu IP v síti.
+Pokud kontrolky síťového portu neblikají, síťový kabel není aktivní. Ověřte, že je kabel připojen k aktivní síti. Pokud je připojen, vyzkoušejte jiný kabel nebo otestujte tento kabel s jiným zařízením.</body></t10>
+
+<guideButt type="content"><butt11>Použít průvodce</butt11></guideButt><backButt type="content"><butt11>Zpět</butt11></backButt><showButt type="content"><butt11>Ukázat</butt11></showButt><nextButt type="content"><butt11>Další</butt11></nextButt><contButt type="content"><butt11>Pokračovat</butt11></contButt><exitButt type="content"><butt11>Konec</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>Tisk konfigurační stránky</bold16gold><br/><body>Vyberte typ ovládacího panelu tiskárny:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Pouze text (malý)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Dotykový (malý)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Bez displeje</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Pouze text (velký)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Dotykový (velký)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. Pokud je tiskárna vybavena tlačítkem Nabídka nastavení (A), stiskněte je. Pokud tiskárna není vybavena tlačítkem Nabídka nastavení, přejděte na následující krok.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Pomocí tlačítek se šipkami (B) přejděte na možnost <bold12>Sestavy</bold12> a poté stiskněte tlačítko <bold12>OK</bold12> (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Pomocí tlačítek se šipkami přejděte na možnost <bold12>Sestava konfigurace</bold12> a poté stiskněte tlačítko <bold12>OK</bold12>.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Vytiskne se sestava konfigurace. Adresa IP je uvedena ve formátu IPv4 nebo IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>U tohoto typu ovládacího panelu lze adresu IP zobrazit na displeji:
+<br/><li>Pokud je tiskárna připojena k síti prostřednictvím síťového kabelu, stiskněte na domovské obrazovce tlačítko Síť (A), abyste zobrazili adresu IP. Pokud se adresa IP nezobrazí, tiskárna nekomunikuje se sítí. Znovu zkontrolujte připojení kabelů.
+Pokud je tiskárna připojena k síti bezdrátově, stiskněte na domovské obrazovce tlačítko Bezdrátové připojení (B), abyste zobrazili adresu IP. Pokud se adresa IP nezobrazí, postupujte dle pokynů na displeji ovládacího panelu.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>U tiskáren s tlačítky, ale bez displeje, se tlačítko nebo kombinace tlačítek pro vytištění konfigurační stránky mohou lišit.</body><br/><bodyNumList>1. Pokud je tiskárna vybavena pouze tlačítkem Zrušit (A), stiskněte je a přidržte po dobu dvou až tří sekund. Pokud se konfigurační stránka nevytiskne, přejděte na další krok.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Pokud je tiskárna vybavena pouze tlačítkem Zrušit (A) a tlačítkem Obnovit (B), současně obě tato tlačítka stiskněte a přidržte po dobu dvou sekund. Pokud se konfigurační stránka nevytiskne, stiskněte pouze tlačítko Obnovit (B) po dobu dvou nebo tří sekund. Pokud se konfigurační stránka nevytiskne, přejděte na další krok.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Pokud se konfigurační stránka nevytiskne, kontaktujte místní podporu.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>U tohoto typu ovládacího panelu lze adresu IP zobrazit na displeji na obrazovce <bold12>Připraveno</bold12>: Pokud se na obrazovce <bold12>Připraveno</bold12> adresa IP nezobrazí, zkontrolujte připojení tiskárny k síti.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>U tohoto typu ovládacího panelu lze adresu IP zobrazit na displeji.</body><br/><bodyNumList>1. Stiskněte na domovské obrazovce tlačítko <bold12>Síťová adresa</bold12> (A), abyste zobrazili adresu IP. Pokud se adresa IP nezobrazí, tiskárna nekomunikuje se sítí. Znovu zkontrolujte připojení k síti.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Pokračovat v nápovědě</bodyLinkLine1></txCont><cpstring01 type="content"><p>SESTAVY</p></cpstring01><cpstring02 type="content"><p>SESTAVA KONF.</p></cpstring02><cpstring03 type="content"><p>Připraveno</p></cpstring03><cpstring04 type="content"><p>Síťová adresa</p></cpstring04></cs></document>

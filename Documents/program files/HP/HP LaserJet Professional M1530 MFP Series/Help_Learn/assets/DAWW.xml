@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Udfør en søgning på HP.com</span></text>
+	<text name="search">Søg</text>
+	<text name="close">Luk</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP-serien</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Hjælpe- og lærecenter</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Internetsupport</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Hverdagsjob</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Administration og vedligeholdelse</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Problemløsning</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">LYNFINDING</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Control-panel buttons (Knapper på kontrolpanelet)</span></text><text targetName="controlPanelMessages"><span class="white14">» Meddelelser på kontrolpanelet</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Udskiftning af printerpatronen</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Fyld papirbakker</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Hent IP-adresse for en printer i et netværk</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Kontrolliste til faxfejlfinding</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+			</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Gennemse brugervejledning</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Print Tasks (Udskrivningsopgaver) </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Annullering af et udskriftsjob</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Åbn printerdriveren</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Udskriv på begge sider (dupleks)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Udskriv flere sider pr. ark</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Udskrivning på specialpapir</span></text>		<text><span class="yellow12Bold">Copy Tasks (Kopiopgaver) </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Sådan tages flere kopier</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Formindskelse eller forstørrelse af en kopi</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Kopiering af legitimationskort</span></text>
+		<text><span class="yellow12Bold">Scan Tasks (Scanningsopgaver) </span></text>
+		<text targetName="scanADocument"><span class="white12">» Scanning af et dokument</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Gør mit scanning pænere</span></text>
+		<text><span class="yellow12Bold">Fax Tasks (Faxopgaver) </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Brug af telefonbogen</span></text>
+		<text targetName="sendAFax"><span class="white12">» Afsendelse af en fax</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Planlægning af senere afsendelse af fax</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Udskrivning af en gemt fax</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Sletning af faxer i hukommelsen</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Udskrive oplysningssider</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Udskiftning af printerpatronen</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Udskriv en renseside</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Rengør scannerglaspladen</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Rengøring af opsamlingsvalsen</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Clean the separation pad (Rengøring af separationspuden)</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Change fax settings (Rediger faxindstillinger)</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Kontrolliste til problemløsning</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Fjern et papirstop</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Fjern papirstop fra dokumentføderen</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Meddelelser på kontrolpanelet</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Solve paper-handling problems (Løs problemer med papirhåndtering)</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Løs problemer med udskriftskvalitet</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Løs problemer med kopikvalitet</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Løs problemer med scanningskvalitet</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Løsning af faxproblemer</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Åbn brugervejledningen på min computer.</span></text>
+			<text><span class="white14">Eller</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Åbn den nyeste version på internettet.</span></text>
+		</menuList>
+	</dialog>
+</document>

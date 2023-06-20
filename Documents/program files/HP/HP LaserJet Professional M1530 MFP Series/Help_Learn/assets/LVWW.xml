@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Meklēšana vietnē HP.com</span></text>
+	<text name="search">Meklēt</text>
+	<text name="close">Aizvērt</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP sērija</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Help &amp; Informācijas centrs</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Tīmekļa atbalsts</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Ikdienas darbi</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Pārvaldība un uzturēšana</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Problēmas risināšana</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">ĀTRA MEKLĒŠANA</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Vadības paneļa pogas</span></text><text targetName="controlPanelMessages"><span class="white14">» Vadības paneļa ziņojumi</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Drukas kasetnes maiņa</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Papīra ievietošana paplātēs</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Tīklā esoša printera IP adreses iegūšana</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Faksa traucējummeklēšanas kontrolsaraksts</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+	</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Lietotāja rokasgrāmatas pārlūkošana</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Drukas uzdevumi </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Drukas darba atcelšana</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Printera draivera atvēršana</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Drukāšana uz abām pusēm (divpusēja drukāšana)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Vairāku lappušu drukāšana uz vienas loksnes</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Drukāšana uz speciāla papīra</span></text>		<text><span class="yellow12Bold">Kopēšanas uzdevumi </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Vairāku kopiju veidošana</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Kopiju samazināšana vai palielināšana</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Vizītkaršu kopēšana</span></text>
+		<text><span class="yellow12Bold">Skenēšanas uzdevumi </span></text>
+		<text targetName="scanADocument"><span class="white12">» Dokumenta skenēšana</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Ieskenētā dokumenta izskata uzlabošana</span></text>
+		<text><span class="yellow12Bold">Faksa uzdevumi </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Tālruņu grāmatas lietošana</span></text>
+		<text targetName="sendAFax"><span class="white12">» Faksa sūtīšana</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Vēlākas faksa sūtīšanas ieplānošana</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Uzglabāta faksa drukāšana</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Faksu dzēšana no atmiņas</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Informācijas lappušu drukāšana</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Drukas kasetnes maiņa</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Tīrīšanas lapas drukāšana</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Skenera stikla tīrīšana</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Ievilcējruļļa tīrīšana</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Atdalīšanas paliktņa tīrīšana</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Faksa iestatījumu maiņa</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Problēmu risināšanas kontrolsaraksts</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Papīra iesprūšanas novēršana</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Iestrēguša papīra izņemšana no dokumentu padevēja</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Vadības paneļa ziņojumi</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Papīra lietošanas problēmu risināšana</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Drukas kvalitātes problēmu risināšana</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Kopēšanas kvalitātes problēmu risināšana</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Skenēšanas kvalitātes problēmu risināšana</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Faksa problēmu risināšana</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Lietotāja rokasgrāmatas atvēršana datorā.</span></text>
+			<text><span class="white14">Vai</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Jaunākās versijas atvēršana tīmeklī.</span></text>
+		</menuList>
+	</dialog>
+</document>

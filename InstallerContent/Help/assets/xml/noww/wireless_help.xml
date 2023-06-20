@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document><no>
+<title type="content"><title>Hjelp med skriver</title></title>
+<t00 type="content"><bold16gold>Finner ikke skriveren i det trådløse nettverket</bold16gold><br/><body>Installasjonsprogrammet finner ikke skriveren i det trådløse nettverket.
+Klikk på koblingen nedenfor som best beskriver situasjonen:</body></t00>
+<t00L1 type="content"><bodyLink>» Skriveren er tilkoblet et trådløst nettverk, men installasjonsprogrammet finner den ikke.</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» Skriveren kan ikke koble til det trådløse nettverket.</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» Jeg er usikker på om jeg har et trådløst nettverk.</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» Jeg endrer skriverens nettverkstilkobling fra kablet til trådløs.</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>Finne skriveren i nettverket</bold16gold><br/><body>Hvis produktet er korrekt koblet til nettverket, har det en IP-adresse. Skriv ut en konfigurasjonsside for produktet, og finn IP-adressen på konfigurasjonssiden.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» Slik skriver du ut en konfigurasjonsside</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>Finne skriveren i nettverket</bold16gold><br/><body>Angi IP-adressen manuelt i det aktuelle feltet i installasjonsprogrammet, og fortsett deretter installasjonen av programvaren.
+Hvis installasjonsprogrammet ikke finner produktet i nettverket, kan det hende at brannmurprogramvare forhindrer at produktet oppdages. HP anbefaler at brannmurprogramvaren er aktivert. Du kan imidlertid tillate kjøring av alle HP-programmer ved å velge Fortsett eller Fjern blokkering eller Tillat når du blir bedt om det av brannmur- eller antivirusprogramvaren. Hvis du blokkerer en installasjon, kan det føre til at den mislykkes.
+Hvis sikkerhetsprogramvare ikke blokkerer oppdagelse, kan produktet være koblet til et annet delnett enn datamaskinen din. Kontakt nettverksadministratoren for å få mer hjelp.</body></t01a>
+<t02 type="content"><bold16gold>Konfigurere skriveren i et trådløst nettverk</bold16gold><br/><body>Kontroller at produktet er slått på og indikerer <bold12>Klar</bold12>.</body></t02>
+<t03 type="content"><bold16gold>Konfigurere skriveren i et trådløst nettverk</bold16gold><br/><body>Hvis du først forsøkte å konfigurere tilkoblingen til det trådløse nettverket via Wi-Fi Protected Setup (WPS) og det mislyktes, kan du prøve <bold12>USB-oppsett av trådløst</bold12>. Hvis USB-oppsett mislykkes, kan du klikke på <bold12>Fortsett</bold12> nedenfor.</body></t03>
+<t04 type="content"><bold16gold>Konfigurere skriveren i et trådløst nettverk</bold16gold><br/><body><bold12>Merk:</bold12> Følg disse instruksjonene bare hvis du har forsøkt <bold12>USB-oppsett av trådløst</bold12> og det mislyktes.
+Kontroller at du har et aktivt trådløst nettverk med en trådløs ruter.</body></t04>
+<t05 type="content"><bold16gold>Konfigurere skriveren i et trådløst nettverk</bold16gold><br/><body>De fleste nyere trådløse rutere har en knapp for Wi-Fi Protected Setup (WPS) på ruteren. Denne knappen gir enkel trykknapptilgang for trådløse produkter som også støtter WPS.
+Kontroller om den trådløse ruteren støtter WPS.</body></t05>
+<t06 type="content"><bold16gold>Konfigurere skriveren i et trådløst nettverk</bold16gold><br/><body>Identifiser hva slags skjerm skriveren har. Klikk på <bold12>Berøringsskjerm</bold12>, <bold12>Tolinjers</bold12> eller <bold12>Ingen skjerm</bold12> nedenfor.</body></t06>
+<t06L01 type="content"><bodyLink>» Berøringsskjerm</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» Tolinjers</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» Ingen skjerm</bodyLink></t06L03>
+<t07 type="content"><bold16gold>Slå på produktet</bold16gold><br/><body><bold12>Merk:</bold12> Kontroller at all emballasjetape og alle fraktlåser er fjernet. Kontroller at det ligger papir i papirskuffen.
+Koble strømledningen på produktet til en jordet stikkontakt, og sett deretter av/på-knappen til <bold12>På</bold12>.</body></t07>
+<t08 type="content"><bold16gold>USB-oppsett av trådløst</bold16gold><br/><body>1. Klikk på <bold12>Tilbake</bold12>-knappen i installasjonsprogrammet, og gå til skjermen hvor det står "Velg en trådløs oppsettmetode".
+2. Velg <bold12>USB-oppsett av trådløst</bold12>, og klikk deretter på <bold12>Neste</bold12>. Følg instruksjonene på skjermen.</body></t08>
+<t09 type="content"><bold16gold>Finne ut om du har et trådløst nettverk og en ruter</bold16gold><br/><body>Et &quot;trådløst nettverk&quot; refererer til et nettverk der datamaskiner og skrivere kobles til en nettverksruter uten bruk av nettverkskabler. I mange hjem og på små kontorer fungerer DSL- eller kabelmodemet også som trådløs ruter. Hvis du kobler deg til Internett via et DSL- eller kabelmodem og datamaskinen kobler seg trådløst til modemet, har du sannsynligvis et trådløst nettverk.
+Hvis datamaskinen imidlertid kobler seg til modemet eller ruteren via en kabel, har du muligens ikke en trådløs ruter eller et trådløst nettverk. Vi anbefaler likevel at du går videre før du konkluderer med at du ikke har et trådløst nettverk.
+<bold12>Merk:</bold12> Bruk av Bluetooth™-tilbehør, for eksempel en trådløs mus eller et trådløst tastatur, betyr ikke at du har et trådløst nettverk. Denne typen Bluetooth-tilbehør krever eller utgjør ikke noe trådløst nettverk. Det er en bedre indikator om du kontinuerlig har Internett-tilgang på datamaskinen, dvs. tilgang uten å bruke en tjeneste med oppringt tilkobling. (Hvis du bruker en oppringt tilkobling til Internett, har du sannsynligvis ikke et trådløst nettverk.)
+<bold12>Merk:</bold12> Bærbare eller mobile datamaskiner, spesielt &quot;minimaskiner&quot;, kan ha kontinuerlig tilgang til Internett uten kabler, men tilstedeværelsen av slike datamaskiner betyr ikke alltid at en lokal trådløs ruter er tilgjengelig.
+Hvis du fortsatt er usikker på om du har et nettverk basert på en lokal trådløs ruter, klikker du på <bold12>Fortsett</bold12> nedenfor.</body></t09>
+<t11 type="content"><bold16gold>Tilkobling med WPS</bold16gold><br/><body>Trykk på WPS-knappen på ruteren, og deretter på skriveren. Hvis skriveren har en berøringsskjerm, finner du WPS-knappen i <bold12>Trådløs-menyen</bold12>. Når de to enhetene har gjenkjent hverandre, klikker du på <bold12>Neste</bold12> nedenfor.</body></t11>
+<t14 type="content"><bold16gold>Trådløst oppsett med en berøringsskjerm</bold16gold><br/><body>Trykk på knappen for <bold12>Trådløs-menyen</bold12> på skjermen, og trykk deretter på <bold12>Veiviser for trådløst oppsett</bold12>. Følg instruksjonene.
+<bold12>Merk:</bold12> Du må vite hva nettverksnavnet (SSID) er, pluss passordet (WEP-nøkkel eller WPA-passfrase) hvis nettverket er et sikkert nettverk.</body></t14>
+<t14a type="content"><body>Hvis skriveren kan koble seg til det trådløse nettverket, klikker du på <bold12>Neste</bold12> nedenfor.
+Hvis skriveren fortsatt ikke kan koble seg til det trådløse nettverket, kan du gå til <bold12>Trådløst oppsett via EWS</bold12>.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» Finne nettverksnavnet og passordet</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» Trådløst oppsett via EWS</bodyLinkLine1><br/><bodyLinkLine2/></t14L02><note01 type="content"><note>Hvis du ikke kjenner til nettverksnavnet (SSID) og passordet (WEP-nøkkel eller WPA-passfrase), kan det hende du finner denne informasjonen i datamaskinens Nettverks- og delingssenter.
+Informasjonen vises kanskje også i ruterens innebygde webserver (EWS). Finn ruterens IP-adresse i dokumentasjonen som fulgte med ruteren. Når du skal åpne ruterens EWS, angir du IP-adressen i adressefeltet i en nettleser på datamaskinen.</note> 
+</note01>
+<t16 type="content"><bold16gold>Trådløst oppsett via EWS</bold16gold><br/><body>Nå kan ikke en trådløs tilkobling opprettes uten å først opprette en kablet nettverkstilkobling ved å koble skriveren til ruteren via en nettverkskabel.
+<bodyNumList>1. Koble en nettverkskabel til skriveren og ruteren.
+2. Vent noen minutter på at skriveren skal motta en IP-adresse fra ruteren, og skriv deretter ut en nettverksrapport eller en konfigurasjonsside fra skriverens <bold12>Rapporter</bold12>-meny. Finn skriverens IP-adresse på siden.
+3. Åpne en nettleser og angi skriverens IP-adresse i adressefeltet (og trykk på <bold12>Enter</bold12>). Skriverens innebygde webserver (EWS) skal nå åpnes i nettleseren. Hvis EWS ikke åpnes, er skriveren sannsynligvis koblet til et annet delnett enn datamaskinen.
+4. Gå til kategorien <bold12>Nettverk</bold12> i EWS, og klikk deretter på <bold12>Trådløs konfigurering</bold12>.
+5. Klikk på <bold12>Aktivert</bold12>-knappen. Klikk deretter på <bold12>Bli med i et eksisterende trådløst nettverk</bold12>.
+6. Det vises en liste over tilgjengelige trådløse nettverk. Klikk på nettverket du vil koble til.
+7. Hvis det valgte nettverket angir at det er et nettverk uten navn, klikker du på knappen <bold12>Angi et nettverksnavn</bold12>, og deretter skriver du inn nettverksnavnet (SSID) i tekstfeltet.
+8. Hvis det kreves en WEP-nøkkel eller WPA-passfrase for nettverket, angir du riktig nøkkel eller passfrase i tekstfeltet.
+9. Klikk på <bold12>Bruk</bold12> nederst på siden.
+10. Vent et minutt til innstillingene i skriveren er lagret, og fjern deretter nettverkskabelen fra skriveren. Skriveren vil forsøke å koble seg til nettverket trådløst.</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>Gå tilbake til installasjonsprogrammet</bold16gold><br/><bodyNumList>1. Kontroller at ingen USB-kabel er koblet til skriveren. Klikk på <bold12>Tilbake</bold12>-knappen i installasjonsprogrammet til du kommer til skjermbildet der du blir bedt om å velge en "Tilkoblingstype".
+2. Velg <bold12>Koble til via et trådløst nettverk</bold12>, og klikk deretter på <bold12>Neste</bold12>.
+3. Installasjonsprogrammet søker etter skriveren i nettverket. Når skriveren oppdages, kan du fortsette installasjonen av programvaren. </bodyNumList></t17>
+<t18 type="content"><bold16gold>Skrive ut en nettverksrapport</bold16gold><br/><body>En nettverksrapport kan avdekke enkelte konflikter som kanskje forhindrer skriveren fra å koble seg til det trådløse nettverket.
+Hvis du vil skrive ut en nettverksrapport, går du til <bold12>Trådløs-menyen</bold12> på skriverens kontrollpanel, og deretter velger du <bold12>Kjør nettverkstest</bold12>. Følg instruksjonene i rapporten. Når konflikten er løst, klikker du på <bold12>Neste</bold12> nedenfor.</body></t18>
+<t19 type="content"><bold16gold>Gjenopprette standardinnstillinger og installere på nytt</bold16gold><br/><body><bold12>Merk:</bold12> Kontroller at INGEN nettverkskabel er koblet til skriveren før du fortsetter.
+HP anbefaler å tilbakestille skriverens nettverksinnstillinger til standard fabrikkinnstillinger, og deretter forsøke å installere på nytt.
+<bodyNumList>1. Hvis en USB-kabel er koblet til skriveren, må den kobles fra.
+2. Gå til <bold12>Oppsettmeny</bold12> på skriverens kontrollpanel.
+3. Velg <bold12>Nettverksoppsett</bold12>.
+4. Velg <bold12>Gjenopprett standarder</bold12>.
+5. Klikk på <bold12>Tilbake</bold12>-knappen i installasjonsprogrammet til du kommer til skjermbildet der det står "Velg en trådløs oppsettmetode".
+6. Velg oppsettmetoden du foretrekker, og følg instruksjonene på vanlig måte.</bodyNumList></body></t19><guideButt type="content"><butt11>Få veiledning</butt11></guideButt><backButt type="content"><butt11>Tilbake</butt11></backButt><showButt type="content"><butt11>Vis meg</butt11></showButt><nextButt type="content"><butt11>Neste</butt11></nextButt><contButt type="content"><butt11>Fortsett</butt11></contButt><exitButt type="content"><butt11>Avslutt</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS fungerer ikke</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>Vellykket/Neste</butt11></successNextButt><failedTSbutt type="content"><butt11>Mislyktes/Feilsøk</butt11></failedTSbutt><noWPSradio type="content"><radioButt>Nei WPS</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>Ja WPS</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>Skrive ut en konfigurasjonsside</bold16gold><br/><body>Velg typen kontrollpanel som finnes på skriveren din:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Kun tekst (liten)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Berøringsskjerm (liten)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Ingen skjerm</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Kun tekst (stor)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Berøringsskjerm (stor)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. Hvis skriveren har en Oppsettmeny-knapp (A), trykker du på Oppsettmeny-knappen. Hvis skriveren ikke har en Oppsettmeny-knapp, går du til neste trinn.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Bruk piltastene (B) for å navigere til <bold12>Rapporter</bold12>, og trykk deretter på <bold12>OK</bold12>-knappen (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Bruk piltastene (B) for å navigere til <bold12>Konfig.rapport</bold12>, og trykk deretter på <bold12>OK</bold12>-knappen.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Det skrives ut en konfigurasjonsrapport. IP-adressen er angitt som IPv4- eller IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>Med denne typen kontrollpanel er IP-adressen synlig på skjermen:
+<br/><li>Hvis skriveren er koblet til nettverket via en nettverkskabel, kan du berøre Nettverksknappen (A) på startskjermbildet for å se IP-adressen. Hvis IP-adressen ikke vises, kommuniserer ikke skriveren med nettverket. Kontroller kabeltilkoblingen.
+Hvis skriveren er koblet til nettverket trådløst, kan du berøre Trådløs-knappen (B) på startskjermbildet for å se IP-adressen. Hvis IP-adressen ikke vises, kan du følge instruksjonene på kontrollpanelskjermen.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>På skrivere som har knapper, men ingen skjerm, vil knappen eller kombinasjonen av knapper som skriver ut en konfigurasjonsside, variere.</body><br/><bodyNumList>1. Hvis skriveren bare har en Avbryt-knapp (A), kan du trykke på og holde nede Avbryt-knappen i to til tre sekunder. Hvis det ikke skrives ut en konfigurasjonsside, går du til neste trinn.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Hvis skriveren har en Avbryt-knapp (A) og en Forsett-knapp (B), kan du trykke på og holde nede begge knappene samtidig i to sekunder. Hvis konfigurasjonssiden ikke skrives ut, trykker du på Fortsett-knappen (B) i to til tre sekunder. Hvis det ikke skrives ut en konfigurasjonsside, går du til neste trinn.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Hvis en konfigurasjonsside ikke skrives ut, må du ta kontakt med din lokale kundestøtte.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Med denne typen kontrollpanel er IP-adressen synlig på <bold12>Klar</bold12>-skjermbildet. Hvis ingen IP-adresse er synlig på <bold12>Klar</bold12>-skjermbildet, må du kontrollere skriverens nettverkstilkobling.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Med denne typen kontrollpanel er IP-adressen synlig på skjermen.</body><br/><bodyNumList>1. Berør <bold12>Nettverksadresse</bold12>-knappen (A) på startskjermbildet for å se IP-adressen. Hvis IP-adressen ikke vises, kommuniserer ikke skriveren med nettverket. Kontroller nettverkstilkoblingen.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Fortsett med hjelp</bodyLinkLine1></txCont><cpstring01 type="content"><p>Rapporter</p></cpstring01><cpstring02 type="content"><p>Konfig.rapport</p></cpstring02><cpstring03 type="content"><p>Klar</p></cpstring03><cpstring04 type="content"><p>Nettverksadresse</p></cpstring04></no></document>

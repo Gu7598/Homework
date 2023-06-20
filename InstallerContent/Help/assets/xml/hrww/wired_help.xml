@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><document><hr>
+<title type="content"><title>Pomoć za pisač</title></title>
+<t01 type="content"><bold16gold>Pisač nije pronađen na mreži</bold16gold><br/><body>Program za instalaciju ne može pronaći pisač na mreži.
+Kako biste omogućili HP-u da vas vodi kroz korake pronalaženje pisača na mreži, kliknite na <bold12>Korisnički priručnik</bold12>.
+Napredni korisnici mogu kliknuti na "Napredni koraci za rješavanje problema" kako bi pročitali tekstualne korake za pronalaženje pisača na mreži</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t02 type="content"><bodyLinkLine1>„Napredni koraci za rješavanje problema</bodyLinkLine1><br/><bodyLinkLine2/></t02>
+<t03 type="content"><bold16gold>Pisač nije pronašao korake za rješavanje problema</bold16gold><br/><bodyNumList>1. Provjerite je li uređaj uključen i spreman.
+2. Osigurajte da je proizvod povezan na mrežu korištenjem odgovarajućeg ulaza i kabela. Provjerite svaku kabelsku vezu kako biste bili sigurni da je čvrsta i na točnom položaju. Ako i dalje dolazi do problema pokušajte drugačiji kabel ili ulaz na čvorištu ili odašiljaču. Žuto svjetlo aktivnosti i zeleno svjetlo statusa pored ulaza povezivanja na stražnjem dijelu proizvoda trebaju svijetliti.
+3. Iz upravljačke ploče proizvoda ispišite stranicu za konfiguraciju i locirajte IP adresu proizvoda.
+4. Koristite naredbeni redak za slanje ping signala iz računala na proizvod. Npr.: ping 192.168.45.39</bodyNumList><bodyMargin>Ako ste u mogućnosti primanja ping signala na proizvod, potvrdite da je IP adresa konfiguracije proizvoda na računalu točna. Ako nije točna obrišite i ponovno dodajte proizvod.
+Ako ping naredba nije uspjela, potvrdite da je mrežno čvorište uključeno te potom potvrdite da su sve postavke mreže, proizvoda i računala konfigurirane za istu mrežu. Potvrdite da je ping naredba uspješna za druge uređaje na mreži (ako nije, možda vatrozid blokira ping naredbu).
+Ili pokušajte otvoriti ugrađeni web poslužitelj kako biste potvrdili da računalo komunicira s proizvodom.</bodyMargin><br/></t03>
+<t04 type="content"><bold16gold>Pronađite pisač na žičnoj mreži</bold16gold><br/><body>Osigurajte da je proizvod uključen i da pokazuje <bold12>Spremno</bold12>.</body></t04>
+<t05 type="content"><bold16gold>Pronađite pisač na žičnoj mreži</bold16gold><br/><body>Osigurajte da je kabel aktivne mreže priključen na mrežni ulaz na proizvodu.</body></t05>
+<t06 type="content"><bold16gold>Pronađite pisač na žičnoj mreži</bold16gold><br/><body>Ako je proizvod pravilno priključen na mrežu, trebao bi imati IP adresu. Ispišite stranicu s konfiguracijom proizvoda i locirajte IP adresu na stranici s konfiguracijom.</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t07 type="content"><bodyLinkLine1>„Kako ispisati stranicu s konfiguracijom</bodyLinkLine1><br/><bodyLinkLine2/></t07>
+<t08 type="content"><bold16gold>Pronađite pisač na žičnoj mreži</bold16gold><br/><body>Ručno unesite IP adresu u odgovarajući okvir u programu za instaliranje i potom nastavite instalirati softver.
+Ako program za instaliranje i dalje na mreži ne može pronaći proizvod, možda imate softver vatrozida koji sprječava otkrivanje proizvoda. HP preporučuje da ostavite omogućen vaš softver vatrozida. No, omogućite nastavak svim HP programima tako da odaberete "Nastavi" ili "Odblokiraj" ili "Dopusti" kada budete upitani od vatrozida ili antivirisnug softvera. Blokiranje instalacije može dovesti do rušenja.
+Ako sigurnosni softver ne blokira otkrivanje, proizvod može biti povezan na podmrežu drugačiju od vašeg računala. Za dodatnu pomoć obratite se administratoru mreže.</body></t08>
+<t09 type="content"><bold16gold>Uključite proizvod</bold16gold><br/><body><bold12>Napomena:</bold12> Osigurajte da su sve trake pakiranja i blokiranja za isporuku uklonjene. Osigurajte da je papir umetnut u ladicu za papir.
+Priključite kabel napajanja između proizvoda i uzemljene AC utičnice i potom pritisnite gumb napajanja proizvoda na <bold12>Uključeno</bold12>.</body></t09>
+<t10 type="content"><bold16gold>Priključite mrežni kabel.</bold16gold><br/><body>Priključite kabel aktivne mreže na mrežni ulaz na proizvodu. Pričekajte nekoliko minuta da proizvod uspostavi IP adresu na mreži.
+Ako svjetla na mrežnom ulazu ne trepere, mrežni kabel nije aktivan. Osigurajte da je kabel priključen aktivnu mrežu. Ako jest, uzmite drugi kabel ili provjerite kabel na drugom uređaju.</body></t10>
+
+<guideButt type="content"><butt11>Korisnički priručnik</butt11></guideButt><backButt type="content"><butt11>Natrag</butt11></backButt><showButt type="content"><butt11>Pokaži mi kako</butt11></showButt><nextButt type="content"><butt11>Dalje</butt11></nextButt><contButt type="content"><butt11>Nastavi</butt11></contButt><exitButt type="content"><butt11>Izlaz</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>Ispis stranice s konfiguracijom</bold16gold><br/><body>Odaberite vrstu upravljačke ploče na vašem pisaču:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Samo tekst (malo)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Dodirni zaslon (malo)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>„Nema prikaza</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Samo tekst (veliko)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Dodirni zaslon (veliko)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] -->
+<tx101 type="content"><bodyNumList>1. Ako vaš pisač ima gumb za postavljanje izbornika (A), pritisnite ga. Ako vaš pisač nema gumb za postavljanje izbornika, idite na sljedeći korak.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Koristite gumbe sa strelicama (B) da biste došli na stavku <bold12>Izvješća</bold12> a zatim pritisnite gumb <bold12>U redu</bold12>(C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Koristite gumbe sa strelicama da biste došli na stavku <bold12>Konfig. izvješće</bold12> a zatim pritisnite gumb <bold12>U redu</bold12>(C).</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Izvješće o konfiguraciji se ispisuje. IP adresa je navedena kao IPv4 ili IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] -->
+<tx201 type="content"><body>Na ovoj vrsti upravljačke ploče IP adresu je moguće vidjeti na zaslonu:
+<br/><li>Ako je vaš pisač povezan s mrežom preko mrežnog kabela, dodirnite gumb Mreža (A) na početnom zaslonu za prikaz IP adrese. Ako se IP adresa ne prikaže, pisač ne komunicira s mrežom. Ponovo provjerite kabelske veze.
+Ako je vaš pisač bežično povezan s mrežom, dodirnite gumb Bežično (B) na početnom zaslonu za prikaz IP adrese. Ako se IP adresa ne prikaže, slijedite upute na zaslonu upravljačke ploče.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] -->
+<tx301 type="content"><body>Na pisačima s gumbima, no bez zaslona, gumb ili kombinacija gumba koja će ispisati stranicu konfiguracije može se razlikovati.</body><br/><bodyNumList>1. Ako pisač ima samo gumb Odustani (A), pritisnite i držite ga dvije do tri sekunde.  Ako se stranica konfiguracije ne ispisuje, idite na sljedeći korak.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Ako pisač ima gumb Odustani (A) i gumb Nastavi (B), pritisnite i držite oba gumba istodobno dvije sekunde.  Ako se stranica konfiguracije ne ispisuje, pritisnite samo gumb Nastavi (B) i držite ga dvije do tri sekunde.  Ako se stranica konfiguracije ne ispisuje, idite na sljedeći korak.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Ako stranica konfiguracije ne ispisuje, obratite se lokalnoj podršci.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Na ovoj vrsti upravljačke ploče IP adresu je moguće vidjeti na prikazu na zaslonu <bold12>Spremno</bold12>. Ako IP adresu ne možete vidjeti na zaslonu <bold12>Spremno</bold12>, provjerite mrežnu vezu vašeg pisača.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Na ovoj vrsti upravljačke ploče IP adresu je moguće vidjeti na zaslonu.</body><br/><bodyNumList>1. Dodirnite gumb <bold12>Mrežna adresa</bold12> (A) na početnom zaslonu za prikaz IP adrese. Ako se IP adresa ne prikaže, pisač ne komunicira s mrežom. Ponovo provjerite mrežnu vezu.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Nastavak pomoći</bodyLinkLine1></txCont><cpstring01 type="content"><p>Izvješća</p></cpstring01><cpstring02 type="content"><p>Konfig. izvješće</p></cpstring02><cpstring03 type="content"><p>Spreman</p></cpstring03><cpstring04 type="content"><p>Mrežna adresa</p></cpstring04></hr></document>

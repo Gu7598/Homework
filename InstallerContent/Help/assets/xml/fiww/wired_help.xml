@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><document><fi>
+<title type="content"><title>Tulostimen ohje</title></title>
+<t01 type="content"><bold16gold>Tulostinta ei löytynyt verkosta</bold16gold><br/><body>Asennusohjelma ei löytänyt tulostinta verkosta.
+Valitsemalla <bold12>Opas</bold12> ohjeita saat apua etsiessäsi tulostinta verkosta.
+Edistyneet käyttäjät voivat etsiä tulostimen verkosta Vianmäärityksen vaiheiden lisäasetukset -kohdassa olevien tekstimuotoisten vaihekuvausten avulla.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t02 type="content"><bodyLinkLine1>» Vianmäärityksen vaiheiden lisäasetukset</bodyLinkLine1><br/><bodyLinkLine2/></t02>
+<t03 type="content"><bold16gold>Tulostin ei löytynyt vianmäärityksen vaiheita</bold16gold><br/><bodyNumList>1. Tarkista, että tuotteen virta on kytkettynä ja tuote on käyttövalmiina.
+2. Varmista, että tuote on muodostanut yhteyden verkkoon sopivan portin ja kaapelin avulla. Tarkista, että jokainen kaapeliliitäntä on kunnolla kiinni ja oikeassa paikassa. Jos ongelma toistuu, käytä toista kaapelia tai keskittimen tai lähetin/vastaanottimen muita portteja. Keltaisen toimintavalon ja tuotteen takana olevan porttiliitännän vieressä olevan vihreän linkin tilavalon tulisi palaa.
+3. Tulosta tuotteen asetussivu ohjauspaneelin avulla ja etsi tuotteen IP-osoite.
+4. Voit kutsua tuotetta ping-komennolla omalta tietokoneelta komentokehotteen avulla. Esimerkiksi ping 192.168.45.39.</bodyNumList><bodyMargin>Jos tuotetta ei voi kutsua ping-komennolla, tarkista, että tuotteen IP-osoitteen määritykset ovat oikein tietokoneessa. Jos määritykset ovat oikein, poista tuote ja lisää se uudelleen.
+Jos ping-komento epäonnistui, tarkista, että verkon keskittimet ovat päällä. Tarkista myös, että verkon asetusten, tuotteen ja tietokoneen määritys on tehty samaan verkkoon. Tarkista, että ping-komento onnistuu muille verkon laitteille (jos ei, palomuuri saattaa estää ping-komennot).
+Voit myös avata sulautetun Web-palvelimen tarkistaaksesi, että tietokone on yhteydessä tuotteeseen.</bodyMargin><br/></t03>
+<t04 type="content"><bold16gold>Tulostimen haku kiinteästä verkosta</bold16gold><br/><body>Varmista, että tuotteeseen on kytketty virta ja sen tila on <bold12>Valmis</bold12>.</body></t04>
+<t05 type="content"><bold16gold>Tulostimen haku kiinteästä verkosta</bold16gold><br/><body>Varmista, että tuotteen verkkoporttiin on liitetty aktiivinen verkkokaapeli.</body></t05>
+<t06 type="content"><bold16gold>Tulostimen haku kiinteästä verkosta</bold16gold><br/><body>Jos tuotteen yhteyden muodostaminen verkkoon onnistuu, tuote saa IP-osoitteen. Tulosta tuotteen asetussivu ja etsi sivulta IP-osoite.</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t07 type="content"><bodyLinkLine1>» Asetussivun tulostaminen</bodyLinkLine1><br/><bodyLinkLine2/></t07>
+<t08 type="content"><bold16gold>Tulostimen haku kiinteästä verkosta</bold16gold><br/><body>Lisää IP-osoite manuaalisesti asennusohjelman oikeaan ruutuun. Jatka sitten ohjelmiston asentamista.
+Palomuuriohjelmisto saattaa estää tuotteen löytämisen, jos asennusohjelma ei löydä tuotetta verkosta. Suosittelemme palomuuriohjelmiston käyttämistä. Muista sallia HP:n ohjelmien pääsy verkkoon vastaamalla palomuurin tai virustorjuntaohjelman esittämään kysymykseen Jatka, Poista esto tai Salli. Asennuksen estäminen voi aiheuttaa ohjelmiston virheen.
+Jos suojausohjelmisto ei estä hakemista, tuote saattaa olla muodostanut yhteyden johonkin muuhun kuin tietokoneen käyttämään aliverkkoon. Pyydä lisätietoja verkonvalvojalta.</body></t08>
+<t09 type="content"><bold16gold>Virran kytkeminen tuotteeseen</bold16gold><br/><body><bold12>Huomautus:</bold12> Varmista, että pakkausteippi ja kuljetuslukot on poistettu. Varmista, että paperilokerossa on paperia.
+Liitä virtajohto tuotteeseen ja maadoitetun vaihtovirtapistorasiaan. Paina tuotteen virtapainike asentoon <bold12>Päällä</bold12>.</body></t09>
+<t10 type="content"><bold16gold>Verkkokaapelin liittäminen</bold16gold><br/><body>Liitä tuotteen verkkoporttiin aktiivinen verkkokaapeli. Odota muutama minuutti, jotta tuote saa verkolta IP-osoitteen.
+Jos verkkoportin valot eivät vilku, verkkokaapeli ei ole aktiivinen. Varmista, että kaapeli on liitetty aktiiviseen verkkoon. Jos näin ei ole, yritä muodostaa yhteys toisen kaapelin avulla tai testaa kaapelia toisessa laitteessa.</body></t10>
+
+<guideButt type="content"><butt11>Opas</butt11></guideButt><backButt type="content"><butt11>Edellinen</butt11></backButt><showButt type="content"><butt11>Näytä</butt11></showButt><nextButt type="content"><butt11>Seuraava</butt11></nextButt><contButt type="content"><butt11>Jatka</butt11></contButt><exitButt type="content"><butt11>Lopeta</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>Asetussivun tulostaminen</bold16gold><br/><body>Valitse tulostimen ohjauspaneelin tyyppi:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Vain teksti (pieni)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Kosketusnäyttö (pieni)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Ei näyttöä</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Vain teksti (suuri)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Kosketusnäyttö (suuri)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] -->
+<tx101 type="content"><bodyNumList>1. Jos tulostimessa on Asetukset-valikkopainike (A), paina sitä. Jos tulostimessa ei ole Asetukset-valikkopainiketta, siirry seuraavaan vaiheeseen.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Siirry nuolipainikkeilla (B) <bold12>Raportit</bold12>-kohtaan ja paina sitten <bold12>OK</bold12>-painiketta (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Siirry nuolipainikkeilla (B) <bold12>Kokoonpanorap.</bold12>-kohtaan ja paina sitten <bold12>OK</bold12>-painiketta (C).</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Asetussivu tulostuu. IP-osoitteena näkyy joko IPv4 tai IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] -->
+<tx201 type="content"><body>Tämän tyypin ohjauspaneelissa IP-osoitteen voi tarkastaa vain näytöstä:
+<br/><li>Jos tulostin on kytketty verkkoon verkkokaapelilla, tarkasta IP-osoite koskettamalla aloitusnäytön Verkko-painiketta (A). Jos IP-osoite ei tule näkyviin, tulostin ei ole yhteydessä verkkoon. Tarkista kaapeliliitännät.
+Jos tulostin on kytketty verkkoon langattomasti, tarkasta IP-osoite koskettamalla aloitusnäytön Langaton-painiketta (B). Jos IP-osoite ei tule näkyviin, toimi ohjauspaneelin näytön ohjeiden mukaan.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] -->
+<tx301 type="content"><body>Tulostimissa, joissa on painikkeita mutta ei näyttöä, asetussivun tulostamiseen käytettävä painike tai painikeyhdistelmä voi vaihdella.</body><br/><bodyNumList>1. Jos tulostimessa on vain Peruuta-painike (A), pidä sitä painettuna 2-3 sekuntia. Jos asetussivu ei tulostu, siirry seuraavaan vaiheeseen.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Jos tulostimessa on Peruuta-painike (A) ja Jatka-painike (B), pidä molempia painikkeita painettuna samanaikaisesti kaksi sekuntia. Jos asetussivu ei tulostu, paina vain Jatka-painiketta (B) 2-3 sekuntia. Jos asetussivu ei tulostu, siirry seuraavaan vaiheeseen.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Jos asetussivu ei tulostu, ota yhteyttä paikalliseen tukeen.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Tämän tyypin ohjauspaneelissa IP-osoitteen voi tarkastaa <bold12>Valmis</bold12>-näytöstä. Jos <bold12>Valmis</bold12>-näytössä ei näy IP-osoitetta, tarkista tulostimen verkkoyhteys.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Tämän tyypin ohjauspaneelissa IP-osoitteen voi tarkastaa näytöstä.</body><br/><bodyNumList>1. Tarkasta IP-osoite koskettamalla aloitusnäytön <bold12>Verkko-osoite</bold12>-painiketta (A). Jos IP-osoite ei tule näkyviin, tulostin ei ole yhteydessä verkkoon. Tarkista verkkoliitäntä.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Jatka ohjeen käyttöä</bodyLinkLine1></txCont><cpstring01 type="content"><p>Raportit</p></cpstring01><cpstring02 type="content"><p>Kokoonpanorap.</p></cpstring02><cpstring03 type="content"><p>Valmis</p></cpstring03><cpstring04 type="content"><p>Verkko-osoite</p></cpstring04></fi></document>

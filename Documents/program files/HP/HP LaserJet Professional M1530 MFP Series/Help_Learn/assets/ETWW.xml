@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Sooritage otsing saidil HP.com</span></text>
+	<text name="search">Otsi</text>
+	<text name="close">Sulge</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP Series</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Spikri- ja tugikeskus</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Veebitugi</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Igapäevakasutus</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Haldus ja hooldus</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Probleemilahendus</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">KIIROTSING</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Juhtpaneeli nupud</span></text><text targetName="controlPanelMessages"><span class="white14">» Juhtpaneeli teated</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Printerikasseti vahetamine</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Paberisalvede laadimine</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Võrgu IP-aadressi saamine printerile</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Faksi tőrkeotsingu kontroll-loend</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+	</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Kasutusjuhendi sirvimine</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Prindiülesanded </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Prinditöö tühistamine</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Printeridraiveri avamine</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Kahepoolne printimine (dupleksprintimine)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Mitme lehekülje ühele lehele printimine</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Eripaberitele printimine</span></text>		<text><span class="yellow12Bold">Koopiategumid </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Mitmikkoopiate tegemine</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Koopia vähendamine vői suurendamine</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» ID-kaartide kopeerimine</span></text>
+		<text><span class="yellow12Bold">Skannimistegumid </span></text>
+		<text targetName="scanADocument"><span class="white12">» Dokumendi skannimine</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Skannimistulemuse parendamine</span></text>
+		<text><span class="yellow12Bold">Faksitegumid </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Telefoniraamatu kasutamine</span></text>
+		<text targetName="sendAFax"><span class="white12">» Faksi saatmine</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Viivitusega saadetava faksi seadistamine</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Salvestatud faksi printimine</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Fakside kustutamine mälust</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Teabelehtede printimine</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Printerikasseti vahetamine</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Puhastuslehe printimine</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Skanneriklaasi puhastamine</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Paberivőturulli puhastamine</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Eralduspadja puhastamine</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Faksiseadete muutmine</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Tõrkeotsingu kontroll-loend</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Paberiummistuse kőrvaldamine</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Dokumendisööturi ummistuste kőrvaldamine</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Juhtpaneeli teated</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Paberikäsitsuprobleemide lahendamine</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Prindikvaliteedi probleemide lahendamine</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Kopeerimiskvaliteedi probleemide lahendamine</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Skannimiskvaliteedi probleemide lahendamine</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Faksiprobleemide lahendamine</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Avage arvutis kasutusjuhend.</span></text>
+			<text><span class="white14">või</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Avage juhendi uusim veebiversioon.</span></text>
+		</menuList>
+	</dialog>
+</document>

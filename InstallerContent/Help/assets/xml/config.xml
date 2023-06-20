@@ -1,0 +1,42 @@
+<config>
+<!-- 
+		List of language codes and their associated Primary Laguage Identifiers.
+		For the complete list see http://msdn.microsoft.com/en-us/library/ms776294%28VS.85%29.aspx#NotesPrim
+		This list also defines the list of available languages.  Any language that is not in this list will display EN.
+		Languages codes in this XML list must *not* contain WW.
+	-->
+	<languageCodes>
+		<language name="AR">01</language>
+		<language name="CA">03</language>
+		<language name="CS">05</language>
+		<language name="DA">06</language>
+		<language name="DE">07</language>
+		<language name="EL">08</language>
+		<language name="EN">09</language>
+		<language name="ES">0a</language>
+		<language name="FI">0b</language>
+		<language name="FR">0c</language>
+		<language name="HE">0d</language>
+		<language name="HR">1a00</language>
+		<language name="HU">0e</language>
+		<language name="ID">21</language>
+		<language name="IT">10</language>
+		<language name="JA">11</language>
+		<language name="KK">3f</language>
+		<language name="KO">12</language>
+		<language name="NL">13</language>
+		<language name="NO">14</language>
+		<language name="PL">15</language>
+		<language name="PT">16</language>
+		<language name="RO">18</language>
+		<language name="RU">19</language>
+		<language name="SK">1b</language>
+		<language name="SL">24</language>
+		<language name="SV">1d</language>
+		<language name="TH">1e</language>
+		<language name="TR">1f</language>
+		<language name="UK">22</language>
+		<language name="ZHCN">0402</language>
+		<language name="ZHTW">0401</language>
+	</languageCodes>
+</config>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Perform search on HP.com</span></text>
+	<text name="search">Search</text>
+	<text name="close">Close</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br />M1530 MFP Series</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Help &amp; Learn Center</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Web support</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Everyday Jobs</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Manage &amp; Maintain</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Solve a Problem</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">QUICK FIND</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Control-panel buttons</span></text><text targetName="controlPanelMessages"><span class="white14">» Control-panel messages</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Replace the print cartridge</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Load paper trays</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Get IP address of a printer in network</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Fax troubleshooting checklist</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+					
+	</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Browse User Guide</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Print tasks </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Cancel print job</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Open printer driver</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Print on both sides (duplex)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Print multiple pages per sheet</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Print on special paper</span></text>		<text><span class="yellow12Bold">Copy tasks </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Make multiple copies</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Reduce or enlarge copies</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Copy identification cards</span></text>
+		<text><span class="yellow12Bold">Scan tasks </span></text>
+		<text targetName="scanADocument"><span class="white12">» Scan a document</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Make my scan look better</span></text>
+		<text><span class="yellow12Bold">Fax tasks </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Use the phone book</span></text>
+		<text targetName="sendAFax"><span class="white12">» Send a fax</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Schedule a fax to be sent later</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Print a stored fax</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Delete faxes from memory</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Print information pages</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Replace the print cartridge</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Print a cleaning page</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Clean the scanner glass</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Clean the pickup roller</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Clean the separation pad</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Change fax settings</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Problem solving checklist</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Clear a paper jam</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Clear jams from the document feeder</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Control-panel messages</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Solve paper-handling problems</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Solve print quality problems</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Solve copy quality problems</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Solve scan quality problems</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Solve fax problems</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Open the user guide on my computer.</span></text>
+			<text><span class="white14">Or</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Open the latest version on the Web.</span></text>
+		</menuList>
+	</dialog>
+</document>

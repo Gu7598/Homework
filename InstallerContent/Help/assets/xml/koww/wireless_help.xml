@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><document><ko>
+<title type="content"><title>프린터 도움말</title></title>
+<t00 type="content"><bold16gold>무선 네트워크에서 프린터 찾을 수 없음</bold16gold><br /><body>설치 프로그램이 무선 네트워크에서 프린터를 찾을 수 없습니다.
+아래에서 현재 상황에 해당하는 링크를 누르십시오.</body></t00>
+<t00L1 type="content"><bodyLink>» 프린터는 무선 네트워크에 연결되었는데 설치 프로그램에서 프린터를 찾지 못하는 경우</bodyLink><br /></t00L1>
+<t00L2 type="content"><bodyLink>» 프린터를 무선 네트워크에 연결할 수 없는 경우</bodyLink><br /></t00L2>
+<t00L3 type="content"><bodyLink>» 무선 네트워크 기능이 지원되는지 확실치 않은 경우</bodyLink><br /></t00L3>
+<t00L4 type="content"><bodyLink>» 유선 네트워크에서 무선 네트워크로 프린터의 네트워크 연결을 변경합니다.</bodyLink><br /></t00L4>
+<t01 type="content"><bold16gold>네트워크에서 프린터 검색</bold16gold><br /><body>제품이 네트워크에 올바로 연결되었으면 IP 주소가 있습니다. 제품 구성 페이지를 인쇄해서 구성 페이지에 있는 IP 주소를 확인하십시오.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t01L1 type="content"><bodyLinkLine1>» 구성 페이지 인쇄 방법</bodyLinkLine1><br /><bodyLinkLine2 /></t01L1>
+<t01a type="content"><bold16gold>네트워크에서 프린터 검색</bold16gold><br /><body>설치 프로그램의 해당 입력란에 IP 주소를 직접 입력한 다음 계속해서 소프트웨어를 설치합니다.
+설치 프로그램이 네트워크에서 제품을 여전히 찾지 못하면 제품 검색을 차단하는 방화벽 소프트웨어가 설치되어 있는지 확인합니다. 방화벽 소프트웨어를 계속 사용하셔도 됩니다. 다만 방화벽이나 바이러스 차단 소프트웨어에서 HP 프로그램을 차단할 것인지 묻는 메시지가 표시되면 "계속", "해제" 또는 "허용"을 선택하여 HP 프로그램이 방화벽 하에서도 실행되도록 합니다. 설치 프로그램을 차단할 경우 설치 작업이 실패할 수 있습니다.
+보안 소프트웨어가 검색을 차단하고 있는 경우가 아니라면 해당 프린터 제품이 사용자의 컴퓨터가 아닌 다른 하위 네트워크에 연결되었을 수도 있습니다. 도움이 필요하면 네트워크 운영자에게 문의하십시오.</body></t01a>
+<t02 type="content"><bold16gold>무선 네트워크에서 프린터 설정</bold16gold><br /><body>프린터 전원이 켜져 있고 사용할 수 있는 <bold12>준비</bold12> 상태인지 확인하십시오.</body></t02>
+<t03 type="content"><bold16gold>무선 네트워크에서 프린터 설정</bold16gold><br /><body>우선 WPS(Wi-Fi Protected Setup)을 통해 무선 네트워크 연결을 설정해보고 실패할 경우 <bold12>USB 무선 설정</bold12>으로 연결해 보십시오. USB 설정을 실패한 경우 아래 <bold12>계속</bold12>을 누릅니다.</body></t03>
+<t04 type="content"><bold16gold>무선 네트워크에서 프린터 설정</bold16gold><br /><body><bold12>주:</bold12><bold12>USB 무선 설정</bold12>을 실패한 경우에만 이 지침을 따릅니다.
+무선 라우터를 사용하여 무선 네트워크가 활성화 되어있는지 확인합니다.</body></t04>
+<t05 type="content"><bold16gold>무선 네트워크에서 프린터 설정</bold16gold><br /><body>대부분의 최신 무선 라우터는 WPS(Wi-Fi Protected Setup) 버튼이 있습니다. 이 버튼을 누르면 WPS 지원 무선 제품에 액세스할 수 있습니다.
+사용자의 무선 라우터가 WPS를 지원하는지 확인하십시오.</body></t05>
+<t06 type="content"><bold16gold>무선 네트워크에서 프린터 설정</bold16gold><br /><body>프린터의 디스플레이 유형을 확인합니다. 아래의 <bold12>터치스크린</bold12>, <bold12>2회선</bold12> 또는 <bold12>디스플레이 사용 안 함</bold12>을 누릅니다.</body></t06>
+<t06L01 type="content"><bodyLink>» 터치스크린</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» 2회선</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» 디스플레이 사용 안 함</bodyLink></t06L03>
+<t07 type="content"><bold16gold>전원 연결</bold16gold><br /><body><bold12>주:</bold12> 포장 테이프와 고정 장치를 모두 제거하십시오. 용지가 용지함에 들어 있는지 확인합니다.
+전원 코드를 AC 콘센트에 꽂고 전원 버튼을 누르면 <bold12>켜짐</bold12>에 불이 들어옵니다.</body></t07>
+<t08 type="content"><bold16gold>USB 무선 설정</bold16gold><br /><body>1. 설치 프로그램의 <bold12>뒤로</bold12> 버튼을 클릭하여 "무선 설정 방법 선택"을 수행하는 화면으로 이동합니다.
+2. <bold12>USB 무선 설정</bold12>을 선택하고 <bold12>다음</bold12>을 누릅니다. 화면에 표시된 지침을 따릅니다.</body></t08>
+<t09 type="content"><bold16gold>무선 네트워크 및 라우터를 사용하고 있는지 확인하십시오.</bold16gold><br /><body>"무선 네트워크"란 네트워크 케이블을 사용하지 않고 컴퓨터와 프린터를 네트워크 라우터에 연결한 컴퓨터 네트워크를 말합니다. 집이나 소규모 사무실에서 주로 사용하는 DSL 모뎀이나 케이블 모뎀도 이 무선 라우터입니다. DSL 또는 케이블 모뎀을 통해 인터넷에 연결하는 경우 무선 네트워크를 사용하는 것처럼 사용자의 컴퓨터를 무선 모뎀에 연결할 수 있습니다.
+그러나 케이블을 통해 사용자의 컴퓨터를 모뎀 또는 라우터에 연결하는 경우에는 무선 라우터나 무선 네트워크를 사용할 수 없습니다. 하지만 무선 네트워크 사용을 미리 포기할 필요는 없습니다. 몇 가지 작업을 수행하시면 무선 네트워크를 계속 사용할 수 있습니다.
+<bold12>주:</bold12> 무선 마우스 또는 무선 키보드와 같은 Bluetooth™ 부속품을 사용한다고 해서 무선 네트워크를 사용한다고 말할 수 없습니다. 이러한 Bluetooth 부속품은 무선 네트워크에 연결할 필요가 없습니다. 더 좋은 방법은 컴퓨터가 인터넷에 연결할 때마다 전화 접속 서비스를 사용하지 않고 연결하는 것입니다. (전화 접속 인터넷을 사용하는 경우에는 무선 네트워크를 사용할 수 없습니다.)
+<bold12>주:</bold12> 랩톱 컴퓨터나 모바일 컴퓨터, 특히 "넷북"은 항상 케이블 없이 인터넷을 사용할 수 있습니다. 그러나 이러한 컴퓨터들이 항상 로컬 무선 라우터를 사용하는 것은 아닙니다.
+사용하고 있는 네트워크가 로컬 무선 라우터 기반인지 확실치 않은 경우에는 아래 <bold12>계속</bold12>을 누릅니다.</body></t09>
+<t11 type="content"><bold16gold>WPS를 사용하여 연결</bold16gold><br /><body>라우터 WPS 버튼을 누르고 프린터 WPS 버튼을 누르십시오. 프린터 디스플레이가 터치스크린인 경우 WPS 버튼은 <bold12>무선 메뉴</bold12>에 있습니다. 두 개의 장치가 서로 인식되면 아래 <bold12>다음</bold12>을 누릅니다.</body></t11>
+<t14 type="content"><bold16gold>터치스크린 디스플레이를 사용하여 무선 설정</bold16gold><br /><body>디스플레이에서 <bold12>무선 메뉴</bold12> 버튼을 누른 다음 <bold12>무선 설정 마법사</bold12>를 누릅니다. 다음 지침을 따릅니다.
+<bold12>주:</bold12> 네트워크가 보안 네트워크인 경우 네트워크 이름(SSID) 외에 암호(WEP 키 또는 WPA 패스구문)를 알아야 합니다.</body></t14>
+<t14a type="content"><body>프린터가 무선 네트워크에 성공적으로 연결되면 아래 <bold12>다음</bold12>을 누릅니다.
+프린터가 계속 무선 네트워크에 연결되지 않는 경우에는 <bold12>EWS를 통한 무선 설정</bold12>을 참조하십시오.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t14L01 type="content"><bodyLinkLine1>» 네트워크 이름 및 암호 확인</bodyLinkLine1><br /><bodyLinkLine2 /></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t14L02 type="content"><bodyLinkLine1>» EWS를 통한 무선 설정</bodyLinkLine1><br /><bodyLinkLine2 /></t14L02><note01 type="content"><note>네트워크 이름(SSID) 및 암호(WEP 키 또는 WPA 패스구문)를 잘 모를 경우에는 사용자의 컴퓨터 네트워크 및 공유 센터에 표시되어 있을 수 있습니다.
+라우터 및 내장 웹 서버(EWS)에 표시된 경우도 있습니다. 라우터 IP 주소는 라우터와 함께 제공된 문서에 나와 있습니다. 라우터의 EWS를 열려면 컴퓨터 브라우저 주소 필드에 IP 주소를 입력합니다.</note></note01>
+<t16 type="content"><bold16gold>EWS를 통한 무선 설정</bold16gold><br /><body>네트워크 케이블을 통해 프린터와 라우터를 연결해주는 유선 네트워크 연결을 먼저 설정하지 않으면 무선 연결을 설정할 수 없습니다.
+<bodyNumList>1. 네트워크 케이블을 프린터 및 라우터에 연결합니다.
+2. 라우터에서 프린터에 IP 주소를 할당할 때까지 몇 분 기다린 후 프린터 메뉴의 <bold12>보고서</bold12>에서 네트워크 보고서 및 구성 페이지를 인쇄합니다. 이 페이지에서 프린터 IP 주소를 확인합니다.
+3. 웹 브라우저를 열고 주소란에 이 프린터IP 주소를 입력한 다음 <bold12>Enter</bold12>를 누릅니다. 프린터 내장 웹 서버(EWS)는 웹 브라우저로 열립니다. EWS가 열리지 않는 경우 프린터가 컴퓨터가 아닌 다른 하위 네트워크에 연결되었을 수 있습니다.
+4. EWS에서 <bold12>네트워킹</bold12> 탭으로 이동한 다음 <bold12>무선 구성</bold12>을 누릅니다.
+5. <bold12>활성화</bold12> 버튼을 누릅니다. 그런 다음 <bold12>기존 무선 네트워크 연결</bold12>을 누릅니다.
+6. 사용 가능한 무선 네트워크 목록이 표시됩니다. 연결할 네트워크를 클릭합니다.
+7. 선택한 네트워크가 이름 없는 네트워크인 경우 <bold12>네트워크 이름 입력</bold12> 버튼을 누른 다음 네트워크 이름(SSID)을 입력합니다.
+8. 네트워크에서 WEP 키 또는 WPA 패스구문을 요구하는 경우 입력란에 올바른 키 또는 패스구문을 입력합니다.
+9. 페이지 하단에 있는 <bold12>적용</bold12>을 누릅니다.
+10. 프린터에서 설정을 저장하는 동안 잠시 기다린 후 프린터에서 네트워크 케이블을 분리합니다. 프린터를 네트워크에 무선으로 연결합니다.</bodyNumList></body></t16><!-- t14L02 flows here-->
+<t17 type="content"><bold16gold>설치 프로그램으로 돌아가기</bold16gold><br /><bodyNumList>1. 프린터에 연결된 USB 케이블이 없는지 확인합니다. 소프트웨어 설치 프로그램에서 "연결 유형"을 선택하라는 화면이 나타날 때까지 <bold12>뒤로</bold12> 버튼을 누릅니다.
+2. <bold12>무선 네트워크를 통해 연결</bold12>을 누른 후 <bold12>다음</bold12>을 누릅니다.
+3. 설치 프로그램이 네트워크에서 프린터를 찾습니다. 프린터가 검색되면 계속해서 소프트웨어 설치가 진행됩니다. </bodyNumList></t17>
+<t18 type="content"><bold16gold>네트워크 보고서 인쇄</bold16gold><br /><body>네트워크 보고서는 프린터의 무선 네트워크 연결을 방해하는 몇 가지 충돌 사항을 보여줍니다.
+네트워크 보고서를 인쇄하려면 프린터 제어판에서 <bold12>무선 메뉴</bold12>로 이동하여 <bold12>네트워크 테스트 실행</bold12>을 선택합니다. 보고서의 다음 지침을 따릅니다. 충돌이 해결되면 아래의 <bold12>다음</bold12>을 누릅니다.</body></t18>
+<t19 type="content"><bold16gold>기본 설정으로 복원하고 다시 설치</bold16gold><br /><body><bold12>주:</bold12> 계속하기 전에 프린터에 네트워크 케이블이 연결되지 않았는지 확인하십시오.
+프린터의 네트워크 설정을 초기 기본 설정으로 복원한 후 다시 설치하는 것이 좋습니다.
+<bodyNumList>1. USB 케이블이 프린터에 연결되어 있으면 프린터에서 USB 케이블을 분리합니다.
+2. 프린터 제어판의 <bold12>설정 메뉴</bold12>로 이동합니다.
+3. <bold12>네트워크 설정</bold12>을 선택합니다.
+4. <bold12>기본값 복원</bold12>을 선택합니다.
+5. 소프트웨어 설치 프로그램에서 "무선 설정 방법 선택" 화면이 나타날 때까지 <bold12>뒤로</bold12> 버튼을 누릅니다.
+6. 설정 방법을 선택하고 다음 지침을 따릅니다.</bodyNumList></body></t19><guideButt type="content"><butt11>사용 설명서</butt11></guideButt><backButt type="content"><butt11>뒤로</butt11></backButt><showButt type="content"><butt11>표시</butt11></showButt><nextButt type="content"><butt11>다음</butt11></nextButt><contButt type="content"><butt11>계속</butt11></contButt><exitButt type="content"><butt11>종료</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS가 작동하지 않음</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>성공/다음</butt11></successNextButt><failedTSbutt type="content"><butt11>실패/문제 해결</butt11></failedTSbutt><noWPSradio type="content"><radioButt>WPS 지원 안 됨</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>WPS 지원</radioButt></yesWPSradio>
+<tx00 type="content"><bold16gold>구성 페이지 인쇄</bold16gold><br /><body>프린터에서 제어판 유형을 선택하십시오.</body></tx00>
+<tx00L01 type="content"><bodyLink>» 텍스트(소형)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» 터치스크린(소형)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» 디스플레이 사용 안 함</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» 텍스트(대형)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» 터치스크린(대형)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] -->
+<tx101 type="content"><bodyNumList>1. 프린터에 설정 메뉴 버튼(A)이 있는 경우 설정 메뉴 버튼을 누릅니다. 프린터에 설정 메뉴 버튼이 없는 경우 다음 단계로 이동합니다.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. 화살표 버튼(B)을 사용하여 <bold12>보고서</bold12>로 이동한 다음 <bold12>OK</bold12> 버튼(C)을 누릅니다.</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. 화살표 버튼을 사용하여 <bold12>구성 보고서</bold12>로 이동한 다음 <bold12>OK</bold12> 버튼을 누릅니다.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. 구성 보고서가 인쇄됩니다. IP 주소는 IPv4 또는 IPv6으로 표시됩니다.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] -->
+<tx201 type="content"><body>이 유형의 제어판을 사용하는 경우 IP 주소가 디스플레이에 표시됩니다.
+<br /><li>프린터가 네트워크 케이블을 통해 네트워크에 연결되어 있는 경우 시작 화면에서 네트워크 버튼을 눌러 IP 주소를 확인할 수 있습니다. IP 주소가 표시되지 않으면 프린터가 네트워크와 통신하고 있지 않은 것입니다. 케이블 연결 상태를 다시 확인하십시오.
+프린터가 무선으로 네트워크에 연결되어 있는 경우 시작 화면에서 무선 버튼(B)을 눌러 IP 주소를 확인할 수 있습니다. IP 주소가 표시되지 않으면 제어판 디스플레이의 지시를 따르십시오.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] -->
+<tx301 type="content"><body>버튼은 있지만 디스플레이가 없는 프린터의 경우 구성 페이지를 인쇄하는 버튼 또는 버튼 조합이 다를 수 있습니다.</body><br /><bodyNumList>1. 프린터에 취소 버튼(A)만 있는 경우 취소 버튼을 2-3초 동안 길게 누릅니다. 구성 페이지가 인쇄되지 않으면 다음 단계로 이동하십시오.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. 프린터에 취소 버튼(A)과 재시작 버튼(B)이 있는 경우 두 버튼을 2초 동안 길게 누릅니다. 프린터에 재시작 버튼(B)만 있는 경우 취소 버튼을 2-3초 동안 길게 누릅니다. 구성 페이지가 인쇄되지 않으면 다음 단계로 이동하십시오.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. 구성 페이지가 인쇄되지 않는 경우, 현지 지원 센터에 문의하시기 바랍니다.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>이 유형의 제어판을 사용하는 경우 IP 주소가 <bold12>준비</bold12> 화면의 디스플레이에 표시됩니다. IP 주소가 <bold12>준비</bold12> 화면에 표시되지 않는 경우 프린터의 네트워크 연결 상태를 확인하십시오.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>이 유형의 제어판을 사용하는 경우 IP 주소가 디스플레이에 표시됩니다.</body><br /><bodyNumList>1. 시작 화면에서 <bold12>네트워크 주소</bold12> 버튼(A)을 눌러 IP 주소를 확인합니다. IP 주소가 표시되지 않으면 프린터가 네트워크와 통신하고 있지 않은 것입니다. 네트워크 연결 상태를 다시 확인하십시오.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» 도움말 계속 보기</bodyLinkLine1></txCont><cpstring01 type="content"><p>보고서</p></cpstring01><cpstring02 type="content"><p>구성 보고서</p></cpstring02><cpstring03 type="content"><p>준비</p></cpstring03><cpstring04 type="content"><p>네트워크 주소</p></cpstring04></ko></document>

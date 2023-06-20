@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document><sv>
+<title type="content"><title>Hjälp om skrivare</title></title>
+<t00 type="content"><bold16gold>Skrivaren finns inte i det trådlösa nätverket</bold16gold><br/><body>Installationsprogrammet hittar inte skrivaren i det trådlösa nätverket.
+Klicka på den länk nedan som bäst beskriver din situation:</body></t00>
+<t00L1 type="content"><bodyLink>» Min skrivare är ansluten till ett trådlöst nätverk men installationsprogrammet kan inte hitta den.</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» Det går inte att ansluta min skrivare till det trådlösa nätverket.</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» Jag är osäker på om jag har ett trådlöst nätverk.</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» Jag håller på att byta från trådbunden till trådlös nätverksanslutning för min skrivare.</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>Hitta skrivaren på nätverket</bold16gold><br/><body>Om produkten har anslutits till nätverket på rätt sätt ska den ha en IP-adress. Skriv ut en konfigurationssida för produkten och leta reda på IP-adressen på sidan.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» Så här skriver du ut en konfigurationssida</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>Hitta skrivaren på nätverket</bold16gold><br/><body>Ange IP-adressen manuellt i rätt ruta i installationsprogrammet och fortsätt installera programmet.
+Om installationsprogrammet fortfarande inte hittar produkten på nätverket kan det bero på att ett brandväggsprogram hindrar att produkten hittas. HP rekommenderar att du aktiverar brandväggsprogrammet. Låt dock alla HP-program fortsätta genom att välja Fortsätt eller Ta bort blockering eller Tillåt vid uppmaning i brandväggs- eller antivirusprogrammet. Om en installation blockeras kan det leda till att den misslyckas.
+Om ett säkerhetsprogram inte blockerar enheter kan det bero på att produkten har anslutits till ett annat undernätverk än det som din dator är ansluten till. Kontakta nätverksadministratören för ytterligare hjälp.</body></t01a>
+<t02 type="content"><bold16gold>Ställa in skrivaren för ett trådlöst nätverk</bold16gold><br/><body>Kontrollera att produkten är påslagen och att <bold12>Redo</bold12> anges.</body></t02>
+<t03 type="content"><bold16gold>Ställa in skrivaren för ett trådlöst nätverk</bold16gold><br/><body>Om du redan har försökt att ställa in anslutningen till det trådlösa nätverket via WPS (Wi-Fi Protected Setup) utan att lyckas, kan du pröva med <bold12>USB-installation av trådlöst nätverk</bold12>. Om USB-installationen misslyckas klickar du på <bold12>Fortsätt</bold12> nedan.</body></t03>
+<t04 type="content"><bold16gold>Ställa in skrivaren för ett trådlöst nätverk</bold16gold><br/><body><bold12>Obs!</bold12> Följ dessa instruktioner bara om du har prövat med <bold12>USB-installation av trådlöst nätverk</bold12> utan att lyckas.
+Bekräfta att du har ett aktivt trådlöst nätverk med en trådlös router.</body></t04>
+<t05 type="content"><bold16gold>Ställa in skrivaren för ett trådlöst nätverk</bold16gold><br/><body>På de flesta nyare trådlösa routrar hittar du en WPS-knapp (Wi-Fi Protected Setup) någonstans på routern. När du trycker på denna knapp ger det åtkomst för trådlösa produkter som även har stöd för WPS.
+Kontrollera om din trådlösa router har stöd för WPS.</body></t05>
+<t06 type="content"><bold16gold>Ställa in skrivaren för ett trådlöst nätverk</bold16gold><br/><body>Ange vilken typ av teckenskärm skrivaren har. Klicka på <bold12>Pekskärm</bold12>, <bold12>Två rader</bold12> eller <bold12>Ingen skärm</bold12> nedan.</body></t06>
+<t06L01 type="content"><bodyLink>» Pekskärm</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» Två rader</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» Ingen skärm</bodyLink></t06L03>
+<t07 type="content"><bold16gold>Slå på produkten</bold16gold><br/><body><bold12>Obs!</bold12> Se till att all förpackningstejp och alla transportlås har tagits bort. Se till att det finns papper i pappersfacket.
+Anslut nätsladden mellan produkten och ett jordat eluttag och tryck produktens strömknapp till läget <bold12>På</bold12>.</body></t07>
+<t08 type="content"><bold16gold>USB-installation av trådlöst nätverk</bold16gold><br/><body>1. Klicka på knappen <bold12>Bakåt</bold12> i installationsprogrammet och gå till skärmen med instruktionen "Välj en trådlös installationsmetod."
+2. Välj <bold12>USB-installation av trådlöst nätverk</bold12> och klicka på <bold12>Nästa</bold12>. Följ instruktionerna på skärmen.</body></t08>
+<t09 type="content"><bold16gold>Avgöra om du har ett trådlöst nätverk och en trådlös router</bold16gold><br/><body>Ett &quot;trådlöst nätverk&quot; är ett datornätverk där datorer och skrivare är anslutna till en nätverksrouter utan att nätverkskablar används. I många hem och små kontor kan DSL- eller kabelmodem även vara en trådlös router. Om du ansluter till Internet via ett DSL- eller kabelmodem och om datorn är trådlöst ansluten till modemet, är det troligt att du har ett trådlöst nätverk.
+Om datorn däremot är ansluten till ett modem eller en router via en kabel, har du antagligen inte en trådlös router eller ett trådlöst nätverk. Vi rekommenderar dock att du fortsätter innan du avgör om du har ett trådlöst nätverk eller inte.
+<bold12>Obs!</bold12> Användning av Bluetooth™-tillbehör, t.ex. en trådlös mus eller ett trådlöst tangentbord, betyder inte att du har ett trådlöst nätverk. Sådana Bluetooth-tillbehör varken kräver eller utgör ett trådlöst nätverk. Ett bättre sätt att avgöra är om du alltid är ansluten till Internet på din dator – utan att använda en uppringningstjänst. (Om du har en uppringningsanslutning till Internet är det troligt att du inte har ett trådlöst nätverk.)
+<bold12>Obs!</bold12> Med bärbara eller mobila datorer, särskilt Netbook-datorer, kan du alltid vara ansluten till Internet utan kabel, men det innebär inte alltid att sådana datorer är anslutna till en lokal trådlös router.
+Om du fortfarande undrar om du har ett nätverk baserat på en lokal, trådlös router, klickar du på <bold12>Fortsätt</bold12> nedan.</body></t09>
+<t11 type="content"><bold16gold>Ansluta med WPS</bold16gold><br/><body>Tryck på knappen WPS på routern och sedan på skrivaren. Om skrivaren har en pekskärm finns WPS-knappen i <bold12>Menyn Trådlöst</bold12>. När de båda enheterna känner igen varandra klickar du på <bold12>Nästa</bold12> nedan.</body></t11>
+<t14 type="content"><bold16gold>Trådlös installation med en pekskärm</bold16gold><br/><body>På skärmen pekar du på knappen <bold12>Menyn Trådlöst</bold12> och sedan på <bold12>Inställningsguide för trådlöst</bold12>. Följ instruktionerna.
+<bold12>Obs!</bold12> Du måste känna till nätverksnamnet (SSID) och lösenordet (WEP-nyckel eller WPA-lösenord) om nätverket är skyddat.</body></t14>
+<t14a type="content"><body>Om skrivaren ansluts till det trådlösa nätverket klickar du på <bold12>Nästa</bold12> nedan.
+Om du fortfarande inte kan ansluta skrivaren till det trådlösa nätverket läser du <bold12>Trådlös installation via EWS</bold12>.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» Hitta nätverkets namn och lösenord</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» Trådlös installation via EWS</bodyLinkLine1><br/><bodyLinkLine2/></t14L02><note01 type="content"><note>Om du inte känner till nätverkets namn (SSID) och lösenord (WEP-nyckel eller WPA-lösenord) kan du eventuellt hitta dem i din dators Nätverks- och delningscenter.
+Det kan även hända att de visas i routerns inbyggda webbserver, EWS (Embedded Web Server). Leta reda på routerns IP-adress i dokumentationen som följde med routern. Om du vill öppna routerns EWS anger du IP-adressen i adressfältet i en webbläsare på din dator.</note> 
+</note01>
+<t16 type="content"><bold16gold>Trådlös installation via EWS</bold16gold><br/><body>Vid det här laget går det bara att upprätta en trådlös anslutning om du först upprättar en trådbunden nätverksanslutning genom att ansluta skrivaren till routern med en nätverkskabel.
+<bodyNumList>1. Anslut en nätverkskabel till skrivaren och till routern.
+2. Vänta några minuter tills skrivaren har mottagit en IP-adress från routern och skriv sedan ut en nätverksrapport eller konfigurationssida via menyn <bold12>Rapporter</bold12> på skrivaren. Leta reda på skrivarens IP-adress på sidan.
+3. Öppna en webbläsare och ange skrivarens IP-adress i adressrutan (och tryck på <bold12>Enter</bold12>). Skrivarens inbyggda webbserver (EWS) bör nu öppnas i webbläsaren. Om EWS inte öppnas är skrivaren antagligen ansluten till ett annat undernätverk än det som datorn är ansluten till.
+4. I EWS går du till fliken <bold12>Nätverk</bold12> och klickar på <bold12>Trådlös konfiguration</bold12>.
+5. Klicka på knappen <bold12>Aktiverad</bold12>. Klicka sedan på <bold12>Anslut till befintligt trådlöst nätverk</bold12>.
+6. En lista med tillgängliga trådlösa nätverk visas. Klicka på det nätverk som du vill ansluta till.
+7. Om det valda nätverket indikerar att det saknar namn klickar du på knappen <bold12>Ange ett nätverksnamn</bold12> och anger nätverksnamnet (SSID) i textrutan.
+8. Om nätverket kräver en WEP-nyckel eller ett WPA-lösenord anger du rätt nyckel eller lösenord i textrutan.
+9. Klicka på <bold12>Verkställ</bold12> längst ned på sidan.
+10. Vänta i tio minuter medan inställningarna på skrivaren sparas och ta sedan bort nätverkskabeln från skrivaren. Skrivaren försöker upprätta en trådlös anslutning till nätverket.</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>Återgå till installationsprogrammet</bold16gold><br/><bodyNumList>1. Se till att ingen USB-kabel är ansluten till skrivaren. I installationsprogrammet klickar du på knappen <bold12>Bakåt</bold12> tills du kommer till skärmen där du ombads välja "Anslutningstyp."
+2. Välj <bold12>Via ett trådlöst nätverk</bold12> och klicka på <bold12>Nästa</bold12>.
+3. Installationsprogrammet söker efter skrivaren på nätverket. När skrivaren har hittats fortsätter du med att installera programmet. </bodyNumList></t17>
+<t18 type="content"><bold16gold>Skriva ut en nätverksrapport</bold16gold><br/><body>En nätverksrapport kan visa eventuella problem som hindrar att skrivaren ansluts till det trådlösa nätverket.
+Om du vill skriva ut en nätverksrapport går du till <bold12>Menyn Trådlöst</bold12> på skrivarens kontrollpanel och väljer <bold12>Kör nätverkstest</bold12>. Följ instruktionerna i rapporten. Klicka på <bold12>Nästa</bold12> nedan när du har åtgärdat problemet.</body></t18>
+<t19 type="content"><bold16gold>Återställa standardinställningar och installera om</bold16gold><br/><body><bold12>Obs!</bold12> Se till att INGEN nätverkskabel är ansluten till skrivaren innan du fortsätter.
+HP rekommenderar att du återställer skrivarens nätverksinställningar till fabriksinställningarna och sedan försöker göra om installationen.
+<bodyNumList>1. Om en USB-kabel är ansluten till skrivaren drar du ut den från skrivaren.
+2. På skrivarens kontrollpanel går du till <bold12>Menyn Inställningar</bold12>.
+3. Välj <bold12>Nätverksinställningar</bold12>.
+4. Välj <bold12>Återställ standardinställn.</bold12>.
+5. I installationsprogrammet klickar du på knappen <bold12>Bakåt</bold12> tills du kommer till skärmen där du ombeds välja "Välj en trådlös installationsmetod".
+6. Välj den installationsmetod du vill använda och följ instruktionerna på vanligt sätt.</bodyNumList></body></t19><guideButt type="content"><butt11>Vägledning</butt11></guideButt><backButt type="content"><butt11>Bakåt</butt11></backButt><showButt type="content"><butt11>Visa mig</butt11></showButt><nextButt type="content"><butt11>Nästa</butt11></nextButt><contButt type="content"><butt11>Fortsätt</butt11></contButt><exitButt type="content"><butt11>Avsluta</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS fungerar inte</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>Utfört/Nästa</butt11></successNextButt><failedTSbutt type="content"><butt11>Misslyckades/Felsök</butt11></failedTSbutt><noWPSradio type="content"><radioButt>Ej WPS-stöd</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>WPS-stöd</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>Skriv ut en konfigurationssida</bold16gold><br/><body>Välj kontrollpanelstyp på skrivaren:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Endast text (liten)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Pekskärm (liten)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Ingen skärm</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Endast text (stor)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Pekskärm (stor)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. Tryck på knappen för inställningsmenyn (A) om den finns på skrivaren. Om knappen för inställningsmenyn inte finns på skrivaren fortsätter du till nästa steg.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Använd pilknapparna (B) för att navigera till <bold12>Rapporter</bold12> och tryck på knappen <bold12>OK</bold12> (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Använd pilknapparna för att navigera till <bold12>Konfig.rapport</bold12> och tryck på knappen <bold12>OK</bold12>.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. En konfigurationsrapport skrivs ut. IP-adressen är IPv4 eller IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>Med denna typ av kontrollpanel visas IP-adressen på displayen:
+<br/><li>Om skrivaren är ansluten till nätverket via en nätverkskabel trycker du på knappen Nätverk (A) på startskärmen så visas IP-adressen. Om IP-adressen inte visas finns det ingen kommunikation mellan skrivaren och nätverket. Kontrollera kabelanslutningarna igen.
+Om skrivaren är trådlöst ansluten till nätverket trycker du på knappen Trådlöst (B) på startskärmen så visas IP-adressen. Om IP-adressen inte visas följer du instruktionerna på kontrollpanelens display.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>På skrivare med knappar men utan display kan knappen eller knappkombinationen för utskrift av en konfigurationssida variera.</body><br/><bodyNumList>1. Om endast knappen Avbryt (A) finns på skrivaren håller du den nedtryckt några sekunder. Om ingen konfigurationssida skrivs ut fortsätter du till nästa steg.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Om knappen Avbryt (A) och knappen Återuppta (B) finns på skrivaren håller du båda knapparna nedtryckta samtidigt under två sekunder. Om ingen konfigurationssida skrivs ut trycker du endast på knappen Återuppta (B) under några sekunder. Om ingen konfigurationssida skrivs ut fortsätter du till nästa steg.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Om det inte går att skriva ut en konfigurationssida, kontaktar du den lokala supporten.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Med denna typ av kontrollpanel kan du se IP-adressen på displayen i fönstret <bold12>Redo</bold12>: Om ingen IP-adress visas i fönstret <bold12>Redo</bold12> kontrollerar du skrivarens nätverksanslutning.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Med denna typ av kontrollpanel visas IP-adressen på displayen.</body><br/><bodyNumList>1. Tryck på knappen <bold12>Nätverksadress</bold12> (A) på startskärmen så visas IP-adressen. Om IP-adressen inte visas finns det ingen kommunikation mellan skrivaren och nätverket. Kontrollera kablarna och nätverksanslutningen igen.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Fortsätt med hjälpen</bodyLinkLine1></txCont><cpstring01 type="content"><p>Rapporter</p></cpstring01><cpstring02 type="content"><p>Konfig.rapport</p></cpstring02><cpstring03 type="content"><p>Redo</p></cpstring03><cpstring04 type="content"><p>Nätverksadress</p></cpstring04></sv></document>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document><cs>
+<title type="content"><title>Nápověda k tiskárně</title></title>
+<t00 type="content"><bold16gold>Tiskárna nebyla nalezena v bezdrátové síti</bold16gold><br/><body>Instalační program nemůže tiskárnu najít v bezdrátové síti.
+Níže klikněte na odkaz, který situaci popisuje nejlépe:</body></t00>
+<t00L1 type="content"><bodyLink>» Tiskárna je připojena k bezdrátové síti, ale instalační program ji nemůže najít.</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» Tiskárna se nedokázala připojit k bezdrátové síti.</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» Nevím, jestli mám bezdrátovou síť.</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» Z pevného síťového připojení tiskárny přecházím na bezdrátové prostředí.</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>Zjištění tiskárny v síti</bold16gold><br/><body>Pokud je produkt správně připojen k síti, měl by mít adresu IP. Vytiskněte konfigurační stránku produktu a najděte na ní adresu IP.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» Tisk konfigurační stránky</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>Zjištění tiskárny v síti</bold16gold><br/><body>Před pokračováním v instalaci softwaru zadejte ručně adresu IP do příslušného pole instalačního programu.
+Pokud instalační program stále nemůže produkt v síti najít, ve zjištění produktu může bránit software brány firewall. Společnost HP doporučuje ponechat bránu firewall zapnutou. Abyste mohli pokračovat, je třeba povolit všechny programy HP tím, že na výzvu brány firewall nebo antivirového programu vyberete možnost "Pokračovat", "Odblokovat" nebo "Povolit". Blokování instalace může způsobit selhání tohoto procesu.
+Pokud bezpečnostní software zjišťování neblokuje, produkt může být připojen k podsíti z jiného počítače. O další pomoc požádejte správce sítě.</body></t01a>
+<t02 type="content"><bold16gold>Nastavení tiskárny v bezdrátové síti</bold16gold><br/><body>Ověřte, že je produkt zapnutý a indikuje stav <bold12>Připraveno</bold12>.</body></t02>
+<t03 type="content"><bold16gold>Nastavení tiskárny v bezdrátové síti</bold16gold><br/><body>Pokud jste se nejprve pokusili nastavit bezdrátové připojení pomocí standardu Wi-Fi Protected Setup (WPS) a proces selhal, zkuste možnost <bold12>Nastavení bezdrátového připojení pomocí USB</bold12>. Pokud se nastavení připojení přes rozhraní USB nezdaří, níže klikněte na možnost <bold12>Pokračovat</bold12>.</body></t03>
+<t04 type="content"><bold16gold>Nastavení tiskárny v bezdrátové síti</bold16gold><br/><body><bold12>Poznámka:</bold12> Podle těchto pokynů postupujte, jen pokud jste se neúspěšně pokusili o <bold12>nastavení bezdrátového připojení pomocí USB</bold12>.
+Ověřte, že máte aktivní bezdrátovou síť se směrovačem bezdrátové sítě.</body></t04>
+<t05 type="content"><bold16gold>Nastavení tiskárny v bezdrátové síti</bold16gold><br/><body>Většina novějších směrovačů bezdrátové sítě je vybavena tlačítkem WPS (Wi-Fi Protected Setup). Toto tlačítko umožňuje jednoduchý přístup pro bezdrátové produkty s podporou standardu WPS.
+Ověřte, zda směrovač bezdrátové sítě podporuje standard WPS.</body></t05>
+<t06 type="content"><bold16gold>Nastavení tiskárny v bezdrátové síti</bold16gold><br/><body>Určete typ displeje tiskárny. Níže klikněte na možnost <bold12>Dotykový</bold12>, <bold12>Dvouřádkový</bold12> nebo <bold12>Bez displeje</bold12>.</body></t06>
+<t06L01 type="content"><bodyLink>» Dotykový</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» Dvouřádkový</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» Bez displeje</bodyLink></t06L03>
+<t07 type="content"><bold16gold>Zapnutí produktu</bold16gold><br/><body><bold12>Poznámka:</bold12> Ověřte, že byla odstraněna veškerá balicí páska a přepravní západky. Ověřte, že v zásobníku papíru není papír.
+Připojte produkt napájecím kabelem k uzemněné elektrické zásuvce a potom stiskněte tlačítko napájení na produktu (stav <bold12>Zapnuto</bold12>).</body></t07>
+<t08 type="content"><bold16gold>Nastavení bezdrátového připojení pomocí USB</bold16gold><br/><body>1. Klikněte v instalačním programu na tlačítko <bold12>Zpět</bold12> a přejděte na obrazovku s pokynem "Vyberte metodu nastavení bezdrátové sítě."
+2. Vyberte možnost <bold12>Nastavení bezdrátového připojení pomocí USB</bold12>. Potom klikněte na možnost <bold12>Další</bold12>. Postupujte podle pokynů na obrazovce.</body></t08>
+<t09 type="content"><bold16gold>Určení přítomnosti bezdrátové sítě a směrovače</bold16gold><br/><body>Termín &quot;bezdrátová síť&quot; označuje počítačovou síť, ve které jsou počítače a tiskárny připojeny k síťovému směrovači bez použití síťových kabelů. V mnoha domácnostech a malých kancelářích slouží jako směrovač bezdrátové sítě také kabelový modem nebo modem DSL. Pokud se připojujete z počítače k Internetu pomocí kabelového modemu nebo modemu DSL bez použití kabelů (bezdrátově), bezdrátovou síť pravděpodobně máte.
+Pokud se však počítač připojuje k modemu nebo směrovači pomocí kabelu, je pravděpodobné, že směrovač bezdrátové sítě nebo bezdrátovou síť nevlastníte. Než definitivně určíte nepřítomnost bezdrátové sítě, doporučujeme pokračovat dál.
+<bold12>Poznámka:</bold12> Použití příslušenství s podporou rozhraní Bluetooth™, jako například bezdrátové myši či klávesnice, neznamená přítomnost bezdrátové sítě. Tato zařízení Bluetooth nevyžadují ani netvoří bezdrátovou síť. Lepším indikátorem je trvalý přístup počítače k Internetu (přístup bez použití vytáčeného připojení). (Pokud používáte vytáčené připojení k Internetu, bezdrátovou síť pravděpodobně nemáte.)
+<bold12>Poznámka:</bold12> Laptopy nebo mobilní počítače, obzvláště pak &quot;netbooky,&quot; mohou mít trvalý přístup k Internetu bez kabelů, ale přítomnost takových zařízení nemusí nutně znamenat přítomnost místního směrovače bezdrátové sítě.
+Pokud si stále nejste jisti, zda máte síť založenou na směrovači bezdrátové sítě, níže klikněte na tlačítko <bold12>Pokračovat</bold12>.</body></t09>
+<t11 type="content"><bold16gold>Připojení pomocí standardu WPS</bold16gold><br/><body>Stiskněte tlačítko WPS na směrovači a potom na tiskárně. Je-li tiskárna vybavena dotykovým displejem, tlačítko WPS bude v nabídce <bold12>Bezdrátové připojení</bold12>. Jakmile se tato zařízení vzájemně rozpoznají, níže klikněte na tlačítko <bold12>Další</bold12>.</body></t11>
+<t14 type="content"><bold16gold>Nastavení bezdrátové sítě pomocí dotykového displeje</bold16gold><br/><body>Na displeji stiskněte tlačítko <bold12>Bezdrátové připojení</bold12> a potom tlačítko <bold12>Průvodce nastavením bezdrátového připojení</bold12>. Postupujte podle pokynů.
+<bold12>Poznámka:</bold12> Jestliže se jedná o zabezpečenou síť, budete potřebovat název sítě (SSID) a heslo (klíč WEP nebo přístupové heslo WPA).</body></t14>
+<t14a type="content"><body>Pokud se tiskárna úspěšně připojí k bezdrátové síti, níže klikněte na tlačítko <bold12>Další</bold12>.
+Pokud se tiskárna stále nemůže k bezdrátové síti připojit, viz část <bold12>Připojení do bezdrátové sítě přes server EWS</bold12>.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» Zjištění názvu sítě a hesla</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» Připojení do bezdrátové sítě přes server EWS</bodyLinkLine1><br/><bodyLinkLine2/></t14L02><note01 type="content"><note>Pokud neznáte název sítě (SSID) a heslo (klíč WEP nebo přístupové heslo WPA), tyto položky mohou být uvedeny v počítači v okně Centrum síťových připojení a sdílení.
+Také mohou být zobrazeny v implementovaném webovém serveru (EWS) směrovače. Zjistěte adresu IP směrovače v dokumentaci dodané se směrovačem. Chcete-li otevřít server EWS směrovače, zadejte adresu IP do pole pro adresu v prohlížeči počítače.</note> 
+</note01>
+<t16 type="content"><bold16gold>Připojení do bezdrátové sítě přes server EWS</bold16gold><br/><body>V tomto okamžiku lze připojení do bezdrátové sítě navázat jen tak, že vytvoříte připojení do bezdrátové sítě připojením tiskárny ke směrovači pomocí síťového kabelu.
+<bodyNumList>1. Připojte síťový kabel k tiskárně a směrovači.
+2. Počkejte několik minut, dokud tiskárna nepřijme adresu IP ze směrovače. Potom vytiskněte stránku Sestava sítě nebo Konfigurační stránku z nabídky <bold12>Sestavy</bold12> tiskárny. Najděte na stránce adresu IP tiskárny.
+3. Spusťte webový prohlížeč a zadejte adresu IP tiskárny do pole pro adresu (a stiskněte klávesu <bold12>Enter</bold12>). V prohlížeči by se měl otevřít implementovaný webový server (EWS) tiskárny. Pokud se server EWS neotevře, tiskárna je pravděpodobně připojena k podsíti z jiného počítače.
+4. V serveru EWS přejděte na kartu <bold12>Připojení do sítě</bold12> a klikněte na možnost <bold12>Konfigurace bezdrátového připojení</bold12>.
+5. Klikněte na tlačítko <bold12>Povoleno</bold12>. Potom klikněte na možnost <bold12>Připojit se do stávající bezdrátové sítě</bold12>.
+6. Zobrazí se seznam dostupných bezdrátových sítí. Klikněte na síť, ke které se chcete připojit.
+7. Pokud vybraná síť indikuje, že nemá název, klikněte na tlačítko <bold12>Zadejte síťový název</bold12>. Potom zadejte do pole název sítě (SSID).
+8. Pokud síť vyžaduje klíč WEP nebo přístupové heslo WPA, zadejte do textového pole správný klíč nebo přístupové heslo.
+9. Ve spodní části stránky klikněte na tlačítko <bold12>Použít</bold12>.
+10. Počkejte minutu, aby se nastavení mohlo v tiskárně uložit. Potom odpojte síťový kabel od tiskárny. Tiskárna se pokusí o navázání bezdrátového připojení k síti.</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>Zpět do instalačního programu</bold16gold><br/><bodyNumList>1. Ověřte, že k tiskárně není připojen žádný kabel USB. V instalačním programu opakovaně klikněte na tlačítko <bold12>Zpět</bold12>, až se zobrazí obrazovka s pokynem k volbě "typu připojení."
+2. Vyberte možnost <bold12>Připojení prostřednictvím bezdrátové sítě</bold12> a potom klikněte na tlačítko <bold12>Další</bold12>.
+3. Instalační program vyhledá tiskárnu v síti. Jakmile bude tiskárna zjištěna, pokračujte v instalaci softwaru. </bodyNumList></t17>
+<t18 type="content"><bold16gold>Tisk sestavy sítě</bold16gold><br/><body>Sestava sítě může odhalit některé konflikty bránící tiskárně v připojení k bezdrátové síti.
+Chcete-li sestavu sítě vytisknout, přejděte na ovládacím panelu do nabídky <bold12>Bezdrátové připojení</bold12> a vyberte možnost <bold12>Spustit test sítě</bold12>. Postupujte podle pokynů v sestavě. Po vyřešení konfliktu klikněte na tlačítko <bold12>Další</bold12> níže.</body></t18>
+<t19 type="content"><bold16gold>Obnova výchozího nastavení a opakovaná instalace</bold16gold><br/><body><bold12>Poznámka:</bold12> Než budete pokračovat, ověřte, že k tiskárně není připojen ŽÁDNÝ síťový kabel.
+Společnost HP doporučuje obnovit výchozí nastavení sítě tiskárny od výrobce a potom zopakovat instalaci.
+<bodyNumList>1. Pokud je k tiskárně připojen kabel USB, odpojte jej.
+2. Na ovládacím panelu tiskárny přejděte k možnosti <bold12>Nabídka nastavení</bold12>.
+3. Vyberte možnost <bold12>Nastavení sítě</bold12>.
+4. Vyberte možnost <bold12>Obnovit výchozí</bold12>.
+5. V instalačním programu opakovaně klikejte na tlačítko <bold12>Zpět</bold12>, dokud se nezobrazí obrazovka s výzvou "Vyberte metodu nastavení bezdrátové sítě."
+6. Vyberte požadovanou metodu a postupujte podle pokynů obvyklým způsobem.</bodyNumList></body></t19><guideButt type="content"><butt11>Použít průvodce</butt11></guideButt><backButt type="content"><butt11>Zpět</butt11></backButt><showButt type="content"><butt11>Ukázat</butt11></showButt><nextButt type="content"><butt11>Další</butt11></nextButt><contButt type="content"><butt11>Pokračovat</butt11></contButt><exitButt type="content"><butt11>Konec</butt11></exitButt><WPSnotWorkButt type="content"><butt11>Metoda WPS nefunguje</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>Úspěch/Další</butt11></successNextButt><failedTSbutt type="content"><butt11>Neúspěch/Řešení problémů</butt11></failedTSbutt><noWPSradio type="content"><radioButt>Bez standardu WPS</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>Se standardem WPS</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>Tisk konfigurační stránky</bold16gold><br/><body>Vyberte typ ovládacího panelu tiskárny:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Pouze text (malý)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Dotykový (malý)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Bez displeje</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Pouze text (velký)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Dotykový (velký)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. Pokud je tiskárna vybavena tlačítkem Nabídka nastavení (A), stiskněte je. Pokud tiskárna není vybavena tlačítkem Nabídka nastavení, přejděte na následující krok.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Pomocí tlačítek se šipkami (B) přejděte na možnost <bold12>Sestavy</bold12> a poté stiskněte tlačítko <bold12>OK</bold12> (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Pomocí tlačítek se šipkami přejděte na možnost <bold12>Sestava konfigurace</bold12> a poté stiskněte tlačítko <bold12>OK</bold12>.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Vytiskne se sestava konfigurace. Adresa IP je uvedena ve formátu IPv4 nebo IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>U tohoto typu ovládacího panelu lze adresu IP zobrazit na displeji:
+<br/><li>Pokud je tiskárna připojena k síti prostřednictvím síťového kabelu, stiskněte na domovské obrazovce tlačítko Síť (A), abyste zobrazili adresu IP. Pokud se adresa IP nezobrazí, tiskárna nekomunikuje se sítí. Znovu zkontrolujte připojení kabelů.
+Pokud je tiskárna připojena k síti bezdrátově, stiskněte na domovské obrazovce tlačítko Bezdrátové připojení (B), abyste zobrazili adresu IP. Pokud se adresa IP nezobrazí, postupujte dle pokynů na displeji ovládacího panelu.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>U tiskáren s tlačítky, ale bez displeje, se tlačítko nebo kombinace tlačítek pro vytištění konfigurační stránky mohou lišit.</body><br/><bodyNumList>1. Pokud je tiskárna vybavena pouze tlačítkem Zrušit (A), stiskněte je a přidržte po dobu dvou až tří sekund. Pokud se konfigurační stránka nevytiskne, přejděte na další krok.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Pokud je tiskárna vybavena pouze tlačítkem Zrušit (A) a tlačítkem Obnovit (B), současně obě tato tlačítka stiskněte a přidržte po dobu dvou sekund. Pokud se konfigurační stránka nevytiskne, stiskněte pouze tlačítko Obnovit (B) po dobu dvou nebo tří sekund. Pokud se konfigurační stránka nevytiskne, přejděte na další krok.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Pokud se konfigurační stránka nevytiskne, kontaktujte místní podporu.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>U tohoto typu ovládacího panelu lze adresu IP zobrazit na displeji na obrazovce <bold12>Připraveno</bold12>: Pokud se na obrazovce <bold12>Připraveno</bold12> adresa IP nezobrazí, zkontrolujte připojení tiskárny k síti.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>U tohoto typu ovládacího panelu lze adresu IP zobrazit na displeji.</body><br/><bodyNumList>1. Stiskněte na domovské obrazovce tlačítko <bold12>Síťová adresa</bold12> (A), abyste zobrazili adresu IP. Pokud se adresa IP nezobrazí, tiskárna nekomunikuje se sítí. Znovu zkontrolujte připojení k síti.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Pokračovat v nápovědě</bodyLinkLine1></txCont><cpstring01 type="content"><p>SESTAVY</p></cpstring01><cpstring02 type="content"><p>SESTAVA KONF.</p></cpstring02><cpstring03 type="content"><p>Připraveno</p></cpstring03><cpstring04 type="content"><p>Síťová adresa</p></cpstring04></cs></document>

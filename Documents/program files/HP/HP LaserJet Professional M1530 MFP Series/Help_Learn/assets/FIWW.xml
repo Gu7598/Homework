@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Tee haku osoitteessa HP.com</span></text>
+	<text name="search">Hae</text>
+	<text name="close">Sulje</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP -sarja</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Ohje- ja oppimiskeskus</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Web-tuki</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Tavalliset työt</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Hallinta ja ylläpito</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Ongelman ratkaiseminen</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">PIKAHAKU</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Ohjauspaneelin painikkeet</span></text><text targetName="controlPanelMessages"><span class="white14">» Ohjauspaneelin viestit</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Värikasetin vaihtaminen</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Paperilokeroiden lataaminen</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Verkkotulostimen IP-osoitteen selvittäminen</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Faksin vianmäärityksen tarkistuslista</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+	</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Selaa käyttöopasta</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Tulostustehtävät </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Tulostustyön peruuttaminen</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Tulostinohjaimen avaaminen</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Tulostaminen molemmille puolille (kaksipuolinen tulostus)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Useiden sivujen tulostaminen arkille</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Tulostaminen erikoispaperille</span></text>		<text><span class="yellow12Bold">Kopiointitehtävät </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Useiden kopioiden tekeminen</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Kopioiden pienentäminen tai suurentaminen</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Henkilökorttien kopioiminen</span></text>
+		<text><span class="yellow12Bold">Skannaustehtävät </span></text>
+		<text targetName="scanADocument"><span class="white12">» Asiakirjan skannaaminen</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Skannauksen ulkoasun parantaminen</span></text>
+		<text><span class="yellow12Bold">Faksitehtävät </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Puhelinluettelon käyttäminen</span></text>
+		<text targetName="sendAFax"><span class="white12">» Faksin lähettäminen</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Myöhemmin lähetettävän faksin ajoittaminen</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Tallennetun faksin tulostaminen</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Faksien poistaminen muistista</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Tietosivujen tulostaminen</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Värikasetin vaihtaminen</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Puhdistussivun tulostaminen</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Skannaustason puhdistaminen</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Syöttötelan puhdistaminen</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Erotinlaatan puhdistaminen</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Faksiasetusten muuttaminen</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Ongelmanratkaisun tarkistusluettelo</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Paperitukoksen poistaminen</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Tukosten poistaminen asiakirjansyöttölaitteesta</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Ohjauspaneelin viestit</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Paperinkäsittelyn ongelmien ratkaiseminen</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Tulostuslaatuongelmien ratkaiseminen</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Kopiointilaatuongelmien ratkaiseminen</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Skannauslaatuongelmien ratkaiseminen</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Faksiongelmien ratkaiseminen</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Avaa tietokoneessa oleva käyttöopas.</span></text>
+			<text><span class="white14">tai</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Avaa uusin versio verkossa.</span></text>
+		</menuList>
+	</dialog>
+</document>

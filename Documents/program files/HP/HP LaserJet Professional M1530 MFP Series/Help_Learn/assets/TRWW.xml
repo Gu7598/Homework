@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» HP.com’da arama yapma</span></text>
+	<text name="search">Ara</text>
+	<text name="close">Kapat</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP Series</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Yardım ve Öğrenme Merkezi</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Web desteği</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Gündelik İşler</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Yönetme ve Bakımını Yapma</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Sorun Çözme</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">HIZLI BULMA</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Kontrol paneli düğmeleri</span></text><text targetName="controlPanelMessages"><span class="white14">» Kontrol paneli mesajları</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Yazdırma kartuşunu değiştirme</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Kağıt tepsilerini yükleme</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Ağdaki bir yazıcının IP adresini alma</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Faks sorun giderme kontrol listesi</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+	</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Kullanım Kılavuzuna Gözatma</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Yazdırma görevleri </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Yazdırma işini iptal etme</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Yazıcı sürücüsünü açma</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Her iki yüze yazdırma (dupleks)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Kağıt başına birden fazla sayfa yazdırma</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Özel kağıda yazdırma</span></text>		<text><span class="yellow12Bold">Kopyalama görevleri </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Birden çok kopya oluşturma</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Kopyaları küçültme veya büyütme</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Kimlik kartlarını kopyalama</span></text>
+		<text><span class="yellow12Bold">Tarama görevleri </span></text>
+		<text targetName="scanADocument"><span class="white12">» Belge tarama</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Taramamın daha iyi görünmesini sağlama</span></text>
+		<text><span class="yellow12Bold">Faks görevleri </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Telefon defterini kullanma</span></text>
+		<text targetName="sendAFax"><span class="white12">» Faks gönderme</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Bir faksı daha sonra göndermek için planlama</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Depolanan bir faksı yazdırma</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Bellekteki faksları silme</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Bilgi sayfalarını yazdırma</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Yazdırma kartuşunu değiştirme</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Temizleme sayfası yazdırma</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Tarayıcı camını temizleme</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Kağıt alma silindirini temizleme</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Ayırma dolgusunu temizleme</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Faks ayarlarını değiştirme</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Sorun çözme denetim listesi</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Kağıt sıkışmasını giderme</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Belge besleyicideki sıkışmaları giderme</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Kontrol paneli mesajları</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Kağıt işleme sorunlarını giderme</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Baskı kalitesi sorunlarını çözme</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Kopya kalitesi sorunlarını çözme</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Tarama kalitesi sorunlarını çözme</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Faks sorunlarını çözme</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Kullanım kılavuzunu bilgisayarımda aç.</span></text>
+			<text><span class="white14">Veya</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Web’deki son sürümü aç.</span></text>
+		</menuList>
+	</dialog>
+</document>

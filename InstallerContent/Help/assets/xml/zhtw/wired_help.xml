@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><document><zhtw>
+<title type="content"><title>印表機說明</title></title>
+<t01 type="content"><bold16gold>在網路中找不到印表機</bold16gold><br/><body>安裝程式找不到網路中的印表機。
+若要讓 HP 逐步引導您找到網路中的印表機，請按<bold12>逐步引導</bold12>。
+進階使用者可以按「進階疑難排解步驟」來閱讀純文字說明步驟，了解如何找到網路中的印表機。</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t02 type="content"><bodyLinkLine1>» 進階疑難排解步驟</bodyLinkLine1><br/><bodyLinkLine2/></t02>
+<t03 type="content"><bold16gold>「找不到印表機」的疑難排解步驟</bold16gold><br/><bodyNumList>1. 確認產品已開啟電源，而且已就緒。
+2. 確認產品已使用適當的連接埠和纜線連接至網路。檢查每一條纜線，確定纜線都已牢固地連接在正確的位置。如果問題仍然存在，請試用不同的纜線或改用集線器或轉換器上的其他連接埠。產品背面的連接埠連線旁，應該會亮起琥珀色活動指示燈與綠色連結狀態指示燈。
+3. 從產品控制面板列印組態頁，然後在其中找出產品的 IP 位址。
+4. 從您的電腦使用命令提示字元偵測 (Ping) 產品。例如：ping 192.168.45.39</bodyNumList><bodyMargin>如果能夠偵測到產品，請確認電腦上顯示的產品 IP 位址組態是否正確。如果正確，則先將產品刪除然後再重新加入。
+如果 Ping 指令失敗，請確認網路集線器運作中，然後確認網路設定、產品和電腦都是設定為相同的網路。確認 Ping 指令是否可成功偵測到網路上的其他裝置 (如果偵測不到，表示可能有防火牆在封鎖 Ping 指令)。
+或者，請試著開啟嵌入式 Web 伺服器，以確認電腦能夠與產品通訊。</bodyMargin><br/></t03>
+<t04 type="content"><bold16gold>在有線網路上探索印表機</bold16gold><br/><body>請確定產品的電源已開啟，而且指示燈狀態為<bold12>就緒</bold12>。</body></t04>
+<t05 type="content"><bold16gold>在有線網路上探索印表機</bold16gold><br/><body>確定產品的網路連接埠上已連接了有效的網路纜線。</body></t05>
+<t06 type="content"><bold16gold>在有線網路上探索印表機</bold16gold><br/><body>如果產品已經正確連接至網路，它應該會有 IP 位址。請列印產品「組態頁」，<br/>然後在其中找出 IP 位址。</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t07 type="content"><bodyLinkLine1>» 如何列印組態頁</bodyLinkLine1><br/><bodyLinkLine2/></t07>
+<t08 type="content"><bold16gold>在有線網路上探索印表機</bold16gold><br/><body>將 IP 位址手動輸入至安裝程式中的適當方塊，然後繼續安裝軟體。
+如果安裝程式仍然無法在網路中找到產品，可能是您的防火牆軟體阻擋了產品的探索。HP 建議您繼續啟用防火牆軟體。不過，請務必在防火牆或防毒軟體出現提示時，選取「繼續」、「解除封鎖」或「允許」，以允許所有 HP 程式繼續執行。封鎖安裝作業可能會導致結果失敗。
+如果安全性軟體並未封鎖探索，問題的原因可能是產品和您的電腦連接了不同的子網路。請與網路管理員聯絡以尋求更多協助。</body></t08>
+<t09 type="content"><bold16gold>開啟產品電源</bold16gold><br/><body><bold12>註：</bold12>請確定所有的包裝膠帶和填充固定材料都已移除。確定已將紙張裝入紙匣。
+以電源線連接產品和接地的 AC 插座，然後按下產品的電源按鈕以切換至<bold12>開啟</bold12>。</body></t09>
+<t10 type="content"><bold16gold>連接網路纜線</bold16gold><br/><body>將有效的網路纜線連接至產品上的網路連接埠。稍候幾分鐘，讓產品取得在網路中的 IP 位址。
+如果網路連接埠上的指示燈沒有閃爍，表示網路纜線是無效的。確定纜線已連接至作用中的網路。如果確實是作用中的網路，請考慮試用不同的纜線，或是在另一台裝置上測試纜線。</body></t10>
+
+<guideButt type="content"><butt11>逐步引導</butt11></guideButt><backButt type="content"><butt11>上一步</butt11></backButt><showButt type="content"><butt11>示範</butt11></showButt><nextButt type="content"><butt11>下一步</butt11></nextButt><contButt type="content"><butt11>繼續</butt11></contButt><exitButt type="content"><butt11>結束</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>列印組態頁</bold16gold><br/><body>選擇印表機上的控制面板類型：</body></tx00>
+<tx00L01 type="content"><bodyLink>» 純文字（小）</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» 觸控式（小）</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» 無顯示幕</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» 純文字（大）</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» 觸控式（大）</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] -->
+<tx101 type="content"><bodyNumList>1. 如果印表機有「設定功能表」按鈕 (A)，請按這個按鈕。如果印表機沒有「設定功能表」按鈕，請移至下一個步驟。</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. 使用箭頭按鈕 (B) 巡覽至 <bold12>Reports</bold12>，然後按 <bold12>OK</bold12> 按鈕 (C)。</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. 使用箭頭按鈕巡覽至 <bold12>Config Report</bold12>，然後按 <bold12>OK</bold12> 按鈕。</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. 如此隨即列印組態報告。IP 位址會以 IPv4 或 IPv6 列出。</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] -->
+<tx201 type="content"><body>使用這類控制面板，即可在顯示器上看到 IP 位址：
+<br/><li>如果印表機是經由網路線連接到網路，請點選主畫面上的「網路」按鈕 (A) 檢視 IP 位址。如果沒有顯示 IP 位址，表示印表機並未與網路通訊。請重新檢查網路線是否正確連接。
+如果印表機是以無線方式連接到網路，請點選主畫面上的「無線」按鈕 (B) 檢視 IP 位址。如果沒有顯示 IP 位址，請遵循控制面板顯示器上的指示。</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] -->
+<tx301 type="content"><body>如果是有按鈕卻沒有顯示器的印表機，用來列印組態頁的一個按鈕或按鈕組合可能有所不同。</body><br/><bodyNumList>1. 如果印表機只有「取消」按鈕 (A)，請按住「取消」按鈕二到三秒。如果沒有列印組態頁，請移至下一個步驟。</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. 如果印表機有「取消」按鈕 (A) 和「繼續」按鈕 (B)，請同時按住這兩個按鈕二秒。如果沒有列印組態頁，請按住「繼續」按鈕 (B) 二到三秒。如果沒有列印組態頁，請移至下一個步驟。</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. 如果沒有列印組態頁，請聯絡當地支援中心。</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>使用這類控制面板，即可在<bold12>就緒</bold12>螢幕上看到 IP 位址。如果<bold12>就緒</bold12>螢幕上看不到 IP 位址，請檢查印表機的網路連線。</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>使用這類控制面板，即可在顯示器上看到 IP 位址。</body><br/><bodyNumList>1. 點選主畫面上的<bold12>網路位址</bold12>按鈕 (A)，即可檢視 IP 位址。如果沒有顯示 IP 位址，表示印表機並未與網路通訊。請重新檢查網路連線。</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» 繼續進行說明</bodyLinkLine1></txCont><cpstring01 type="content"><p>Reports</p></cpstring01><cpstring02 type="content"><p>Config report</p></cpstring02><cpstring03 type="content"><p>就緒</p></cpstring03><cpstring04 type="content"><p>網路位址</p></cpstring04></zhtw></document>

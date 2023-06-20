@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Ejecutar búsqueda en HP.com</span></text>
+	<text name="search">Buscar</text>
+	<text name="close">Cerrar</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Professional<br/>serie M1530 MFP</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Centro de ayuda e información</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Asistencia vía web</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Trabajos de uso cotidiano</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Gestión y mantenimiento</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Resolver un problema</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">BÚSQUEDA RÁPIDA</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Botones del panel de control</span></text><text targetName="controlPanelMessages"><span class="white14">» Mensajes del panel de control</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Sustitución del cartucho de impresión</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Cargar las bandejas de papel</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Obtener la dirección IP de una impresora en red</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Lista de comprobación de resolución de problemas de fax</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+			</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Examinar la Guía del usuario</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Tareas de impresión </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Cancelar trabajo de impresión</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Abrir el controlador de la impresora</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Imprimir en ambas caras (dúplex)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Imprimir varias páginas por hoja</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Imprimir en papel especial</span></text>		<text><span class="yellow12Bold">Tareas de copia </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Realizar varias copias</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Reducir o ampliar copias</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Copiar tarjetas de identificación</span></text>
+		<text><span class="yellow12Bold">Tareas de escaneado </span></text>
+		<text targetName="scanADocument"><span class="white12">» Escanear un documento</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Mejorar la apariencia de mi escaneado</span></text>
+		<text><span class="yellow12Bold">Tareas de fax </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Uso de la agenda telefónica</span></text>
+		<text targetName="sendAFax"><span class="white12">» Enviar un fax</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Programar un fax para que se envíe más tarde</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Imprimir un fax almacenado</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Eliminar faxes de la memoria</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Imprimir páginas de información</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Sustitución del cartucho de impresión</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Imprimir una página de limpieza</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Limpiar el cristal del escáner</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Limpiar el rodillo de recogida</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Limpiar la placa de separación</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Cambiar la configuración del fax</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Lista de comprobación de resolución de problemas</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Eliminar un atasco de papel</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Eliminar atascos en el alimentador de documentos</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Mensajes del panel de control</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Solución de problemas en el manejo del papel</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Solucionar problemas relativos a la calidad de impresión</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Solucionar problemas relativos a la calidad de la copia</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Solucionar problemas relativos a la calidad del escaneado</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Resolver problemas de fax</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Abrir la guía del usuario en mi ordenador.</span></text>
+			<text><span class="white14">O bien</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Abrir la versión más reciente en la web.</span></text>
+		</menuList>
+	</dialog>
+</document>

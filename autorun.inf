@@ -1,0 +1,13 @@
+[autorun] 
+open=Autorun.exe 
+icon=Autorun.exe,0
+label=HP Installer
+
+[SIFileLauncher]
+File=Autorun.exe
+
+;Sections needed for Filelauncher.exe
+[Version]
+Signature="$Windows NT$"
+Provider=Hewlett-Packard
+DriverVer=09/24/2010,1.0.0.0

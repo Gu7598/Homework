@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document><zhtw>
+<title type="content"><title>印表機說明</title></title>
+<t00 type="content"><bold16gold>在無線網路中找不到印表機</bold16gold><br/><body>安裝程式找不到無線網路中的印表機。
+請按一下最符合您目前情況的連結：</body></t00>
+<t00L1 type="content"><bodyLink>» 我的印表機已連接至無線網路，但是安裝程式找不到它。</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» 我的印表機無法連接至無線網路。</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» 我不確定有沒有無線網路。</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» 我想要將印表機的網路連線從有線變更為無線。</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>在網路上探索印表機</bold16gold><br/><body>如果產品已經正確連接至網路，它應該會有 IP 位址。請列印產品「組態頁」，                     然後在其中找出 IP 位址。</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» 如何列印組態頁</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>在網路上探索印表機</bold16gold><br/><body>將 IP 位址手動輸入至安裝程式中的適當方塊，然後繼續安裝軟體。
+如果安裝程式仍然無法在網路中找到產品，可能是您的防火牆軟體阻擋了產品的探索。HP 建議您繼續啟用防火牆軟體。不過，請務必在防火牆或防毒軟體出現提示時，選取「繼續」、「解除封鎖」或「允許」，以允許所有 HP 程式繼續執行。封鎖安裝作業可能會導致結果失敗。
+如果安全性軟體並未封鎖探索，問題的原因可能是產品和您的電腦連接了不同的子網路。請與網路管理員聯絡以尋求更多協助。</body></t01a>
+<t02 type="content"><bold16gold>在無線網路中設定印表機</bold16gold><br/><body>請確定產品的電源已開啟，而且指示燈狀態為<bold12>就緒</bold12>。</body></t02>
+<t03 type="content"><bold16gold>在無線網路中設定印表機</bold16gold><br/><body>如果一開始嘗試透過 Wi-Fi 保護設定 (WPS) 設定無線網路連線時失敗了，請試用<bold12>無線的 USB 設定</bold12>。如果 USB 設定失敗了，請按以下的<bold12>繼續</bold12>。</body></t03>
+<t04 type="content"><bold16gold>在無線網路中設定印表機</bold16gold><br/><body><bold12>註：</bold12>如果您還沒有試過<bold12>無線的 USB 設定</bold12>這個方法，請勿按照這些說明進行。
+請確認您的無線路由器已提供作用中的無線網路。</body></t04>
+<t05 type="content"><bold16gold>在無線網路中設定印表機</bold16gold><br/><body>大多數較新型的無線路由器都有在裝置上面提供 Wi-Fi 保護設定 (WPS) 按鈕。這個按鈕能夠為同樣支援 WPS 的產品，提供「一按建立無線產品存取」的便利性。
+請確認您的無線路由器是否支援 WPS。</body></t05>
+<t06 type="content"><bold16gold>在無線網路中設定印表機</bold16gold><br/><body>請識別您印表機的顯示幕類型。按以下的<bold12>觸控式</bold12>、<bold12>兩行式</bold12>或<bold12>無顯示幕</bold12>。</body></t06>
+<t06L01 type="content"><bodyLink>» 觸控式</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» 兩行式</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» 無顯示幕</bodyLink></t06L03>
+<t07 type="content"><bold16gold>開啟產品電源</bold16gold><br/><body><bold12>註：</bold12>請確定所有的包裝膠帶和填充固定材料都已移除。確定已將紙張裝入紙匣。
+以電源線連接產品和接地的 AC 插座，然後按下產品的電源按鈕以切換至<bold12>開啟</bold12>。</body></t07>
+<t08 type="content"><bold16gold>無線的 USB 設定</bold16gold><br/><body>1. 按一下安裝程式中的<bold12>上一步</bold12>按鈕，前往指示您「選擇無線設定方法」的畫面。
+2. 選擇<bold12>無線的 USB 設定</bold12>，然後按<bold12>下一步</bold12>。按照畫面上的指示執行。</body></t08>
+<t09 type="content"><bold16gold>判斷是否有無線網路與路由器</bold16gold><br/><body>「無線網路」是一種電腦網路，其中的電腦和印表機連接至網路路由器時，不需要使用網路纜線。在許多家庭和小型辦公室，DSL 數據機或纜線數據機也會用來當做無線路由器。如果您是經由 DSL 數據機或纜線數據機連接至網際網路，而電腦是以無線方式連接至數據機的話，您的網路可能就是無線網路。
+不過，如果電腦是以纜線連接至數據機或路由器，您可能沒有無線路由器或無線網路。儘管如此，我們仍建議您繼續進行下一步，然後再推斷是否沒有無線網路。
+<bold12>註：</bold12>若能在環境中使用無線滑鼠或無線鍵盤等 Bluetooth™ 裝置，並不代表一定存在無線網路。Bluetooth 裝置既不需要也不會建立無線網路。如果您的電腦上有一個始終是作用中的網際網路連線，而且並未使用任何撥接服務，這樣的情形才是更好的指標 (如果真的是以撥接方式上網，您可能沒有無線網路)。
+<bold12>註：</bold12>膝上型或攜帶型電腦，尤其是「迷你筆記型電腦」，不需要纜線也能夠保持與網際網路連接的狀態，但是這類電腦的存在也不代表環境中一定有區域無線路由器。
+如果您還是不確定環境中有無區域無線路由器建立的網路，請按以下的<bold12>繼續</bold12>。</body></t09>
+<t11 type="content"><bold16gold>使用 WPS 連接</bold16gold><br/><body>依序按下路由器和印表機上的 WPS 按鈕。如果印表機使用觸控式顯示幕，WPS 按鈕會位於<bold12>無線功能表</bold12>中。在這兩個裝置辨識出對方之後，按以下的<bold12>下一步</bold12>。</body></t11>
+<t14 type="content"><bold16gold>使用觸控式顯示幕進行無線設定</bold16gold><br/><body>在顯示幕上，依序點選<bold12>無線功能表</bold12>按鈕和<bold12>無線設定精靈</bold12>。然後按照說明進行。
+<bold12>註：</bold12>如果是安全網路，您必須知道網路名稱 (SSID) 和密碼 (WEP 金鑰或 WPA 複雜密碼)。</body></t14>
+<t14a type="content"><body>如果印表機成功連接至無線網路，請按以下的<bold12>下一步</bold12>。
+如果印表機仍然無法連接至無線網路，請參閱<bold12>經由 EWS 進行無線設定</bold12>。</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» 找出網路名稱與密碼</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» 經由 EWS 進行無線設定</bodyLinkLine1><br/><bodyLinkLine2/></t14L02><note01 type="content"><note>如果您不知道網路名稱 (SSID) 與密碼 (WEP 金鑰或 WPA 複雜密碼)，電腦的「網路與共用中心」可能會顯示這些資訊。
+路由器的嵌入式 Web 伺服器 (EWS) 也可能會顯示這些資訊。請在您路由器隨附的說明文件中找出路由器的 IP 位址。若要開啟路由器的 EWS，請在電腦上瀏覽器的位址欄位內輸入 IP 位址。</note> 
+</note01>
+<t16 type="content"><bold16gold>經由 EWS 進行無線設定</bold16gold><br/><body>現在，我們必須先使用網路纜線將印表機連接至路由器以建立有線網路連線，否則便無法建立無線連線。
+<bodyNumList>1. 將網路纜線的一端連接至印表機，然後將另一端連接至路由器。
+2. 稍候幾分鐘，讓印表機從路由器接收 IP 位址，然後從印表機的<bold12>報告</bold12>功能表列印「網路報告」或「組態頁」。在頁面中找出印表機的 IP 位址。
+3. 開啟 Web 瀏覽器，然後在位址方塊中輸入印表機的 IP 位址 (然後按下 <bold12>Enter</bold12>)。印表機的嵌入式 Web 伺服器 (EWS) 應該會在瀏覽器中開啟。如果 EWS 沒有開啟，可能是印表機連接至不同於電腦的子網路。
+4. 在 EWS 中，前往<bold12>網路</bold12>標籤，然後按一下<bold12>無線組態</bold12>。
+5. 按一下<bold12>啟用</bold12>按鈕。然後按一下<bold12>加入現有無線網路</bold12>。
+6. 包含所有可用無線網路的清單隨即出現。按一下您要連接的網路。
+7. 如果選取的網路指出此網路尚未命名，按一下<bold12>輸入網路名稱</bold12>按鈕，然後在文字方塊中輸入網路名稱 (SSID)。
+8. 如果此網路需要 WEP 金鑰或 WPA 複雜密碼，在文字方塊中輸入正確的金鑰或複雜密碼。
+9. 按一下頁面底部的<bold12>套用</bold12>。
+10. 稍候片刻，讓印表機儲存設定，然後從印表機拔下網路纜線。印表機將會嘗試以無線方式連接至網路。</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>返回安裝程式</bold16gold><br/><bodyNumList>1. 確定印表機上沒有連接任何 USB 纜線。在軟體安裝程式中，連續按<bold12>上一步</bold12>按鈕直到進入要求您選擇「連線類型」的畫面為止。
+2. 選擇<bold12>透過無線網路進行連接</bold12>，然後按<bold12>下一步</bold12>。
+3. 安裝程式將會在網路中搜尋印表機。探索到印表機之後，繼續安裝軟體。</bodyNumList></t17>
+<t18 type="content"><bold16gold>列印網路報告</bold16gold><br/><body>網路報告能夠透露可能會造成印表機無法連接至無線網路的某些衝突點。
+若要列印網路報告，請前往印表機控制面板上的<bold12>無線功能表</bold12>，然後選擇<bold12>執行網路測試</bold12>。按照報告中的說明進行。解決衝突點之後，按以下的<bold12>下一步</bold12>。</body></t18>
+<t19 type="content"><bold16gold>還原預設值與重新安裝</bold16gold><br/><body><bold12>註：</bold12>繼續進行之前，請先確定印表機上「沒有」連接任何網路纜線。
+HP 建議您將印表機的網路設定還原為出廠預設值，然後再次嘗試安裝。
+<bodyNumList>1. 如果印表機上有連接 USB 纜線，請先拔除。
+2. 前往印表機控制面板上的<bold12>設定功能表</bold12>。
+3. 選擇<bold12>網路設定</bold12>。
+4. 選擇<bold12>還原預設值</bold12>。
+5. 在軟體安裝程式中，連續按<bold12>上一步</bold12>按鈕直到進入要求您「選擇無線設定方法」的畫面為止。
+6. 選擇您要使用的設定方法，然後按照一般的指示進行。</bodyNumList></body></t19><guideButt type="content"><butt11>逐步引導</butt11></guideButt><backButt type="content"><butt11>上一步</butt11></backButt><showButt type="content"><butt11>示範</butt11></showButt><nextButt type="content"><butt11>下一步</butt11></nextButt><contButt type="content"><butt11>繼續</butt11></contButt><exitButt type="content"><butt11>結束</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS 無效</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>成功/下一步</butt11></successNextButt><failedTSbutt type="content"><butt11>失敗/疑難排解</butt11></failedTSbutt><noWPSradio type="content"><radioButt>不支援 WPS</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>支援 WPS</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>列印組態頁</bold16gold><br/><body>選擇印表機上的控制面板類型：</body></tx00>
+<tx00L01 type="content"><bodyLink>» 純文字（小）</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» 觸控式（小）</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» 無顯示幕</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» 純文字（大）</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» 觸控式（大）</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. 如果印表機有「設定功能表」按鈕 (A)，請按這個按鈕。如果印表機沒有「設定功能表」按鈕，請移至下一個步驟。</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. 使用箭頭按鈕 (B) 巡覽至 <bold12>Reports</bold12>，然後按 <bold12>OK</bold12> 按鈕 (C)。</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. 使用箭頭按鈕巡覽至 <bold12>Config Report</bold12>，然後按 <bold12>OK</bold12> 按鈕。</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. 如此隨即列印組態報告。IP 位址會以 IPv4 或 IPv6 列出。</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>使用這類控制面板，即可在顯示器上看到 IP 位址：
+<br/><li>如果印表機是經由網路線連接到網路，請點選主畫面上的「網路」按鈕 (A) 檢視 IP 位址。如果沒有顯示 IP 位址，表示印表機並未與網路通訊。請重新檢查網路線是否正確連接。
+如果印表機是以無線方式連接到網路，請點選主畫面上的「無線」按鈕 (B) 檢視 IP 位址。如果沒有顯示 IP 位址，請遵循控制面板顯示器上的指示。</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>如果是有按鈕卻沒有顯示器的印表機，用來列印組態頁的一個按鈕或按鈕組合可能有所不同。</body><br/><bodyNumList>1. 如果印表機只有「取消」按鈕 (A)，請按住「取消」按鈕二到三秒。如果沒有列印組態頁，請移至下一個步驟。</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. 如果印表機有「取消」按鈕 (A) 和「繼續」按鈕 (B)，請同時按住這兩個按鈕二秒。如果沒有列印組態頁，請按住「繼續」按鈕 (B) 二到三秒。如果沒有列印組態頁，請移至下一個步驟。</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. 如果沒有列印組態頁，請聯絡當地支援中心。</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>使用這類控制面板，即可在<bold12>就緒</bold12>螢幕上看到 IP 位址。如果<bold12>就緒</bold12>螢幕上看不到 IP 位址，請檢查印表機的網路連線。</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>使用這類控制面板，即可在顯示器上看到 IP 位址。</body><br/><bodyNumList>1. 點選主畫面上的<bold12>網路位址</bold12>按鈕 (A)，即可檢視 IP 位址。如果沒有顯示 IP 位址，表示印表機並未與網路通訊。請重新檢查網路連線。</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» 繼續進行說明</bodyLinkLine1></txCont><cpstring01 type="content"><p>Reports</p></cpstring01><cpstring02 type="content"><p>Config report</p></cpstring02><cpstring03 type="content"><p>就緒</p></cpstring03><cpstring04 type="content"><p>網路位址</p></cpstring04></zhtw></document>

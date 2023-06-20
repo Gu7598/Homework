@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Εκτέλεση αναζήτησης στο HP.com</span></text>
+	<text name="search">Αναζήτηση</text>
+	<text name="close">Κλείσιμο</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">Σειρά HP LaserJet Pro<br/>M1530 MFP</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Κέντρο βοήθειας &amp; εκμάθησης</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Υποστήριξη Web</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Καθημερινές εργασίες</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Διαχείριση &amp; συντήρηση</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Επίλυση προβλήματος</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">ΓΡΗΓΟΡΗ ΕΥΡΕΣΗ</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Κουμπιά πίνακα ελέγχου</span></text><text targetName="controlPanelMessages"><span class="white14">» Μηνύματα πίνακα ελέγχου</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Αντικατάσταση του δοχείου εκτύπωσης</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Τοποθέτηση δίσκων χαρτιού</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Λήψη διεύθυνσης IP εκτυπωτή σε δίκτυο</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Λίστα ελέγχου αντιμετώπισης προβλημάτων φαξ</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+			</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Αναζήτηση οδηγού χρήσης</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Εργασίες εκτύπωσης </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Ακύρωση εργασίας εκτύπωσης</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Άνοιγμα προγράμματος οδήγησης εκτυπωτή</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Εκτύπωση και στις δύο όψεις (εκτύπωση διπλής όψης)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Εκτύπωση πολλαπλών σελίδων ανά φύλλο</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Εκτύπωση σε ειδικό χαρτί</span></text>		<text><span class="yellow12Bold">Αντιγραφή εργασιών </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Δημιουργία πολλαπλών αντιγράφων</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Σμίκρυνση ή μεγέθυνση αντιγράφων</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Αντιγραφή ταυτοτήτων</span></text>
+		<text><span class="yellow12Bold">Εργασίες σάρωσης </span></text>
+		<text targetName="scanADocument"><span class="white12">» Σάρωση εγγράφου</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Καλύτερη εμφάνιση σάρωσης</span></text>
+		<text><span class="yellow12Bold">Εργασίες φαξ </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Χρήση του τηλεφωνικού καταλόγου</span></text>
+		<text targetName="sendAFax"><span class="white12">» Αποστολή ενός φαξ</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Αποστολή φαξ με καθυστέρηση</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Εκτύπωση αποθηκευμένου φαξ</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Διαγραφή φαξ από τη μνήμη</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Εκτύπωση σελίδων πληροφοριών</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Αντικατάσταση του δοχείου εκτύπωσης</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Εκτύπωση σελίδας καθαρισμού</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Καθαρισμός της γυάλινης λωρίδας</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Καθαρισμός κυλίνδρου εισαγωγής</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Καθαρισμός του προστατευτικού διαχωρισμού</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Αλλαγή ρυθμίσεων φαξ</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Λίστα ελέγχου επίλυσης προβλημάτων</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Εκκαθάριση εμπλοκής χαρτιού</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Αποκατάσταση εμπλοκών στον τροφοδότη εγγράφων</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Μηνύματα πίνακα ελέγχου</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Επίλυση προβλημάτων διαχείρισης χαρτιού</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Επίλυση προβλημάτων ποιότητας εκτύπωσης</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Επίλυση προβλημάτων ποιότητας αντιγραφής</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Επίλυση προβλημάτων ποιότητας σάρωσης</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Επίλυση προβλημάτων φαξ</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Άνοιγμα του οδηγού χρήσης στον υπολογιστή μου.</span></text>
+			<text><span class="white14">Ή</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Άνοιγμα της τελευταίας έκδοσης στο Web.</span></text>
+		</menuList>
+	</dialog>
+</document>

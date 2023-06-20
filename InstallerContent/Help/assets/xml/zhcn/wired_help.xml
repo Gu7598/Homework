@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><document><zhcn>
+<title type="content"><title>打印机帮助</title></title>
+<t01 type="content"><bold16gold>在网络上找不到打印机</bold16gold><br/><body>安装程序在网络上找不到打印机。
+要让 HP 指导您完成在网络上查找打印机的步骤，请单击<bold12>指导我</bold12>。
+高级用户可单击“高级故障排除步骤”，以阅读在网络上查找打印机的纯文本步骤。</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t02 type="content"><bodyLinkLine1>» 高级故障排除步骤</bodyLinkLine1><br/><bodyLinkLine2/></t02>
+<t03 type="content"><bold16gold>“找不到打印机”故障排除步骤</bold16gold><br/><bodyNumList>1. 检查产品是否已打开并准备就绪。
+2. 确保已使用相应的端口和电缆将产品连接至网络。检查每个电缆连接，以确保电缆安全并处在正确的位置。如果问题仍旧存在，请在集线器或收发器上尝试使用不同的电缆或端口。产品背面上的端口连接旁边的琥珀色活动指示灯和绿色链接状态指示灯应处于点亮状态。
+3. 从产品控制面板中，打印配置页并查找产品 IP 地址。
+4. 使用命令提示符从计算机 ping 产品。例如：ping 192.168.45.39</bodyNumList><bodyMargin>如果您能够 ping 产品，请验证计算机上的产品 IP 地址配置是否正确。如果配置正确，请删除产品，然后重新添加产品。
+如果 ping 命令失败，请验证网络集线器是否处于打开状态，然后验证是否为相同网络均配置了网络设置、产品和计算机。验证对网络上的其他设备执行的 ping 命令是否成功（如果未成功，防火墙可能阻止了 ping 命令）。
+或者，尝试打开内嵌式 Web 服务器，以验证计算机是否在与产品通信。</bodyMargin><br/></t03>
+<t04 type="content"><bold16gold>在有线网络上搜寻打印机</bold16gold><br/><body>确保产品已接通电源并指示<bold12>就绪</bold12>。</body></t04>
+<t05 type="content"><bold16gold>在有线网络上搜寻打印机</bold16gold><br/><body>确保处于活动状态的网络电缆已连接至产品的网络端口。</body></t05>
+<t06 type="content"><bold16gold>在有线网络上搜寻打印机</bold16gold><br/><body>如果已将产品正确连接至网络，则其应拥有一个 IP 地址。打印产品配置页，然后在该配置页上查找 IP 地址。</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t07 type="content"><bodyLinkLine1>» 如何打印配置页</bodyLinkLine1><br/><bodyLinkLine2/></t07>
+<t08 type="content"><bold16gold>在有线网络上搜寻打印机</bold16gold><br/><body>将 IP 地址手动输入到安装程序中的相应框内，然后继续安装软件。
+如果安装程序在网络中仍找不到相应产品，则表明您可能使防火墙软件阻止了对产品的搜寻。HP 建议您将防火墙软件保持为启用状态。但是在防火墙或防病毒软件给出提示时，一定要通过选择“继续”、“取消阻止”或“允许”来允许所有 HP 程序继续执行操作。如果阻止某个安装，可能会导致该安装失败。
+如果安全软件未阻止搜寻，则产品可能被连接至与您的计算机所在的子网不同的子网。请与您的网络管理员联系，以寻求进一步的帮助。</body></t08>
+<t09 type="content"><bold16gold>为产品接通电源</bold16gold><br/><body><bold12>注意：</bold12>确保移除所有包装带和装运锁。确保已将纸张装入纸盒中。
+将电源线一端插入产品，一端插入接地的交流电源插座，然后将产品电源按钮按至<bold12>开</bold12>。</body></t09>
+<t10 type="content"><bold16gold>连接网络电缆</bold16gold><br/><body>将处于活动状态的网络电缆连接至产品的网络端口。等待几分钟，以便产品在网络上建立 IP 地址。
+如果网络端口上的指示灯未闪烁，则表明网络电缆未处于活动状态。确保电缆已连接至处于活动状态的网络。如果已连接，则请考虑尝试使用另一电缆或者测试另一设备上的电缆。</body></t10>
+
+<guideButt type="content"><butt11>指导我</butt11></guideButt><backButt type="content"><butt11>后退</butt11></backButt><showButt type="content"><butt11>显示操作方法</butt11></showButt><nextButt type="content"><butt11>下一步</butt11></nextButt><contButt type="content"><butt11>继续</butt11></contButt><exitButt type="content"><butt11>退出</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>打印配置页</bold16gold><br/><body>选择打印机上的控制面板的类型：</body></tx00>
+<tx00L01 type="content"><bodyLink>» 仅文本（小）</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» 触摸屏（小）</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» 无显示屏</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» 仅文本（大）</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» 触摸屏（大）</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] -->
+<tx101 type="content"><bodyNumList>1. 如果打印机有一个“设置”菜单按钮 (A)，请按该设置菜单按钮。如果打印机没有“设置”菜单按钮，请转到下一步。</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. 使用箭头按钮 (B) 导航到 <bold12>Reports</bold12>，然后按 <bold12>OK</bold12> 按钮 (C)。</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. 使用箭头按钮导航到 <bold12>Config Report</bold12>，然后按 <bold12>OK</bold12> 按钮。</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. 即会打印配置报告。IP 地址按 IPv4 或 IPv6 列出。</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] -->
+<tx201 type="content"><body>如果使用此类型的控制面板，IP 地址会在显示屏上可见：
+<br/><li>如果打印机通过网络电缆连接到网络，请轻触主屏幕上的“网络”按钮 (A) 来查看 IP 地址。如果未显示 IP 地址，则说明打印机没有与网络通信。请重新检查电缆连接。
+如果打印机以无线方式连接到网络，请轻触主屏幕上的“无线”按钮 (B) 来查看 IP 地址。如果未显示 IP 地址，则按照控制面板显示屏上的说明进行操作。</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] -->
+<tx301 type="content"><body>在有按钮但没有显示屏的打印机上，用于打印配置页的按钮或按钮组合可能会有所不同。</body><br/><bodyNumList>1. 如果打印机只有“取消”按钮 (A)，请按住“取消”按钮两到三秒钟。如果没有打印配置页，请转到下一步。</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. 如果打印机有“取消”按钮 (A) 和“继续”按钮 (B)，请同时按住这两个按钮两秒钟。如果没有打印配置页，请仅按“继续”按钮 (B) 两到三秒钟。如果没有打印配置页，请转到下一步。</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. 如果无法打印配置页，请与您当地的支持人员联系。</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>如果使用此类型的控制面板，IP 地址会在显示屏上的<bold12>就绪</bold12>屏幕中可见。如果在<bold12>就绪</bold12>屏幕上看不到 IP 地址，请检查打印机的网络连接。</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>如果使用此类型的控制面板，IP 地址会在显示屏上可见。</body><br/><bodyNumList>1. 轻触主屏幕上的<bold12>网络地址</bold12>按钮 (A) 来查看 IP 地址。如果未显示 IP 地址，则说明打印机没有与网络通信。请重新检查网络连接。</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» 继续参考帮助文档</bodyLinkLine1></txCont><cpstring01 type="content"><p>Reports</p></cpstring01><cpstring02 type="content"><p>Config report</p></cpstring02><cpstring03 type="content"><p>就绪</p></cpstring03><cpstring04 type="content"><p>网络地址</p></cpstring04></zhcn></document>

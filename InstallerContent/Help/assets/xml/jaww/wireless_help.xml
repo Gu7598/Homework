@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document><ja>
+<title type="content"><title>プリンタのヘルプ</title></title>
+<t00 type="content"><bold16gold>プリンタがワイヤレス ネットワーク上で検出されない</bold16gold><br/><body>インストーラがワイヤレス ネットワーク上でプリンタを検出できません。
+次の中から現在の状況に最も近いリンクをクリックしてください。</body></t00>
+<t00L1 type="content"><bodyLink>» プリンタはワイヤレス ネットワークに接続されているが、インストーラで検出されない。</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» プリンタをワイヤレス ネットワークに接続できない。</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» ワイヤレス ネットワークがあるかどうかわからない。</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» プリンタのネットワーク接続をワイヤードからワイヤレスに変更中である。</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>ネットワーク上でのプリンタの検出</bold16gold><br/><body>製品がネットワークに正しく接続されている場合は、IP アドレスが割り当てられています。製品の設定ページを印刷し、設定ページで IP アドレスを確認してください。</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» 設定ページの印刷方法</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>ネットワーク上でのプリンタの検出</bold16gold><br/><body>インストーラ内の該当するボックスに IP アドレスを手動で入力した後、ソフトウェアのインストールを続行します。
+それでもインストーラがネットワーク上で製品を検出できない場合は、ファイアウォール ソフトウェアによって製品の検出が妨げられている可能性があります。ファイアウォール ソフトウェアはそのまま有効にしておくことをお勧めします。ただし、ファイアウォールまたはウイルス対策ソフトウェアによってメッセージが表示されたときに、[続行]、[ブロック解除]、または [許可] を選択し、すべての HP プログラムが処理を続行できるようにしてください。インストールをブロックすると異常終了する可能性があります。
+検出がセキュリティ ソフトウェアでブロックされていない場合、製品がコンピュータとは別のサブネットワークに接続されている可能性があります。ネットワーク管理者に連絡してサポートを依頼してください。</body></t01a>
+<t02 type="content"><bold16gold>ワイヤレス ネットワークでのプリンタの設定</bold16gold><br/><body>製品の電源がオンになっており、[<bold12>印刷可</bold12>] になっていることを確認します。</body></t02>
+<t03 type="content"><bold16gold>ワイヤレス ネットワークでのプリンタの設定</bold16gold><br/><body>最初に WiFi Protected Setup (WPS) 経由でワイヤレス ネットワーク接続の設定を試みて失敗した場合は、「<bold12>ワイヤレスの USB 設定</bold12>」を試してください。USB 設定が失敗した場合は、下の [<bold12>続行</bold12>] をクリックします。</body></t03>
+<t04 type="content"><bold16gold>ワイヤレス ネットワークでのプリンタの設定</bold16gold><br/><body><bold12>注記：</bold12>以下の手順は、「<bold12>ワイヤレスの USB 設定</bold12>」を試して失敗した場合にのみ実行してください。
+ワイヤレス ルータによってワイヤレス ネットワークがアクティブになっていることを確認します。</body></t04>
+<t05 type="content"><bold16gold>ワイヤレス ネットワークでのプリンタの設定</bold16gold><br/><body>最新のワイヤレス ルータのほとんどには、WiFi Protected Setup (WPS) ボタンが備わっています。このボタンを使用すると、WPS をサポートするワイヤレス製品に対してボタンを押すだけで簡単にアクセスできます。
+お使いのワイヤレス ルータが WPS をサポートしているかどうかを確認してください。</body></t05>
+<t06 type="content"><bold16gold>ワイヤレス ネットワークでのプリンタの設定</bold16gold><br/><body>プリンタのディスプレイの種類を確認します。次の [<bold12>タッチスクリーン</bold12>]、[<bold12>2 行</bold12>]、または [<bold12>ディスプレイなし</bold12>] のいずれかをクリックしてください。</body></t06>
+<t06L01 type="content"><bodyLink>» タッチスクリーン</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» 2 行</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» ディスプレイなし</bodyLink></t06L03>
+<t07 type="content"><bold16gold>製品の電源をオンにする</bold16gold><br/><body><bold12>注記：</bold12>包装用のテープや輸送用の固定具などがすべて取り外されていることを確認してください。用紙トレイに用紙をセットします。
+製品の電源コードをアース付きの AC コンセントに接続し、製品の電源ボタンを押してオンにします。</body></t07>
+<t08 type="content"><bold16gold>ワイヤレスの USB 設定</bold16gold><br/><body>1. インストーラで [<bold12>戻る</bold12>] ボタンをクリックし、[ワイヤレス設定方法の選択] の画面に進みます。
+2. [<bold12>ワイヤレスの USB 設定</bold12>] を選択し、[<bold12>次へ</bold12>] をクリックします。画面上の指示に従います。</body></t08>
+<t09 type="content"><bold16gold>ワイヤレス ネットワークおよびルータの確認</bold16gold><br/><body>「ワイヤレス ネットワーク」とは、コンピュータとプリンタがネットワーク ケーブルを使用せずにネットワーク ルータに接続されているコンピュータ ネットワークを指します。多くの家庭や小規模オフィスでは、DSL モデムやケーブル モデムもワイヤレス ルータとして使用されます。DSL モデムやケーブル モデムを介してインターネットに接続し、コンピュータがモデムにワイヤレスで接続されている場合は、ワイヤレス ネットワークを使用していると考えられます。
+一方、コンピュータがモデムやルータにケーブルで接続されている場合は、ワイヤレス ルータやワイヤレス ネットワークが使用されていない可能性があります。そのような場合でも、ワイヤレス ネットワークがないと判断する前に、以下をお読みになることをお勧めします。
+<bold12>注記：</bold12>ワイヤレス マウスやワイヤレス キーボードなどの Bluetooth™ アクセサリを使用している場合でも、ワイヤレス ネットワークが使用されているとは限りません。そのような Bluetooth アクセサリは、ワイヤレス ネットワークを必要とせず、ワイヤレス ネットワークを確立することもありません。より確実な判断材料は、ダイヤルアップ サービスを使用しない常時接続のインターネット アクセスをコンピュータで利用できるかどうかです (ダイヤルアップ インターネットを使用している場合は、ワイヤレス ネットワークが使用されていない可能性が大です)。
+<bold12>注記：</bold12>ラップトップまたはモバイル コンピュータ (特にネットブック) では、ケーブルなしで常時接続インターネットを利用できる場合がありますが、そのようなコンピュータを使用している場合でもローカル ワイヤレス ルータが使用されているとは限りません。
+ここまでお読みいただいても、ローカル ワイヤレス ルータを基盤としたネットワークがあるかどうかをまだ判断できない場合は、下の [<bold12>続行</bold12>] をクリックしてください。</body></t09>
+<t11 type="content"><bold16gold>WPS を使用した接続</bold16gold><br/><body>ルータの WPS ボタンを押した後、プリンタの WPS ボタンを押します。プリンタにタッチスクリーン ディスプレイが備わっている場合、WPS ボタンはワイヤレス メニューに含まれています。2 つのデバイスが相互に認識したら、下の [<bold12>次へ</bold12>] をクリックします。</body></t11>
+<t14 type="content"><bold16gold>タッチスクリーン ディスプレイを使用したワイヤレス設定</bold16gold><br/><body>ディスプレイのワイヤレス メニューをタッチし、ワイヤレス設定ウィザードをタッチします。表示される指示に従います。
+<bold12>注記：</bold12>ネットワークがセキュリティ保護されている場合は、ネットワーク名 (SSID) に加えてパスワード (WEP キーまたは WPA パスフレーズ) を知っている必要があります。</body></t14>
+<t14a type="content"><body>プリンタがワイヤレス ネットワークに正常に接続したら、[<bold12>次へ</bold12>] をクリックします。
+プリンタがワイヤレス ネットワークに接続できない場合は、「<bold12>EWS によるワイヤレス設定</bold12>」を参照してください。</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» ネットワーク名とパスワードの確認</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» EWS によるワイヤレス設定</bodyLinkLine1><br/><bodyLinkLine2/></t14L02><note01 type="content"><note>ネットワーク名 (SSID) およびパスワード (WEP キーまたは WPA パスフレーズ) がわからない場合、コンピュータの [ネットワークと共有センター] に表示される可能性があります。
+また、ルータの内蔵 Web サーバー (EWS) に表示される場合もあります。ルータに付属の説明書で、ルータの IP アドレスを確認してください。ルータの EWS を開くには、コンピュータでブラウザのアドレス フィールドにルータの IP アドレスを入力します。</note> 
+</note01>
+<t16 type="content"><bold16gold>EWS によるワイヤレス設定</bold16gold><br/><body>この時点ではまだワイヤレス接続を確立できません。最初にプリンタとルータをネットワーク ケーブルで接続して、ワイヤード ネットワーク接続を確立する必要があります。
+<bodyNumList>1. プリンタおよびルータにネットワーク ケーブルを接続します。
+2. プリンタがルータから IP アドレスを受信するまで数分間待った後、プリンタの [<bold12>レポート</bold12>] メニューからネットワーク レポートまたは設定ページを印刷します。ページに記載されている IP アドレスを確認します。
+3. Web ブラウザを開き、アドレス ボックスにプリンタの IP アドレスを入力します (そして <bold12>Enter</bold12> キーを押します)。ブラウザでプリンタの内蔵 Web サーバー (EWS) が開きます。EWS が開かない場合は、プリンタがコンピュータとは別のサブネットワークに接続されている可能性があります。
+4. EWS で、[<bold12>ネットワーク</bold12>] タブに移動し、[<bold12>ワイヤレス設定</bold12>] をクリックします。
+5. [<bold12>有効</bold12>] ボタンをクリックします。次に、[<bold12>既存のワイヤレス ネットワークに接続する</bold12>] をクリックします。
+6. 使用できるワイヤレス ネットワークの一覧が表示されます。接続するネットワークをクリックします。
+7. 選択したネットワークが名前のないネットワークであると表示された場合には、[<bold12>ネットワーク名の入力</bold12>] ボタンをクリックし、テキスト ボックスにネットワーク名 (SSID) を入力します。
+8. ネットワークに WEP キーまたは WPA パスフレーズが必要な場合は、テキスト ボックスに正しいキーまたはパスフレーズを入力します。
+9. ページの下部にある [<bold12>適用</bold12>] をクリックします。
+10. プリンタの設定が保存されるまで 1 分間待った後、ネットワーク ケーブルをプリンタから取り外します。プリンタはネットワークへのワイヤレス接続を試みます。</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>インストーラに戻る</bold16gold><br/><bodyNumList>1. プリンタに USB ケーブルが接続されていないことを確認します。ソフトウェア インストーラで、[<bold12>戻る</bold12>] ボタンを何回か押し、接続タイプを選択する画面まで戻ります。
+2. [<bold12>ワイヤレス ネットワーク経由で接続する</bold12>] を選択し、[<bold12>次へ</bold12>] をクリックします。
+3. インストーラがネットワーク上のプリンタを検索します。プリンタが検出されたら、ソフトウェアのインストールを続行します。</bodyNumList></t17>
+<t18 type="content"><bold16gold>ネットワーク レポートの印刷</bold16gold><br/><body>ネットワーク レポートには、プリンタがワイヤレス ネットワークに接続できない原因となる何らかの競合状態が示される場合があります。
+ネットワーク レポートを印刷するには、プリンタのコントロール パネルでワイヤレス メニューを表示し、[<bold12>ネットワーク テストの実行</bold12>] を選択します。レポートに記載された指示に従います。競合が解決したら、下の [<bold12>次へ</bold12>] をクリックします。</body></t18>
+<t19 type="content"><bold16gold>デフォルト設定の復元と再インストール</bold16gold><br/><body><bold12>注記：</bold12>先に進む前に、プリンタにネットワーク ケーブルが何も接続されていないことを確認してください。
+プリンタのネットワーク設定をデフォルト設定に戻してから、インストールを再度実行することをお勧めします。
+<bodyNumList>1. プリンタに USB ケーブルが接続されている場合は、USB ケーブルをプリンタから取り外します。
+2. プリンタのコントロール パネルで、[<bold12>セットアップ メニュー</bold12>] を表示します。
+3. [<bold12>ネットワーク設定</bold12>] を選択します。
+4. [<bold12>デフォルトの設定を復元</bold12>] を選択します。
+5. ソフトウェア インストーラで、[<bold12>戻る</bold12>] ボタンを何回か押し、[ワイヤレス設定方法の選択] 画面まで戻ります。
+6. 使用する設定方法を選択し、画面上の指示に通常どおり従います。</bodyNumList></body></t19><guideButt type="content"><butt11>ガイドを表示</butt11></guideButt><backButt type="content"><butt11>戻る</butt11></backButt><showButt type="content"><butt11>表示</butt11></showButt><nextButt type="content"><butt11>次へ</butt11></nextButt><contButt type="content"><butt11>続行</butt11></contButt><exitButt type="content"><butt11>終了</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS が動作しない</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>成功/次へ</butt11></successNextButt><failedTSbutt type="content"><butt11>失敗/トラブルシューティング</butt11></failedTSbutt><noWPSradio type="content"><radioButt>WPS をサポートしていない</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>WPS をサポートしている</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>設定ページの印刷</bold16gold><br/><body>プリンタのコントロール パネルの種類を選択してください。</body></tx00>
+<tx00L01 type="content"><bodyLink>» テキストのみ (小)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» タッチ スクリーン (小)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» ディスプレイなし</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» テキストのみ (大)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» タッチ スクリーン (大)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. プリンタに [設定メニュー] ボタン (A) がある場合は、[設定メニュー] ボタンを押します。[設定メニュー] ボタンがない場合は、次のステップに進んでください。</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. 矢印ボタン (B) を使って [<bold12>レポート</bold12>] まで移動し、[<bold12>OK</bold12>] ボタン (C) を押します。</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. 矢印ボタンを使って [<bold12>設定レポート</bold12>] まで移動し、[<bold12>OK</bold12>] ボタンを押します。</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. 設定レポートが印刷されます。IP アドレスは IPv4 または IPv6 として一覧表示されます。</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>この種類のコントロール パネルでは、ディスプレイで IP アドレスを確認できます。
+<br/><li>プリンタがネットワーク ケーブルでネットワークに接続している場合は、ホーム画面の [ネットワーク] ボタン (A) をタッチして IP アドレスを確認できます。IP アドレスが表示されない場合、プリンタはネットワーク通信していません。ケーブルの接続を再度確認してください。
+プリンタがワイヤレスでネットワークに接続している場合は、ホーム画面の [ワイヤレス] ボタン (B) をタッチして IP アドレスを確認できます。IP アドレスが表示されない場合は、コントロール パネルのディスプレイに表示される指示に従ってください。</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>ボタンがありディスプレイがないプリンタの場合、設定表示を印刷するためのボタン (またはボタンの組み合わせ) は機種によって異なります。</body><br/><bodyNumList>1. プリンタに [キャンセル] ボタン (A) だけがある場合は、[キャンセル] ボタンを 2、3 秒押したままにします。設定ページが印刷されない場合は、次のステップに進みます。</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. プリンタに [キャンセル] ボタン (A) と [再開] ボタン (B) がある場合は、両方のボタンを同時に押し、2 秒間押したままにします。設定ページが印刷されない場合は、[再開] ボタン (B) だけを 2、3 秒押したままにします。それでも設定ページが印刷されない場合は、次のステップに進みます。</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. 設定ページが印刷されない場合は、最寄りのサポートにお問い合わせください。</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>この種類のコントロール パネルでは、ディスプレイの [<bold12>印刷可</bold12>] 画面で IP アドレスを確認できます。[<bold12>印刷可</bold12>] 画面に IP アドレスが表示されない場合は、プリンタのネットワーク接続を確認してください。</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>この種類のコントロール パネルでは、ディスプレイで IP アドレスを確認できます。</body><br/><bodyNumList>1. IP アドレスを確認するには、ホーム画面の [ネットワーク アドレス] ボタン (A) をタッチします。IP アドレスが表示されない場合、プリンタはネットワーク通信していません。ネットワークの接続を再度確認してください。</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» ヘルプの続きを見る</bodyLinkLine1></txCont><cpstring01 type="content"><p>レポート</p></cpstring01><cpstring02 type="content"><p>設定レポート</p></cpstring02><cpstring03 type="content"><p>印刷可</p></cpstring03><cpstring04 type="content"><p>ネットワーク アドレス</p></cpstring04></ja></document>

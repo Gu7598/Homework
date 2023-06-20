@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» إجراء بحث على موقع HP.com</span></text>
+	<text name="search">بحث</text>
+	<text name="close">إغلاق</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP Series</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">مركز التعليمات والتعلم</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» دعم الويب</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">وظائف يمكن للجميع القيام بها</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">الإدارة والصيانة</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">حل مشكلة</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">بحث سريع</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» أزرار لوحة التحكم</span></text><text targetName="controlPanelMessages"><span class="white14">» رسائل لوحة التحكم</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» استبدال خرطوشة الطباعة</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» تحميل أدراج الورق</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» الحصول على عنوان IP الخاص بطابعة الشبكة</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» قائمة اختيار استكشاف أخطاء الفاكس وإصلاحها</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+			</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» استعراض دليل المستخدم</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">مهام الطباعة </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» إلغاء مهمة الطباعة</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» فتح برنامج تشغيل الطابعة</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» الطباعة على الوجهين (طباعة مزدوجة)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» طباعة صفحات متعددة لكل ورقة</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» الطباعة على الورق الخاص</span></text>		<text><span class="yellow12Bold">مهام النسخ </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» إنشاء نُسخ متعددة</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» تصغير النُسخ أو تكبيرها</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» نسخ بطاقات التعريف</span></text>
+		<text><span class="yellow12Bold">مهام المسح الضوئي </span></text>
+		<text targetName="scanADocument"><span class="white12">» مسح مستند ضوئيًا</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» إظهار المستندات الممسوحة ضوئيًا بشكل أفضل</span></text>
+		<text><span class="yellow12Bold">مهام الفاكس </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">« استخدام دفتر الهاتف</span></text>
+		<text targetName="sendAFax"><span class="white12">» إرسال فاكس</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» جدولة فاكس لإرساله في وقت لاحق</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» طباعة فاكس مخزَّن</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» حذف رسائل الفاكس من الذاكرة</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» طباعة صفحات المعلومات</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» استبدال خرطوشة الطباعة</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» طباعة صفحة تنظيف</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» تنظيف زجاج الماسح الضوئي</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">« تنظيف اسطوانة الالتقاط</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">« تنظيف لوحة الفصل</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» تغيير إعدادات الفاكس</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» قائمة مراجعة حل المشكلات</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» إزالة ورقة محشورة</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» إزالة الانحشار من وحدة التغذية بالمستندات</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» رسائل لوحة التحكم</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» حل مشاكل معالجة الورق_</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» حل مشكلات جودة الطباعة</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» حل مشاكل جودة النسخة</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» حل مشاكل جودة المسح الضوئي</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» حل مشاكل الفاكس</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» فتح دليل المستخدم على جهاز الكمبيوتر.</span></text>
+			<text><span class="white14">أو</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» فتح أحدث إصدار على الويب.</span></text>
+		</menuList>
+	</dialog>
+</document>

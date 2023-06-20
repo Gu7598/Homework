@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlertHelpLinks
+    xmlns="http://www.hp.com/schemas/imaging/con/alerthelplinks/2009/10/27"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.hp.com/schemas/imaging/con/alerthelplinks/2009/10/27 AlertHelpLinks.xsd">
+    <!-- DocumentVersion: 1.0 -->
+    <!-- LonePine -->
+    <ProductSeriesName>HP LaserJet Professional M1530 MFP Series</ProductSeriesName>
+    <HelpAppSubPath>Help_Learn\Help.exe</HelpAppSubPath>
+    <AlertInfo>
+        <AlertLink>
+            <LEDMAlertID_Location>jamInPrinter</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>insufficientMemory</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>cartridgeMissing</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>missingMemory</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>defectiveMemory</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>usedConsumable</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>replaceCartridgeOut</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>cartridgeVeryLow</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>cartridgeLow</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+        <AlertLink>
+            <LEDMAlertID_Location>trayEmptyOrOpen</LEDMAlertID_Location>
+            <PathToHLC>%PROGFILES%\HP\%ProductSeriesName%\%HelpAppSubPath%</PathToHLC>
+            <HLCArgs>command=%LEDMAlertID_Location%</HLCArgs>
+        </AlertLink>
+    </AlertInfo>
+</AlertHelpLinks>

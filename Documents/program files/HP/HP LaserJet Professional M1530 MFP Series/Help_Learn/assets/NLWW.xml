@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Zoeken op HP.com</span></text>
+	<text name="search">Zoeken</text>
+	<text name="close">Sluiten</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP-serie</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Help- en leercentrum</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Webondersteuning</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Alledaagse taken</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Beheer en onderhoud</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Een probleem oplossen</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">SNEL ZOEKEN</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Layout bedieningsknoppen</span></text><text targetName="controlPanelMessages"><span class="white14">» Berichten op het bedieningspaneel</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Printcartridge vervangen</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Papierinvoerladen vullen</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Het IP-adres van een printer in het netwerk verkrijgen</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Controlelijst voor het oplossen van faxproblemen</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+			</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Navigeren in de gebruikershandleiding</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Afdruktaken </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Afdruktaak annuleren</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Printerdriver openen</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Afdrukken op beide zijden (dubbelzijdig)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Meerdere pagina's per vel afdrukken</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Afdrukken op speciaal papier</span></text>		<text><span class="yellow12Bold">Kopieertaken </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Meerdere kopieën maken</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Kopieën vergroten of verkleinen</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Identiteitsbewijzen kopiëren</span></text>
+		<text><span class="yellow12Bold">Scantaken </span></text>
+		<text targetName="scanADocument"><span class="white12">» Een document scannen</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Zorgen voor betere scans</span></text>
+		<text><span class="yellow12Bold">Faxtaken </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Het telefoonboek gebruiken</span></text>
+		<text targetName="sendAFax"><span class="white12">» Een fax verzenden</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Uitgestelde verzending van een fax plannen</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Een opgeslagen fax afdrukken</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Faxen uit het geheugen verwijderen</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Informatiepagina's afdrukken</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Printcartridge vervangen</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Een reinigingspagina afdrukken</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» De glasplaat reinigen</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Transportrol reinigen</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Scheidingskussen reinigen</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Faxinstellingen wijzigen</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Controlelijst voor het oplossen van problemen</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Een papierstoring verhelpen</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Papierstoringen in de documentinvoer verhelpen</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Berichten op het bedieningspaneel</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Papierverwerkingsproblemen oplossen</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Problemen met de afdrukkwaliteit oplossen</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Problemen met de kopieerkwaliteit oplossen</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Problemen met de scankwaliteit oplossen</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Faxproblemen oplossen</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» De gebruikershandleiding openen op mijn computer.</span></text>
+			<text><span class="white14">Of</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» De nieuwste versie op internet openen.</span></text>
+		</menuList>
+	</dialog>
+</document>

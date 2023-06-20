@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><document><en>
+<title type="content"><title>Printer Help</title></title>
+<t01 type="content"><bold16gold>Printer not found on network</bold16gold><br/><body>The installer cannot find the printer on the network.
+To let HP guide you through the steps of finding the printer on the network, click <bold12> Guide Me</bold12>.
+Advanced users can click "Advanced Troubleshooting Steps" to read text-only steps for finding the printer on the network.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t02 type="content"><bodyLinkLine1>» Advanced Troubleshooting Steps</bodyLinkLine1><br/><bodyLinkLine2></bodyLinkLine2></t02>
+<t03 type="content"><bold16gold>Printer not found troubleshooting steps</bold16gold><br/><bodyNumList>1. Verify that the product is on and ready.
+2. Make sure that the product is connected to the network using the appropriate port and cable. Check each cable connection to make sure it is secure and in the right place. If the problem continues, try a different cable or ports on the hub or transceiver. The amber activity light and the green link status light next to the port connection on the back of the product should be lit.
+3. From the product control panel, print a configuration page and locate the product IP address.
+4. Use the command prompt to ping the product from your computer. For example: ping 192.168.45.39</bodyNumList><bodyMargin>If you are able to ping the product, verify that the IP address configuration for the product is correct on the computer. If it is correct, delete and then add the product again.
+If the ping command failed, verify that the network hubs are on, and then verify that the network settings, the product, and the computer are all configured for the same network. Verify that the ping command is successful for other devices on the network (if not, a firewall might be blocking the ping command).
+Or, try opening the embedded Web server to verify that the computer is communicating with the product.</bodyMargin></t03>
+<t04 type="content"><bold16gold>Discover the printer on a wired network</bold16gold><br/><body>Ensure the product is powered on and indicates <bold12>Ready</bold12>.</body></t04>
+<t05 type="content"><bold16gold>Discover the printer on a wired network</bold16gold><br/><body>Ensure that an active network cable is connected to the network port on the product.</body></t05>
+<t06 type="content"><bold16gold>Discover the printer on a wired network</bold16gold><br/><body>If the product is correctly connected to the network, it should have an IP address. Print a product Configuration Page, and locate the IP address on the Configuration Page.</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t07 type="content"><bodyLinkLine1>» How to print a Configuration Page</bodyLinkLine1><br/><bodyLinkLine2></bodyLinkLine2></t07>
+<t08 type="content"><bold16gold>Discover the printer on a wired network</bold16gold><br/><body>Enter the IP address manually into the appropriate box in the installer, and then continue installing the software.
+If the installer still cannot find the product on the network, you might have firewall software preventing the product's discovery. HP recommends that you leave your firewall software enabled. But do allow all HP programs to proceed by selecting "Continue" or "Unblock" or "Allow" when prompted by firewall or anti-virus software. Blocking an installation can cause it to fail.
+If security software is not blocking the discovery, the product might be connected to a subnetwork different from your computer. Contact your network administrator for further assistance.</body></t08>
+<t09 type="content"><bold16gold>Power on the product</bold16gold><br/><body><bold12>Note:</bold12> Ensure that all packing tape and shipping locks are removed. Ensure that paper is loaded in the paper tray.
+Connect the power cord between the product and a grounded AC outlet, and then press the product power button to <bold12>On</bold12>.</body></t09>
+<t10 type="content"><bold16gold>Connect a network cable</bold16gold><br/><body>Connect an active network cable to the network port on the product. Wait a few minutes for the product to establish an IP address on the network.
+If the lights on the network port are not blinking, the network cable is not active. Ensure the cable is connected to an active network. If it is, consider trying another cable or test the cable on another device.</body></t10>
+
+<guideButt type="content"><butt11>Guide Me</butt11></guideButt><backButt type="content"><butt11>Back</butt11></backButt><showButt type="content"><butt11>Show Me</butt11></showButt><nextButt type="content"><butt11>Next</butt11></nextButt><contButt type="content"><butt11>Continue</butt11></contButt><exitButt type="content"><butt11>Exit</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>Print a Configuration Page</bold16gold><br/><body>Select the type of control panel on your printer:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Text only (small)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Touch screen (small)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» No display</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Text only (large)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Touch screen (large)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] -->
+<tx101 type="content"><bodyNumList>1. If your printer has a Setup Menu button (A), press the Setup Menu button. If your printer has no Setup Menu button, go to the next step.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Use the arrow buttons (B) to navigate to <bold12>Reports</bold12>, and then press the <bold12>OK</bold12> button (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Use the arrow buttons to navigate to <bold12>Config Report</bold12>, and then press the <bold12>OK</bold12> button.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. A Configuration Report prints. The IP address is listed as IPv4 or IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] -->
+<tx201 type="content"><body>With this type of control panel, the IP address is viewable on the display:
+<br/><li>If your printer is connected to the network via a network cable, touch the Network button (A) on the home screen to view the IP address. If the IP address does not appear, the printer is not communicating with the network. Recheck your cable connections.
+If your printer is connected to the network wirelessly, touch the Wireless button (B) on the home screen to view the IP address. If the IP address does not appear, follow the instructions on the control panel display.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] -->
+<tx301 type="content"><body>On printers that have buttons, but no display, the button or combination of buttons that will print a configuration page can vary.</body><br/><bodyNumList>1. If the printer has only a Cancel button (A), press and hold the Cancel button for two to three seconds. If no configuration page prints, go to the next step.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. If the printer has a Cancel button (A) and a Resume button (B), press and hold both buttons at the same time for two seconds. If no configuration page prints, press only the Resume button (B) for two to three seconds. If no configuration page prints, go to the next step.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. If a configuration page does not print, please contact your local support.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>With this type of control panel, the IP address is viewable on the display on the <bold12>Ready</bold12> screen. If no IP address is visible on the <bold12>Ready</bold12> screen, check your printer’s network connection.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>With this type of control panel, the IP address is viewable on the display.</body><br/><bodyNumList>1. Touch the <bold12>Network Address</bold12> button (A) on the home screen to view the IP address. If the IP address does not appear, the printer is not communicating with the network. Recheck your network connection.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Continue with help</bodyLinkLine1></txCont><cpstring01 type="content"><p>Reports</p></cpstring01><cpstring02 type="content"><p>Config report</p></cpstring02><cpstring03 type="content"><p>Ready</p></cpstring03><cpstring04 type="content"><p>Network Address</p></cpstring04>
+
+</en></document>

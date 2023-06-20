@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» ביצוע חיפוש ב-HP.com‏</span></text>
+	<text name="search">חיפוש</text>
+	<text name="close">סגור</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">HP LaserJet Pro<br/>M1530 MFP Series</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">מרכז העזרה והלמידה</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» תמיכה באינטרנט</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">עבודות יומיומיות</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">ניהול ותחזוקה</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">פתרון בעיות</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">חיפוש מהיר</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» לחצנים בלוח הבקרה</span></text><text targetName="controlPanelMessages"><span class="white14">» הודעות לוח הבקרה</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» החלף את מחסנית ההדפסה</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» טעינת מגשי נייר</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» קבלת כתובת IP של מדפסת ברשת</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» רשימת פעולות לביצוע לפתרון בעיות בפקס</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+	</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» עיון במדריך למשתמש</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">משימות הדפסה </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» ביטול עבודת הדפסה</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» פתיחת מנהל התקן המדפסת</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» הדפסה דו-צדדית (דופלקס)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» הדפסת עמודים מרובים לגיליון</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» הדפסה על נייר מיוחד</span></text>		<text><span class="yellow12Bold">משימות העתקה </span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» יצירת עותקים מרובים</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» הקטנה או הגדלה של עותקים</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» העתקת תעודות זהות</span></text>
+		<text><span class="yellow12Bold">משימות סריקה </span></text>
+		<text targetName="scanADocument"><span class="white12">» סריקת מסמך</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» שיפור איכות הסריקה</span></text>
+		<text><span class="yellow12Bold">משימות פקס </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» שימוש בספר הטלפונים</span></text>
+		<text targetName="sendAFax"><span class="white12">» שיגור פקס</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» תזמון שיגור פקס למועד מאוחר יותר</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» הדפסת פקס שמור</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» מחיקת פקסים מהזיכרון</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» הדפסת דפי מידע</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» החלף את מחסנית ההדפסה</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» הדפסת דף ניקוי</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» ניקוי משטח הזכוכית של הסורק</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» נקה את גלגלת האיסוף</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» נקה את משטח ההפרדה</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» שינוי הגדרות הפקס</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» רשימת פעולות לפתרון בעיות</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» שחרור חסימת נייר</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» שחרור חסימות ממזין המסמכים</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» הודעות לוח הבקרה</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» פתרון בעיות בטיפול בנייר</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» פתרון בעיות באיכות ההדפסה</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» פתרון בעיות באיכות ההעתקה</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» פתרון בעיות באיכות הסריקה</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» פתרון בעיות פקס</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» פתיחת המדריך למשתמש במחשב שלי.</span></text>
+			<text><span class="white14">או</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» פתיחת הגרסה העדכנית ביותר באינטרנט.</span></text>
+		</menuList>
+	</dialog>
+</document>

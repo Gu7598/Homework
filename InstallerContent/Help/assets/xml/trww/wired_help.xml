@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><document>
+<tr>
+<title type="content"><title>Yazıcı Yardım</title></title>
+<t01 type="content"><bold16gold>Yazıcı ağda bulunamadı</bold16gold><br/><body>Yükleme programı, ağ üzerinde yazıcıyı bulamıyor.
+HP’nin sizi ağ üzerinde yazıcıyı bulmaya yönelik adımlar boyunca yönlendirmesini sağlamak için, <bold12>Yönlendir</bold12> düğmesini tıklatın.
+Deneyimli kullanıcılar, ağ üzerinde yazıcıyı bulmayla ilgili salt metin halindeki adımları okumak için "Gelişmiş Sorun Giderme Adımları" seçeneğini tıklatabilir.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t02 type="content"><bodyLinkLine1>» Gelişmiş Sorun Giderme Adımları</bodyLinkLine1><br/><bodyLinkLine2/></t02>
+<t03 type="content"><bold16gold>Yazıcı sorun giderme adımlarını bulamadı</bold16gold><br/><bodyNumList>1. Ürünün açık ve kullanıma hazır olduğundan emin olun.
+2. Ürünün uygun bağlantı noktası ve kablo kullanılarak ağa bağlandığından emin olun. Güvenli ve doğru konumda olduklarından emin olmak için bütün kablo bağlantılarını kontrol edin. Sorun devam ederse, hub veya alıcı verici üzerinde farklı bir kablo veya bağlantı noktasını deneyin. Ürünün arkasındaki bağlantı noktası bağlantısının yanında bulunan kehribar rengi etkinlik ışığı ve yeşil bağlantı durumu ışığı yanıyor olmalıdır.
+3. Ürün kontrol panelinden bir yapılandırma sayfası yazdırın ve ürünün IP adresini bulun. 
+4. Bilgisayarınızdan ürünü ping yapmak için komut istemini kullanın. Örnek: ping 192.168.45.39</bodyNumList><bodyMargin>Ürünü ping yapmak için, ürünün IP adresi yapılandırmasının bilgisayarda doğru olduğundan emin olun. Doğruysa silin ve ardından ürünü yeniden ekleyin.
+Ping komutu başarısız olursa, ağ hublarının açık olduğundan emin olun ve ardından ağ ayarları, ürün ve bilgisayarın aynı ağ için yapılandırıldığından emin olun. Ping komutunun ağdaki diğer aygıtlar için başarılı olup olmadığını kontrol edin (başarılı değilse, bir güvenlik duvarı ping komutunu engelliyor olabilir).
+Veya bilgisayarın ürünle iletişim kurabildiğini doğrulamak için katıştırılmış Web sunucusunu açmayı deneyin.</bodyMargin><br/></t03>
+<t04 type="content"><bold16gold>Yazıcıyı kablolu ağ üzerinde bulma</bold16gold><br/><body>Ürüne güç geldiğinden ve <bold12>Hazır</bold12> işaretinin verildiğinden emin olun.</body></t04>
+<t05 type="content"><bold16gold>Yazıcıyı kablolu ağ üzerinde bulma</bold16gold><br/><body>Bir etkin ağ kablosunun, ürün üzerindeki ağ bağlantı noktasına bağlı olduğundan emin olun.</body></t05>
+<t06 type="content"><bold16gold>Yazıcıyı kablolu ağ üzerinde bulma</bold16gold><br/><body>Ürün ağa doğru bağlanmışsa, bir IP adresine sahip olması gerekir. Ürün Yapılandırma Sayfasını yazdırın ve Yapılandırma Sayfasında IP adresini bulun.</body></t06><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.-->
+<t07 type="content"><bodyLinkLine1>» Bir Yapılandırma Sayfasını Yazdırma</bodyLinkLine1><br/><bodyLinkLine2/></t07>
+<t08 type="content"><bold16gold>Yazıcıyı kablolu ağ üzerinde bulma</bold16gold><br/><body>Yükleme programındaki ilgili kutuya IP adresini elle girin ve ardından ürünü yüklemeye devam edin.
+Buna rağmen yükleme programı ağ üzerinde ürünü bulamıyorsa, ürünün bulunmasını önleyen bir güvenlik duvarı yazılımınız vardır. HP, güvenlik duvarı yazılımınızı etkin halde bırakmanızı önerir. Güvenlik duvarı veya virüsten koruma yazılımı tarafından istendiğinde "Devam" veya "Engellemeyi Kaldır" ya da "İzin Ver" seçeneğini belirleyerek HP programlarının kullanılmasına izin verin. Bir yüklemenin engellenmesi, başarısız olmasına neden olabilir.
+Güvenlik yazılımı bulmayı engellemiyorsa, ürün, bilgisayarınızdan farklı bir alt ağa bağlanmış olabilir. Daha fazla yardım bilgisi için ağ yöneticisine başvurun.</body></t08>
+<t09 type="content"><bold16gold>Ürüne güç verilmesi</bold16gold><br/><body><bold12>Not:</bold12> Tüm ambalaj bandı ve nakliye kilitlerini söktüğünüzden emin olun. Kağıt tepsisinde kağıt yüklü olduğundan emin olun.
+Güç kablosunu ürün ile topraklı bir AC prizi arasına bağlayın ve ardından ürün güç düğmesini <bold12>Açık</bold12> konumuna getirin.</body></t09>
+<t10 type="content"><bold16gold>Ağ kablosunu bağlama</bold16gold><br/><body>Bir etkin ağ kablosunu, ürün üzerindeki ağ bağlantı noktasına bağlayın. Ürünün ağ üzerinde bir IP adresi oluşturması için birkaç dakika bekleyin.
+Ağ bağlantı noktası üzerindeki ışıklar yanıp sönüyorsa, ağ kablosu etkin değildir. Kablonun etkin bir ağa bağlı olduğundan emin olun. Etkin bir ağa bağlıysa, başka bir kablo deneyin veya kabloyu başka bir cihazda test edin.</body></t10>
+
+<guideButt type="content"><butt11>Yönlendir</butt11></guideButt><backButt type="content"><butt11>Geri</butt11></backButt><showButt type="content"><butt11>Göster</butt11></showButt><nextButt type="content"><butt11>İleri</butt11></nextButt><contButt type="content"><butt11>Devam</butt11></contButt><exitButt type="content"><butt11>Çıkış</butt11></exitButt>
+
+<tx00 type="content"><bold16gold>Bir Yapılandırma Sayfası Yazdırma</bold16gold><br/><body>Yazıcınızdaki kontrol paneli türünü seçin:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Salt metin (küçük)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Dokunmatik ekran (küçük)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» Ekran yok</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Salt metin (büyük)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Dokunmatik ekran (büyük)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] -->
+<tx101 type="content"><bodyNumList>1. Yazıcınızda Kurulum Menüsü düğmesi (A) varsa, Kurulum Menüsü düğmesine basın. Yazıcınızda Kurulum Menüsü düğmesi yoksa, bir sonraki adıma geçin.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. <bold12>Raporlar</bold12> bölümüne geçmek için ok düğmelerini (B) kullanın ve ardından <bold12>OK</bold12> düğmesine basın (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. <bold12>Raporları Yapılandır</bold12> bölümüne geçmek için ok düğmelerini (B) kullanın ve ardından <bold12>OK</bold12> düğmesine basın.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Bir Yapılandırma Raporu yazdırılır. IP adresi IPv4 veya IPv6 olarak listelenir.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] -->
+<tx201 type="content"><body>Bu tür kontrol panellerinde, IP adresi ekranda görüntülenmektedir:
+<br/><li>Yazıcınızın ağa ağ kablosu ile bağlı olması halinde, IP adresini görüntülemek için ana ekrandaki Ağ düğmesine (A) dokunun. IP adresi görüntülenmiyorsa, yazıcı ağ ile iletişim kuramıyordur. Kablo bağlantılarınızı yeniden kontrol edin.
+Yazıcınız ağa kablosuz olarak bağlanıyorsa, IP adresini görüntülemek için ana ekrandaki Kablosuz düğmesine (B) dokunun. IP adresi görüntülenmiyorsa, kontrol paneli ekranındaki yönergeleri izleyin.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] -->
+<tx301 type="content"><body>Düğmeleri olan ancak ekranı olmayan yazıcılarda, yapılandırma sayfasının yazdırılacağı düğme veya düğme kombinasyonu değişebilir.</body><br/><bodyNumList>1. Yazıcının yalnızca bir İptal düğmesi (A) varsa, İptal düğmesine basın ve düğmeyi iki-üç saniye boyunca basılı tutun. Herhangi bir yapılandırma sayfasının yazdırılmaması durumunda, bir sonraki adıma geçin.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Yazıcının bir İptal düğmesi (A) ve bir Devam düğmesi (B) varsa, aynı anda iki düğmeye de basın ve düğmeleri iki saniye boyunca basılı tutun. Herhangi bir yapılandırma sayfasının yazdırılmaması durumunda, iki-üç saniye boyunca yalnızca Devam düğmesine (B) basın. Herhangi bir yapılandırma sayfası yazdırılmazsa, bir sonraki adıma geçin.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Bir yapılandırma sayfasının yazdırmaması durumunda lütfen yerel desteğe başvurun.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Bu tür kontrol panellerinde, IP adresi <bold12>Hazır</bold12> ekranında görüntülenir. <bold12>Hazır</bold12> ekranında IP adresinin görüntülenmemesi durumunda, yazıcınızın ağ bağlantısını kontrol edin.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Bu tür kontrol panelleriyle, IP adresi ekranda görüntülenir.</body><br/><bodyNumList>1. IP adresini görüntülemek için ana ekrandaki <bold12>Ağ Adresi</bold12> düğmesine (A) dokunun. IP adresi görüntülenmiyorsa, yazıcı ağ ile iletişim kuramıyordur. Ağ bağlantınızı yeniden kontrol edin.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Yardım’a basarak devam edin.</bodyLinkLine1></txCont><cpstring01 type="content"><p>RAPORLAR</p></cpstring01><cpstring02 type="content"><p>YAPILANDIRMA RAP</p></cpstring02><cpstring03 type="content"><p>Hazır</p></cpstring03><cpstring04 type="content"><p>Ağ Adresi</p></cpstring04></tr></document>

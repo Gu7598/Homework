@@ -1,0 +1,1538 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<InstallerConfigXML xsi:noNamespaceSchemaLocation="InstallerConfigXML.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfgProductInfo>
+    <CoInstallerFinishEvent>
+      <FinishEventName If="32bit">hpc1530c</FinishEventName>
+      <FinishEventName If="64bit">hpc1530u</FinishEventName>
+    </CoInstallerFinishEvent>
+    <InstantiationName>Lo_W_FWP</InstantiationName>
+    <InstanceBuildName>Lo_W_FWP_Fusion15_0_Release22049_102</InstanceBuildName>
+    <InstanceID>74280B5D-A0AF-46c5-9C85-D9EA078262F1</InstanceID>
+    <InstanceVersion>15.0.22049.102</InstanceVersion>
+    <InstanceDateCode>20220218</InstanceDateCode>
+    <Title>HP LaserJet Professional M1530 MFP Series</Title>
+    <ProgramGroupTitle>HP LaserJet Professional M1530 MFP Series</ProgramGroupTitle>
+    <ProductName>HP LaserJet Professional M1530 MFP Series</ProductName>
+    <ShowSkipPnPCheckbox>false</ShowSkipPnPCheckbox>
+    <ShowEPrintText>true</ShowEPrintText>
+    <UseLocalConfigFile>false</UseLocalConfigFile>
+    <RebootRequired>true</RebootRequired>
+    <SupportsAWCInformationElement>true</SupportsAWCInformationElement>
+    <FinishScreenCommentStringKey>strFinishScreenComment</FinishScreenCommentStringKey>
+    <Comments>
+    </Comments>
+    <AdditionalSWConfigFileName>
+    </AdditionalSWConfigFileName>
+    <WsowRegExMatchString>WsowRegExMatchString goes here!</WsowRegExMatchString>
+    <WsowRegExMatchString>WsowRegExMatchString goes here!</WsowRegExMatchString>
+    <Models SeriesName="HP LaserJet M1530 MFP Series PCL 6">
+      <Model>
+        <DeviceModelName>HP LaserJet M1536dnf MFP</DeviceModelName>
+        <UsbID>VID_03F0&amp;PID_012A</UsbID>
+        <ParbID>Hewlett-PackardHP_La8b57</ParbID>
+      </Model>
+      <Model>
+        <DeviceModelName>HP LaserJet M1537dnf MFP</DeviceModelName>
+        <UsbID>VID_03F0&amp;PID_012A</UsbID>
+        <ParbID>Hewlett-PackardHP_La8537</ParbID>
+      </Model>
+      <Model>
+        <DeviceModelName>HP LaserJet M1538dnf MFP</DeviceModelName>
+        <UsbID>VID_03F0&amp;PID_012A</UsbID>
+        <ParbID>Hewlett-PackardHP_La07d6</ParbID>
+      </Model>
+      <Model>
+        <DeviceModelName>HP LaserJet M1539dnf MFP</DeviceModelName>
+        <UsbID>VID_03F0&amp;PID_012A</UsbID>
+        <ParbID>Hewlett-PackardHP_Lacb17</ParbID>
+      </Model>
+    </Models>
+    <SupportsPostInstallManager>true</SupportsPostInstallManager>
+    <WebServicesOptInSupport xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <cfgOptInModelType>ClientSoftwareOptIn</cfgOptInModelType>
+    </WebServicesOptInSupport>
+    <PostInstallManagerLaunchActionItems>
+      <AutomaticLaunchActionItems>
+        <cfgLaunchActionItem Name="WebServicesOptIn" Enabled="true">
+          <Command>hpbcsiWSOptInConfig.exe</Command>
+          <CommandPath>%InstallerRootParent%\Installer\WSOptIn\</CommandPath>
+          <CommandOptions>
+          </CommandOptions>
+          <CommandAppendInstallDataParams>true</CommandAppendInstallDataParams>
+        </cfgLaunchActionItem>
+      </AutomaticLaunchActionItems>
+      <EPrintWebSiteLaunchActionItem>
+        <cfgLaunchActionItem Name="HP Connected" NameLoc="" DescrLoc="" Descr="" NotIf="ServerProductTypes" Enabled="true">
+          <URLDefault>http://www.hpconnected.com</URLDefault>
+        </cfgLaunchActionItem>
+      </EPrintWebSiteLaunchActionItem>
+      <ButtonLaunchActionItems>
+      </ButtonLaunchActionItems>
+      <WebRegLaunchActionItem>
+        <cfgLaunchActionItem Name="WebReg" NameLoc="strPduRegisterWithHP" DescrLoc="" Descr="" NotIf="ServerProductTypes" Enabled="true">
+          <URLBase>http://h30495.www3.hp.com/?jumpid=in_instFusion7</URLBase>
+        </cfgLaunchActionItem>
+      </WebRegLaunchActionItem>
+    </PostInstallManagerLaunchActionItems>
+  </cfgProductInfo>
+  <cfgConnectionItems>
+    <cfgConnectionItem Name="USBConnection" NameLoc="LocUSBConnection">
+      <AssemblyName>hpbcsiConnectUSB</AssemblyName>
+      <ClassName>HP.ConnectManager.CSI.USBConnectEngine</ClassName>
+      <Version>USBVersion</Version>
+      <DateCode>USBDateCode</DateCode>
+      <ConnectionType>
+        <cfgDeviceConnectionType>USB</cfgDeviceConnectionType>
+      </ConnectionType>
+      <IsDefaultConnection>true</IsDefaultConnection>
+      <AllowSkip>true</AllowSkip>
+    </cfgConnectionItem>
+    <cfgConnectionItem Name="WiredNetworkConnection" NameLoc="LocWiredNetworkConnection">
+      <AssemblyName>hpbcsiConnectNetwork</AssemblyName>
+      <ClassName>HP.ConnectManager.CSI.NetworkConnectEngine</ClassName>
+      <Version>WiredNetworkVersion</Version>
+      <DateCode>WiredNetworkDateCode</DateCode>
+      <ConnectionType>
+        <cfgDeviceConnectionType>WiredNetwork</cfgDeviceConnectionType>
+      </ConnectionType>
+      <IsDefaultConnection>false</IsDefaultConnection>
+    </cfgConnectionItem>
+    <cfgConnectionItem Name="WirelessNetworkConnection" NameLoc="LocWirelessNetworkConnection">
+      <AssemblyName>hpbcsiConnectWireless</AssemblyName>
+      <ClassName>HP.ConnectManager.CSI.WirelessConnectEngine</ClassName>
+      <Version>WirelessNetworkVersion</Version>
+      <DateCode>WirelessNetworkDateCode</DateCode>
+      <ConnectionType>
+        <cfgDeviceConnectionType>WirelessNetwork</cfgDeviceConnectionType>
+      </ConnectionType>
+      <IsDefaultConnection>false</IsDefaultConnection>
+    </cfgConnectionItem>
+  </cfgConnectionItems>
+  <cfgInstallationInfo>
+    <InstallPathPrefix>%ProgramFiles%\HP\csiInstaller</InstallPathPrefix>
+    <InstallDataPathPrefix>%ProgramData%\HP\csiInstaller</InstallDataPathPrefix>
+    <InstallDataFileName>hpbcsiInstaller.xml</InstallDataFileName>
+    <RegKeyBase>HKEY_CURRENT_USER\\Software\Hewlett-Packard</RegKeyBase>
+    <Manufacturer>Hewlett-Packard</Manufacturer>
+    <PreloadExeString>%InstancePreloadPath%\Setup.exe</PreloadExeString>
+    <UninstallArgsString>/Uninstall</UninstallArgsString>
+    <ForcedUninstallArgsString>/ForcedUninstall</ForcedUninstallArgsString>
+    <WirelessReconfigArgsString>/ReconfigWireless</WirelessReconfigArgsString>
+    <InstallerEventName>hpbcsiInstaller</InstallerEventName>
+    <ThreadTimeoutSeconds>1200</ThreadTimeoutSeconds>
+    <PrepareToInstallThreadTimeoutSeconds>1260</PrepareToInstallThreadTimeoutSeconds>
+    <PnPThreadTimeOutSeconds>1200</PnPThreadTimeOutSeconds>
+    <InstallThreadTimeoutSeconds>2400</InstallThreadTimeoutSeconds>
+    <ShowCustomerFriendlyExceptionMessage>true</ShowCustomerFriendlyExceptionMessage>
+    <LocalizedContent>
+      <EULA>
+        <cfgLaunchActionItem Name="EULA" Enabled="true">
+          <FileNameDefault>%InstallerRootParent%\InstallerContent\EULA\EULA_enww.rtf</FileNameDefault>
+          <FileNameBase>EULA</FileNameBase>
+          <FileExtension>.rtf</FileExtension>
+          <FilePath>%InstallerRootParent%\InstallerContent\EULA</FilePath>
+        </cfgLaunchActionItem>
+      </EULA>
+      <FiViSpyInfo>
+        <cfgLaunchActionItem Name="FiViSpyInfo" Enabled="true">
+          <FileNameDefault>%InstallerRootParent%\InstallerContent\Privacy\fivispyinfo_en.rtf</FileNameDefault>
+          <FileNameBase>fivispyinfo</FileNameBase>
+          <FileExtension>.rtf</FileExtension>
+          <FilePath>%InstallerRootParent%\InstallerContent\Privacy</FilePath>
+        </cfgLaunchActionItem>
+      </FiViSpyInfo>
+      <InternetInfo>
+        <cfgLaunchActionItem Name="InternetInfo" Enabled="true">
+          <FileNameDefault>%InstallerRootParent%\InstallerContent\InternetInfo\InternetInfo_enww.rtf</FileNameDefault>
+          <FileNameBase>InternetInfo</FileNameBase>
+          <FileExtension>.rtf</FileExtension>
+          <FilePath>%InstallerRootParent%\InstallerContent\InternetInfo</FilePath>
+        </cfgLaunchActionItem>
+      </InternetInfo>
+      <PrepareToInstallContent>
+        <cfgLaunchActionItem Name="EnvironmentalInfo" Enabled="true">
+          <FileNameDefault>%InstallerRootParent%\InstallerContent\EnvironmentalInfo\EnvironmentalInfo_enww.rtf</FileNameDefault>
+          <FileNameBase>EnvironmentalInfo</FileNameBase>
+          <FileExtension>.rtf</FileExtension>
+          <FilePath>%InstallerRootParent%\InstallerContent\EnvironmentalInfo</FilePath>
+        </cfgLaunchActionItem>
+      </PrepareToInstallContent>
+    </LocalizedContent>
+    <HelpContent>
+      <HelpContentItems>
+        <cfgLaunchActionItem Name="WiredHelp" Enabled="true">
+          <Command>CSIHelp.exe</Command>
+          <CommandPath>%InstallerRootParent%\InstallerContent\Help</CommandPath>
+          <CommandOptions>command=wired_help</CommandOptions>
+        </cfgLaunchActionItem>
+        <cfgLaunchActionItem Name="WirelessHelp" Enabled="true">
+          <Command>CSIHelp.exe</Command>
+          <CommandPath>%InstallerRootParent%\InstallerContent\Help</CommandPath>
+          <CommandOptions>command=wireless_help</CommandOptions>
+        </cfgLaunchActionItem>
+      </HelpContentItems>
+    </HelpContent>
+  </cfgInstallationInfo>
+  <cfgSupportedLanguages>
+    <cfgLocalizationLanguageType Name="Arabic" />
+    <cfgLocalizationLanguageType Name="Bulgarian" />
+    <cfgLocalizationLanguageType Name="Catalan" />
+    <cfgLocalizationLanguageType Name="Chinese-Simplified" />
+    <cfgLocalizationLanguageType Name="Chinese-Traditional" />
+    <cfgLocalizationLanguageType Name="Croatian" />
+    <cfgLocalizationLanguageType Name="Czech" />
+    <cfgLocalizationLanguageType Name="Danish" />
+    <cfgLocalizationLanguageType Name="Dutch" />
+    <cfgLocalizationLanguageType Name="English" />
+    <cfgLocalizationLanguageType Name="Estonian" />
+    <cfgLocalizationLanguageType Name="Finnish" />
+    <cfgLocalizationLanguageType Name="French" />
+    <cfgLocalizationLanguageType Name="German" />
+    <cfgLocalizationLanguageType Name="Greek" />
+    <cfgLocalizationLanguageType Name="Hebrew" />
+    <cfgLocalizationLanguageType Name="Hungarian" />
+    <cfgLocalizationLanguageType Name="Indonesian" />
+    <cfgLocalizationLanguageType Name="Italian" />
+    <cfgLocalizationLanguageType Name="Japanese" />
+    <cfgLocalizationLanguageType Name="Kazakh" />
+    <cfgLocalizationLanguageType Name="Korean" />
+    <cfgLocalizationLanguageType Name="Latvian" />
+    <cfgLocalizationLanguageType Name="Lithuanian" />
+    <cfgLocalizationLanguageType Name="Norwegian" />
+    <cfgLocalizationLanguageType Name="Polish" />
+    <cfgLocalizationLanguageType Name="Portuguese" />
+    <cfgLocalizationLanguageType Name="Romanian" />
+    <cfgLocalizationLanguageType Name="Russian" />
+    <cfgLocalizationLanguageType Name="Serbian" />
+    <cfgLocalizationLanguageType Name="Slovak" />
+    <cfgLocalizationLanguageType Name="Slovenian" />
+    <cfgLocalizationLanguageType Name="Spanish" />
+    <cfgLocalizationLanguageType Name="Swedish" />
+    <cfgLocalizationLanguageType Name="Thai" />
+    <cfgLocalizationLanguageType Name="Turkish" />
+    <cfgLocalizationLanguageType Name="Ukrainian" />
+    <cfgLocalizationLanguageType Name="Vietnamese" />
+  </cfgSupportedLanguages>
+  <cfgNavPageItems>
+    <cfgNavPageItem Name="Admin Documentation" NameLoc="strNavPageAdminDocumentation">
+    </cfgNavPageItem>
+    <cfgNavPageItem Name="Admin Software" NameLoc="strNavPageAdminSoftware">
+    </cfgNavPageItem>
+    <cfgNavPageItem Name="Configure Product" NameLoc="strNavPageConfigureProduct">
+    </cfgNavPageItem>
+    <cfgNavPageItem Name="Documentation" NameLoc="strNavPageDocumentation">
+      <cfgLaunchActionItem Name="Readme" Enabled="true" NameLoc="strNavButtonReadme" DescrLoc="strNavDescrReadme" Descr="Provides specific installation instructions and other information.">
+        <FileNameDefault>%InstallerRootParent%\Documents\Readme\</FileNameDefault>
+        <FileNameBase>LJM1530_Install-Notes</FileNameBase>
+        <FileExtension>.htm</FileExtension>
+        <FilePath>%InstallerRootParent%\Documents\Readme</FilePath>
+        <FileAddLang>true</FileAddLang>
+      </cfgLaunchActionItem>
+      <cfgLaunchActionItem Name="Help and Learn Center" Enabled="true" NameLoc="strNavButtonHelpandLearnCenter" DescrLoc="strNavDescrHelpandLearnCenter" Descr="Learn more about the product and get help solving problems.">
+        <Command>Help.exe</Command>
+        <CommandPath>%InstallerRootParent%\Documents\program files\HP\HP LaserJet Professional M1530 MFP series\Help_Learn\</CommandPath>
+        <CommandOptions>
+        </CommandOptions>
+      </cfgLaunchActionItem>
+    </cfgNavPageItem>
+    <cfgNavPageItem Name="Get Specialized Drivers" NameLoc="strNavPageGetSpecializedDrivers">
+    </cfgNavPageItem>
+    <cfgNavPageItem Name="Web Support" NameLoc="strNavPageWebSupport">
+      <cfgLaunchActionItem Descr="Go to your product support page for useful information." DescrLoc="strNavDescrProductSupport" Enabled="true" Name="Product Support" NameLoc="strNavButtonProductSupport">
+        <URLDefault>http://www.hp.com/support/</URLDefault>
+        <URLBase>
+        </URLBase>
+        <URLAddLangParams>true</URLAddLangParams>
+        <URLAddCCParams>true</URLAddCCParams>
+        <URLAddClientParam>true</URLAddClientParam>
+        <URLClientParamValue>s-a-e020-1</URLClientParamValue>
+      </cfgLaunchActionItem>
+    </cfgNavPageItem>
+  </cfgNavPageItems>
+  <cfgSystemCheckConditions>
+    <BlockConditions>
+      <Condition Name="WindowsXP64" ErrorMessageLoc="strErrorDetailUnsupportedOS" />
+    </BlockConditions>
+    <SupportedConditions>
+      <Condition Name="Win32NTPlatform" ErrorMessageLoc="strErrorDetailUnsupportedOS" />
+      <Condition Name="WindowsVistaOrNewer or WindowsXPSP2OrGreater or Windows2003SP1OrGreater" ErrorMessageLoc="strErrorDetailUnsupportedOS" />
+      <Condition Name="32bit or 64bit" ErrorMessageLoc="strErrorDetailUnsupportedArchitecture" />
+      <Condition Name="DiskSpace200MB" ErrorMessageLoc="strErrorDetailInsufficientDiskSpace" />
+      <Condition Name="PhysicalMemory512MB" ErrorMessageLoc="strErrorDetailInsufficientPhysicalMemory" />
+    </SupportedConditions>
+    <MinimumOnlyConditions>
+      <Condition Name="ServerProductTypes" />
+    </MinimumOnlyConditions>
+    <Prerequisites>
+      <Condition Name="DotNet351OrGreater" Action="InstallDotNet" ErrorMessageLoc="IDS_ERROR_SYSREQS" Webpage="http://www.hp.com" />
+    </Prerequisites>
+  </cfgSystemCheckConditions>
+  <cfgPDUItems>
+    <cfgPDUItem Name="PostInstallManager">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20110106</DateCode>
+      <PDUID>0917B1F0-A397-4742-A5BC-F69950160E18</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath>%InstallerRootParent%\Installer</PDUDataPath>
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+          </InstallActions>
+          <PostInstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>ProcessStart</cfgPDUEngineActionType>
+              </ActionType>
+              <ProcessStartCommand>hpbcsiPostInstall.exe</ProcessStartCommand>
+              <ProcessStartArguments>
+              </ProcessStartArguments>
+              <ProcessStartWaitForReturn>false</ProcessStartWaitForReturn>
+              <ProcessStartCheckReturn>false</ProcessStartCheckReturn>
+              <ProcessStartPassInstallData>true</ProcessStartPassInstallData>
+            </cfgPDUEngineActionItem>
+          </PostInstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP Update" NameLoc="strHPUpdate">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>true</IsIndividuallySelectable>
+      <IsInternetComponent>true</IsInternetComponent>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Core\HPUpdate\HP Update.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>false</MSIExecAppendLangParam>
+              <MSIExecAppendPortParam>false</MSIExecAppendPortParam>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP LaserJet M1530 Series Fax">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Product\Fax_Send\hppSendFaxM1530.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>true</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Product\FaxDrv\hppFaxDrvM1530.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>true</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A340E04F-6152-4058-B5BD-A202C2B30EF1} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {E34509E5-FF1D-48EB-807F-D8E24D1AA2B0} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP LaserJet Professional M1530 Fax Driver">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Product\FaxDrv\hppFaxDrvM1530.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>true</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {E34509E5-FF1D-48EB-807F-D8E24D1AA2B0} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="PreloadCSI">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090602</DateCode>
+      <PDUID>B46FBB85-2361-4102-844C-9BB4D3801F60</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="false">
+              <ActionType>
+                <cfgPDUEngineActionType>ProcessStart</cfgPDUEngineActionType>
+              </ActionType>
+              <ProcessStartCommand>regedit.exe</ProcessStartCommand>
+              <ProcessStartArguments>/s CSIInstallerStarted.reg</ProcessStartArguments>
+              <ProcessStartWaitForReturn>true</ProcessStartWaitForReturn>
+              <ProcessStartCheckReturn>false</ProcessStartCheckReturn>
+              <ProcessStartPassInstallData>false</ProcessStartPassInstallData>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>*.inf</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>*.cat</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>Setup.exe</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>Bootstrap*.*</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\Languages</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Languages</CopyFilesToDir>
+              <CopyFilesInclude>*.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.\Languages</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer\Languages</CopyFilesToDir>
+              <CopyFilesInclude>**\*.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>*.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>hpbcsiInstaller.exe</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>hpbcsiInstaller.exe.config</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>hpbcsiServiceMarshaller.exe</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>app.config</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>InstallerConfig.xml</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>InstallerParams.xml</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\Installer</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>hpbni*.exe</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.\Resources</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer\Resources</CopyFilesToDir>
+              <CopyFilesInclude>InstanceResources.xml</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CreateShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>HP_%InstanceID%</ShortcutName>
+              <ShortcutLocName>
+              </ShortcutLocName>
+              <ShortcutDestination>Startup</ShortcutDestination>
+              <ShortcutExecutuable>%PreloadExeString%</ShortcutExecutuable>
+              <ShortcutExecutuableParams>%ForcedUninstallArgsString%</ShortcutExecutuableParams>
+              <ShortcutHoverDescription>Crash Recovery Uninstall</ShortcutHoverDescription>
+              <ShortcutLocHoverDescription />
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\InstallerContent\Help</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\InstallerContent\Help</CopyFilesToDir>
+              <CopyFilesInclude>**\*.*</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>.</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\Installer</CopyFilesToDir>
+              <CopyFilesInclude>hpbcsiServiceMarshaller.exe.config</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CreateARP</cfgPDUEngineActionType>
+              </ActionType>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true" If="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>CreateShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Uninstall</ShortcutName>
+              <ShortcutLocName>strPduUninstallProductSoftware</ShortcutLocName>
+              <ShortcutDestination>DesktopHpCsi</ShortcutDestination>
+              <ShortcutExecutuable>%PreloadExeString%</ShortcutExecutuable>
+              <ShortcutExecutuableParams>%UninstallArgsString%</ShortcutExecutuableParams>
+              <ShortcutHoverDescription>
+              </ShortcutHoverDescription>
+              <ShortcutLocHoverDescription />
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true" NotIf="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>CreateShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Uninstall</ShortcutName>
+              <ShortcutLocName>strPduUninstallProductSoftware</ShortcutLocName>
+              <ShortcutDestination>ProgramsHpCsi</ShortcutDestination>
+              <ShortcutExecutuable>%PreloadExeString%</ShortcutExecutuable>
+              <ShortcutExecutuableParams>%UninstallArgsString%</ShortcutExecutuableParams>
+              <ShortcutHoverDescription>
+              </ShortcutHoverDescription>
+              <ShortcutLocHoverDescription />
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>DeleteFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <DeleteFilesDir>%InstancePreloadPath%</DeleteFilesDir>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>DeleteARP</cfgPDUEngineActionType>
+              </ActionType>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>DeleteShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Uninstall</ShortcutName>
+              <ShortcutLocName>strPduUninstallProductSoftware</ShortcutLocName>
+              <ShortcutDestination>DesktopHpCsi</ShortcutDestination>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem NotIf="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>DeleteShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Uninstall</ShortcutName>
+              <ShortcutLocName>strPduUninstallProductSoftware</ShortcutLocName>
+              <ShortcutDestination>ProgramsHpCsi</ShortcutDestination>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>DeleteShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>HP_%InstanceID%</ShortcutName>
+              <ShortcutLocName />
+              <ShortcutDestination>Startup</ShortcutDestination>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="false">
+              <ActionType>
+                <cfgPDUEngineActionType>ProcessStart</cfgPDUEngineActionType>
+              </ActionType>
+              <ProcessStartCommand>regedit.exe</ProcessStartCommand>
+              <ProcessStartArguments>/s CSIInstallerNotStarted.reg</ProcessStartArguments>
+              <ProcessStartWaitForReturn>true</ProcessStartWaitForReturn>
+              <ProcessStartCheckReturn>false</ProcessStartCheckReturn>
+              <ProcessStartPassInstallData>false</ProcessStartPassInstallData>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+          <PostInstallActions>
+            <cfgPDUEngineActionItem VisibleOnReconfig="false">
+              <ActionType>
+                <cfgPDUEngineActionType>ProcessStart</cfgPDUEngineActionType>
+              </ActionType>
+              <ProcessStartCommand>regedit.exe</ProcessStartCommand>
+              <ProcessStartArguments>/s CSIInstallerNotStarted.reg</ProcessStartArguments>
+              <ProcessStartWaitForReturn>true</ProcessStartWaitForReturn>
+              <ProcessStartCheckReturn>false</ProcessStartCheckReturn>
+              <ProcessStartPassInstallData>false</ProcessStartPassInstallData>
+            </cfgPDUEngineActionItem>
+          </PostInstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP TCPIP Port Monitor 32 bit" If="32bit">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Core\SIPM_32\HpTcpMon.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>false</MSIExecAppendLangParam>
+              <MSIExecShowRebootOnError>true</MSIExecShowRebootOnError>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <InstallActions>
+          </InstallActions>
+          <UninstallActions>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP TCPIP Port Monitor 64 bit" If="64bit">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>C00BB22A-7327-426b-8F9E-74ECD04BC0EC</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Core\SIPM_64\HpTcpMon64.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>false</MSIExecAppendLangParam>
+              <MSIExecShowRebootOnError>true</MSIExecShowRebootOnError>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <InstallActions>
+          </InstallActions>
+          <UninstallActions>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP UIO 32 bit">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Core\UIO\UIO_32\UnifiedIO.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>false</MSIExecAppendLangParam>
+              <MSIExecShowRebootOnError>true</MSIExecShowRebootOnError>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <InstallActions>
+          </InstallActions>
+          <UninstallActions>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP UIO 64 bit" If="64bit">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>C00BB22A-7327-426b-8F9E-74ECD04BC0EC</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Core\UIO\UIO_64\UnifiedIO.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>false</MSIExecAppendLangParam>
+              <MSIExecShowRebootOnError>true</MSIExecShowRebootOnError>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <InstallActions>
+          </InstallActions>
+          <UninstallActions>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP LaserJet Service">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Product\LJService\hppM1530LaserJetService.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>false</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Core\LJService\hppLaserJetService.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>false</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A1D53426-D6F3-4886-A72B-E1A8C82259E9} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="Reconfigure your HP Wireless Device">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090602</DateCode>
+      <PDUID>B46FBB85-2361-4102-844C-9BB4D3801F60</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true" If="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>CreateShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Reconfigure your HP Device</ShortcutName>
+              <ShortcutLocName>strRelaunchWizardWirelessNew</ShortcutLocName>
+              <ShortcutDestination>DesktopHpCsi</ShortcutDestination>
+              <ShortcutExecutuable>%PreloadExeString%</ShortcutExecutuable>
+              <ShortcutExecutuableParams>%WirelessReconfigArgsString%</ShortcutExecutuableParams>
+              <ShortcutHoverDescription>Reconfigures your HP Device's network connection by updating device settings using software already installed on your PC</ShortcutHoverDescription>
+              <ShortcutLocHoverDescription>strRelaunchWizardWirelessTooltip</ShortcutLocHoverDescription>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true" NotIf="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>CreateShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Reconfigure your HP Device</ShortcutName>
+              <ShortcutLocName>strRelaunchWizardWirelessNew</ShortcutLocName>
+              <ShortcutDestination>ProgramsHpCsi</ShortcutDestination>
+              <ShortcutExecutuable>%PreloadExeString%</ShortcutExecutuable>
+              <ShortcutExecutuableParams>%WirelessReconfigArgsString%</ShortcutExecutuableParams>
+              <ShortcutHoverDescription>Reconfigures your HP Device's network connection by updating device settings using software already installed on your PC</ShortcutHoverDescription>
+              <ShortcutLocHoverDescription>strRelaunchWizardWirelessTooltip</ShortcutLocHoverDescription>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem If="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>DeleteShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Reconfigure your HP Device</ShortcutName>
+              <ShortcutLocName>strRelaunchWizardWirelessNew</ShortcutLocName>
+              <ShortcutDestination>DesktopHpCsi</ShortcutDestination>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem NotIf="WindowsEightOrNewer">
+              <ActionType>
+                <cfgPDUEngineActionType>DeleteShortcut</cfgPDUEngineActionType>
+              </ActionType>
+              <ShortcutName>Reconfigure your HP Device</ShortcutName>
+              <ShortcutLocName>strRelaunchWizardWirelessNew</ShortcutLocName>
+              <ShortcutDestination>ProgramsHpCsi</ShortcutDestination>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="FaxIO" NameLoc="">
+      <AssemblyName>hpbcsiPDUDriver</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.PrintDriverPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090430</DateCode>
+      <PDUID>2AF68434-B2DB-4ec1-B936-DA5BD6AF4620</PDUID>
+      <PDUTypeID>0717A112-9C56-4a93-AF94-6B1176E77A75</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>DIFx</cfgPDUEngineActionType>
+              </ActionType>
+              <DIFxCommand>DriverPackagePreinstall</DIFxCommand>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>DeletePrintDriverInstance</PrintUICommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>RemovePrinterDriver</PrintUICommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>DIFx</cfgPDUEngineActionType>
+              </ActionType>
+              <DIFxCommand>DriverPackageUninstall</DIFxCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+          <InfFileNames>
+            <cfgInfFileName LeaveInDriverStore="true" If="32bit">..\\hpbuio160f.inf</cfgInfFileName>
+            <cfgInfFileName LeaveInDriverStore="true" If="64bit">..\\hpbuio160f.inf</cfgInfFileName>
+          </InfFileNames>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="RestartScan_Stop" NotIf="ServerProductTypes">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20100101</DateCode>
+      <PDUID>2C4A2882-54DB-4d94-AC88-04B340C7B280</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath>
+      </PDUDataPath>
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <InstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>ProcessStart</cfgPDUEngineActionType>
+              </ActionType>
+              <ProcessStartCommand>Net</ProcessStartCommand>
+              <ProcessStartArguments>stop stisvc</ProcessStartArguments>
+              <ProcessStartWaitForReturn>false</ProcessStartWaitForReturn>
+              <ProcessStartCheckReturn>false</ProcessStartCheckReturn>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP LaserJet Professional M1530 MFP Series Scan Driver" NameLoc="">
+      <AssemblyName>hpbcsiPDUDriver</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.PrintDriverPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20091117</DateCode>
+      <PDUID>53805A7C-F63C-4856-BD13-4EC349D11E48</PDUID>
+      <PDUTypeID>0717A112-9C56-4a93-AF94-6B1176E77A75</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>DIFx</cfgPDUEngineActionType>
+              </ActionType>
+              <DIFxCommand>DriverPackagePreinstall</DIFxCommand>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem If="32bit" Connection="WiredNetwork" SkipOnHWFirst="true">
+              <ActionType>
+                <cfgPDUEngineActionType>NetScan</cfgPDUEngineActionType>
+              </ActionType>
+              <NetScanCommand>InstallNetworkScan</NetScanCommand>
+              <NetScanPlugIn>hpbniscan32.exe</NetScanPlugIn>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="64bit" Connection="WiredNetwork" SkipOnHWFirst="true">
+              <ActionType>
+                <cfgPDUEngineActionType>NetScan</cfgPDUEngineActionType>
+              </ActionType>
+              <NetScanCommand>InstallNetworkScan</NetScanCommand>
+              <NetScanPlugIn>hpbniscan64.exe</NetScanPlugIn>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>NetScan</cfgPDUEngineActionType>
+              </ActionType>
+              <NetScanCommand>NOP</NetScanCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>DIFx</cfgPDUEngineActionType>
+              </ActionType>
+              <DIFxCommand>DriverPackageUninstall</DIFxCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+          <ScanDriverModelName>HP LaserJet Professional M1530 MFP Series Scan</ScanDriverModelName>
+          <InfFileNames>
+            <cfgInfFileName IsDriverInstallFile="true">..\\hppasc_lj1530.inf</cfgInfFileName>
+          </InfFileNames>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="Scan Driver Preload">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20100101</DateCode>
+      <PDUID>2C4A2882-54DB-4d94-AC88-04B340C7A280</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath>
+      </PDUDataPath>
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater" SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>hppscancoins*.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater" SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>hppls1530.spf</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater" SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>hpptsp06.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater" SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>hpxp1530.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater" SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%</CopyFilesToDir>
+              <CopyFilesInclude>hpptsp06_x64.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater" SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>CopyFiles</cfgPDUEngineActionType>
+              </ActionType>
+              <CopyFilesSourceDir>..\</CopyFilesSourceDir>
+              <CopyFilesToDir>%InstancePreloadPath%\</CopyFilesToDir>
+              <CopyFilesInclude>hpxp1530_x64.dll</CopyFilesInclude>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="RestartScan_Start" NotIf="ServerProductTypes">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20100101</DateCode>
+      <PDUID>2C4A2882-54DB-4d94-AC88-04B340C7B280</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath>
+      </PDUDataPath>
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <InstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>ProcessStart</cfgPDUEngineActionType>
+              </ActionType>
+              <ProcessStartCommand>Net</ProcessStartCommand>
+              <ProcessStartArguments>start stisvc</ProcessStartArguments>
+              <ProcessStartWaitForReturn>false</ProcessStartWaitForReturn>
+              <ProcessStartCheckReturn>false</ProcessStartCheckReturn>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP LaserJet M1530 Scan Application">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Product\Scan_App\HPScanLJM1530.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>true</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {C05002F1-06F8-4A15-B6F8-E4DC655C28AA} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="Help and Learn Center" NameLoc="strNavButtonHelpandLearnCenter">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090507</DateCode>
+      <PDUID>6B3ECF69-DD62-4b39-B1A2-F576240FED60</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath>%InstallerRootParent%\Documents</PDUDataPath>
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/I "%InstallerRootParent%\Documents\HPLaserJetHelp_LearnCenter.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>true</MSIExecAppendLangParam>
+              <MSIExecAppendPortParam>false</MSIExecAppendPortParam>
+              <MSIExecAppendTransformParam>true</MSIExecAppendTransformParam>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {B2AA0F22-E167-4C4A-BAE2-E0025028E61B} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+      <cfgPDUDependencies>
+        <DependentUpon>
+        </DependentUpon>
+      </cfgPDUDependencies>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP LaserJet M1530 MFP Series PCL 6">
+      <AssemblyName>hpbcsiPDUDriver</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.PrintDriverPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090430</DateCode>
+      <PDUID>2AF68434-B2DB-4ec1-B936-DA5BD6AF4620</PDUID>
+      <PDUTypeID>0717A112-9C56-4a93-AF94-6B1176E77A75</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>true</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>DIFx</cfgPDUEngineActionType>
+              </ActionType>
+              <DIFxCommand>DriverPackagePreinstall</DIFxCommand>
+            </cfgPDUEngineActionItem>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem If="WindowsVistaOrNewer" Connection="WiredNetwork" SkipOnHWFirst="true">
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>InstallPrinterToPort</PrintUICommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsVistaOrNewer" Connection="WirelessNetwork" SkipOnHWFirst="true">
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>InstallPrinterToPort</PrintUICommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater or Windows2003SP1OrGreater" Connection="WiredNetwork" SkipOnHWFirst="true">
+              <ActionType>
+                <cfgPDUEngineActionType>NetPrint</cfgPDUEngineActionType>
+              </ActionType>
+              <NetPrintCommand>InstallNetworkPrint</NetPrintCommand>
+              <NetPrintPlugIn>hpbniprint32.exe</NetPrintPlugIn>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem If="WindowsXPSP2OrGreater or Windows2003SP1OrGreater" Connection="WirelessNetwork" SkipOnHWFirst="true">
+              <ActionType>
+                <cfgPDUEngineActionType>NetPrint</cfgPDUEngineActionType>
+              </ActionType>
+              <NetPrintCommand>InstallNetworkPrint</NetPrintCommand>
+              <NetPrintPlugIn>hpbniprint32.exe</NetPrintPlugIn>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>DeletePrintDriverInstance</PrintUICommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>RemovePrinterDriver</PrintUICommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>DIFx</cfgPDUEngineActionType>
+              </ActionType>
+              <DIFxCommand>DriverPackageUninstall</DIFxCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+          <PrintDriverModelName>HP LaserJet M1530 MFP Series PCL 6</PrintDriverModelName>
+          <InfFileNames>
+            <cfgInfFileName IsDriverInstallFile="true" If="32bit">..\\hpc1530c.inf</cfgInfFileName>
+            <cfgInfFileName IsDriverInstallFile="true" If="64bit">..\\hpc1530u.inf</cfgInfFileName>
+            <cfgInfFileName LeaveInDriverStore="true" If="32bit">..\\hpmldm01.inf</cfgInfFileName>
+            <cfgInfFileName LeaveInDriverStore="true" If="64bit">..\\hpmldm02.inf</cfgInfFileName>
+          </InfFileNames>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="HP LaserJet M1530 Toolbox">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>true</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Product\Toolbox\hppTLBXFXM1530.msi" PRODUCT="HP LaserJet M1530 MFP Series PCL 6" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>true</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem SkipOnReconnect="true">
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/i "%InstallerRootParent%\Setup\Core\ToolboxProxy\ToolboxProxy.msi" /qn REBOOT=ReallySuppress</MSIExecCommand>
+              <MSIExecAppendLangParam>true</MSIExecAppendLangParam>
+            </cfgPDUEngineActionItem>
+          </InstallActions>
+          <UninstallActions>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {9112FEA9-0F64-453C-BEA5-9A782F87EDAA} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A3A18593-62BE-4AE1-AF3F-E35179CF042E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+      <cfgPDUDependencies>
+        <DependentUpon>HP LaserJet Service</DependentUpon>
+      </cfgPDUDependencies>
+    </cfgPDUItem>
+    <cfgPDUItem Name="Set as default printer" NameLoc="strPduSetDefaultPrinter">
+      <AssemblyName>hpbcsiPDUDriver</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.PrintDriverPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>1A473FD3-AAE7-4b08-B35A-AFE0B1FAEC89</PDUID>
+      <PDUTypeID>0717A112-9C56-4a93-AF94-6B1176E77A75</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>true</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>true</IsIndividuallySelectable>
+      <PDUDataPath>
+      </PDUDataPath>
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PostInstallActions>
+            <cfgPDUEngineActionItem VisibleOnReconfig="true">
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>SetDefaultPrinter</PrintUICommand>
+            </cfgPDUEngineActionItem>
+          </PostInstallActions>
+          <PrintDriverModelName>HP LaserJet M1530 MFP Series PCL 6</PrintDriverModelName>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    <cfgPDUItem Name="Print a test page" NameLoc="strPduPrintTestPage">
+      <AssemblyName>hpbcsiPDUDriver</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.PrintDriverPDU</ClassName>
+      <Version>0.0.0.1</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>4B42A038-2CF5-4b96-9346-1E2FD6142F44</PDUID>
+      <PDUTypeID>0717A112-9C56-4a93-AF94-6B1176E77A75</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>true</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>true</IsIndividuallySelectable>
+      <PDUDataPath>
+      </PDUDataPath>
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PostInstallActions>
+            <cfgPDUEngineActionItem VisibleOnReconfig="true">
+              <ActionType>
+                <cfgPDUEngineActionType>PrintUI</cfgPDUEngineActionType>
+              </ActionType>
+              <PrintUICommand>PrintWindowsTestPage</PrintUICommand>
+            </cfgPDUEngineActionItem>
+          </PostInstallActions>
+          <PrintDriverModelName>HP LaserJet M1530 MFP Series PCL 6</PrintDriverModelName>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+  </cfgPDUItems>
+  <cfgWirelessCommunicationModel xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AssemblyName>hpbcsiDevCom</AssemblyName>
+    <ClassName>HP.DeviceCommunication.CSI.WirelessDataModelAccessor</ClassName>
+    <Version>0.0.0.2</Version>
+    <DateCode>20100511</DateCode>
+  </cfgWirelessCommunicationModel>
+  <cfgPDUEngineItems>
+    <cfgPDUEngineItem Name="Software Install PDU Engine">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDUEngine</ClassName>
+      <Version>0.0.0.0</Version>
+      <DateCode>20090506</DateCode>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+    </cfgPDUEngineItem>
+    <cfgPDUEngineItem Name="Driver PDU Engine">
+      <AssemblyName>hpbcsiPDUDriver</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.DriverPDUEngine</ClassName>
+      <Version>0.0.0.0</Version>
+      <DateCode>20090501</DateCode>
+      <PDUTypeID>0717A112-9C56-4a93-AF94-6B1176E77A75</PDUTypeID>
+    </cfgPDUEngineItem>
+  </cfgPDUEngineItems>
+  <cfgSystemConditionItems>
+    <cfgSystemConditionItem Name="WindowsEightOrNewer">
+      <MinOSVersionMajor>6</MinOSVersionMajor>
+      <MinOSVersionMinor>2</MinOSVersionMinor>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsSevenOrNewer">
+      <MinOSVersionMajor>6</MinOSVersionMajor>
+      <MinOSVersionMinor>1</MinOSVersionMinor>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsSevenOrServer2008R2">
+      <CurrentOSVersionMajor>6</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>1</CurrentOSVersionMinor>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsServer2008">
+      <CurrentOSVersionMajor>6</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>0</CurrentOSVersionMinor>
+      <MinOSVersionProductType>2</MinOSVersionProductType>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsVistaOrNewer">
+      <MinOSVersionMajor>6</MinOSVersionMajor>
+      <MinOSVersionMinor>0</MinOSVersionMinor>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsVistaSP1OrGreater">
+      <CurrentOSVersionMajor>6</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>0</CurrentOSVersionMinor>
+      <MinOSVersionServicePack>1</MinOSVersionServicePack>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsXPSP2OrGreater">
+      <CurrentOSVersionMajor>5</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>1</CurrentOSVersionMinor>
+      <CurrentOSVersionProductType>1</CurrentOSVersionProductType>
+      <MinOSVersionServicePack>2</MinOSVersionServicePack>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="Windows2003SP1OrGreater">
+      <CurrentOSVersionMajor>5</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>2</CurrentOSVersionMinor>
+      <MinOSVersionProductType>2</MinOSVersionProductType>
+      <MinOSVersionServicePack>1</MinOSVersionServicePack>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsXP64">
+      <CurrentOSPlatform>2</CurrentOSPlatform>
+      <CurrentOSVersionMajor>5</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>2</CurrentOSVersionMinor>
+      <CurrentArchitecture>64bit</CurrentArchitecture>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsXP2003x64">
+      <CurrentOSVersionMajor>5</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>2</CurrentOSVersionMinor>
+      <CurrentArchitecture>64bit</CurrentArchitecture>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsVista64">
+      <CurrentOSVersionMajor>6</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>0</CurrentOSVersionMinor>
+      <CurrentArchitecture>64bit</CurrentArchitecture>
+      <CurrentOSVersionProductType>1</CurrentOSVersionProductType>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="32bit">
+      <CurrentArchitecture>32bit</CurrentArchitecture>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="64bit">
+      <CurrentArchitecture>64bit</CurrentArchitecture>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="Win32NTPlatform">
+      <CurrentOSPlatform>2</CurrentOSPlatform>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="ServerProductTypes">
+      <MinOSVersionProductType>2</MinOSVersionProductType>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="DiskSpace200MB">
+      <MinDiskSpace>209715200</MinDiskSpace>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="PhysicalMemory512MB">
+      <MinRAM>536870912</MinRAM>
+    </cfgSystemConditionItem>
+  </cfgSystemConditionItems>
+</InstallerConfigXML>

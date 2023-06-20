@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<InstallerConfigXML xsi:noNamespaceSchemaLocation="InstallerConfigXML.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfgProductInfo>
+    <CoInstallerFinishEvent>
+      <FinishEventName If="32bit"></FinishEventName>
+      <FinishEventName If="64bit"></FinishEventName>
+    </CoInstallerFinishEvent>
+    <InstantiationName>Scrubber</InstantiationName>
+    <InstanceBuildName>Scrubber</InstanceBuildName>
+    <InstanceID>0F5A00A0-A9E7-4de0-8BB8-B15FD330A63E</InstanceID>
+    <InstanceVersion>3.5.00000.001</InstanceVersion>
+    <InstanceDateCode>20120221</InstanceDateCode>
+    <Title>HP LaserJet Scrubber 3.5</Title>
+    <ProgramGroupTitle>HP LaserJet Scrubber v3.5.1</ProgramGroupTitle>
+    <ProductName>HP LaserJet Scrubber 3.5</ProductName>
+    <ShowSkipPnPCheckbox>false</ShowSkipPnPCheckbox>
+    <ShowEPrintText>true</ShowEPrintText>
+    <FinishScreenCommentStringKey>
+    </FinishScreenCommentStringKey>
+    <Comments>Manually constructed Installer Config file for Scrubbing pre Fusion 3.5 products.</Comments>
+    <AdditionalSWConfigFileName>
+    </AdditionalSWConfigFileName>
+    <SupportsSmartInstall>true</SupportsSmartInstall>
+    <WsowRegExMatchString></WsowRegExMatchString>
+    <Models SeriesName="HP LaserJet Scrubber" XPUSBDeviceIDRegex="USBPRINT.*HEWLETT.*PACKARD.*">
+    </Models>
+    <SupportsPostInstallManager>true</SupportsPostInstallManager>
+    <WebServicesOptInSupport xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <cfgOptInModelType>ClientSoftwareOptIn</cfgOptInModelType>
+    </WebServicesOptInSupport>
+    <PostInstallManagerLaunchActionItems>
+    </PostInstallManagerLaunchActionItems>
+  </cfgProductInfo>
+  <cfgConnectionItems>
+  </cfgConnectionItems>
+  <cfgInstallationInfo>
+    <InstallPathPrefix>%ProgramFiles%\HP\csiInstaller</InstallPathPrefix>
+    <InstallDataPathPrefix>%ProgramData%\HP\csiInstaller</InstallDataPathPrefix>
+    <InstallDataFileName>hpbcsiInstaller.xml</InstallDataFileName>
+    <RegKeyBase>HKEY_CURRENT_USER\\Software\Hewlett-Packard</RegKeyBase>
+    <Manufacturer>Hewlett-Packard</Manufacturer>
+    <PreloadExeString>%InstancePreloadPath%\Setup.exe</PreloadExeString>
+    <UninstallArgsString>/Uninstall</UninstallArgsString>
+    <ForcedUninstallArgsString>/ForcedUninstall</ForcedUninstallArgsString>
+    <WirelessReconfigArgsString>/ReconfigWireless</WirelessReconfigArgsString>
+    <InstallerEventName>hpbcsiInstaller</InstallerEventName>
+    <ThreadTimeoutSeconds>1200</ThreadTimeoutSeconds>
+    <PrepareToInstallThreadTimeoutSeconds>1260</PrepareToInstallThreadTimeoutSeconds>
+    <PnPThreadTimeOutSeconds>1200</PnPThreadTimeOutSeconds>
+    <InstallThreadTimeoutSeconds>2400</InstallThreadTimeoutSeconds>
+    <ShowCustomerFriendlyExceptionMessage>true</ShowCustomerFriendlyExceptionMessage>
+    <LocalizedContent>
+      <EULA>
+        <cfgLaunchActionItem Name="EULA" Enabled="true">
+          <FileNameDefault>%InstallerRootParent%\InstallerContent\EULA\EULA_enww.rtf</FileNameDefault>
+          <FileNameBase>EULA</FileNameBase>
+          <FileExtension>.rtf</FileExtension>
+          <FilePath>%InstallerRootParent%\InstallerContent\EULA</FilePath>
+        </cfgLaunchActionItem>
+      </EULA>
+      <FiViSpyInfo>
+        <cfgLaunchActionItem Name="FiViSpyInfo" Enabled="true">
+          <FileNameDefault>%InstallerRootParent%\InstallerContent\Privacy\fivispyinfo_en.rtf</FileNameDefault>
+          <FileNameBase>fivispyinfo</FileNameBase>
+          <FileExtension>.rtf</FileExtension>
+          <FilePath>%InstallerRootParent%\InstallerContent\Privacy</FilePath>
+        </cfgLaunchActionItem>
+      </FiViSpyInfo>
+      <InternetInfo>
+        <cfgLaunchActionItem Name="InternetInfo" Enabled="true">
+          <FileNameDefault>%InstallerRootParent%\InstallerContent\InternetInfo\InternetInfo_enww.rtf</FileNameDefault>
+          <FileNameBase>InternetInfo</FileNameBase>
+          <FileExtension>.rtf</FileExtension>
+          <FilePath>%InstallerRootParent%\InstallerContent\InternetInfo</FilePath>
+        </cfgLaunchActionItem>
+      </InternetInfo>
+    </LocalizedContent>
+    <HelpContent>
+      <HelpContentItems>
+        <cfgLaunchActionItem Name="WiredHelp" Enabled="true">
+          <Command>CSIHelp.exe</Command>
+          <CommandPath>%InstallerRootParent%\InstallerContent\Help</CommandPath>
+          <CommandOptions>command=wired_help</CommandOptions>
+        </cfgLaunchActionItem>
+        <cfgLaunchActionItem Name="WirelessHelp" Enabled="true">
+          <Command>CSIHelp.exe</Command>
+          <CommandPath>%InstallerRootParent%\InstallerContent\Help</CommandPath>
+          <CommandOptions>command=wireless_help</CommandOptions>
+        </cfgLaunchActionItem>
+      </HelpContentItems>
+    </HelpContent>
+  </cfgInstallationInfo>
+  <cfgSupportedLanguages>
+    <cfgLocalizationLanguageType Name="Arabic" />
+    <cfgLocalizationLanguageType Name="Bulgarian" />
+    <cfgLocalizationLanguageType Name="Catalan" />
+    <cfgLocalizationLanguageType Name="Chinese-Simplified" />
+    <cfgLocalizationLanguageType Name="Chinese-Traditional" />
+    <cfgLocalizationLanguageType Name="Croatian" />
+    <cfgLocalizationLanguageType Name="Czech" />
+    <cfgLocalizationLanguageType Name="Danish" />
+    <cfgLocalizationLanguageType Name="Dutch" />
+    <cfgLocalizationLanguageType Name="English" />
+    <cfgLocalizationLanguageType Name="Estonian" />
+    <cfgLocalizationLanguageType Name="Finnish" />
+    <cfgLocalizationLanguageType Name="French" />
+    <cfgLocalizationLanguageType Name="German" />
+    <cfgLocalizationLanguageType Name="Greek" />
+    <cfgLocalizationLanguageType Name="Hebrew" />
+    <cfgLocalizationLanguageType Name="Hungarian" />
+    <cfgLocalizationLanguageType Name="Indonesian" />
+    <cfgLocalizationLanguageType Name="Italian" />
+    <cfgLocalizationLanguageType Name="Japanese" />
+    <cfgLocalizationLanguageType Name="Kazakh" />
+    <cfgLocalizationLanguageType Name="Korean" />
+    <cfgLocalizationLanguageType Name="Latvian" />
+    <cfgLocalizationLanguageType Name="Lithuanian" />
+    <cfgLocalizationLanguageType Name="Norwegian" />
+    <cfgLocalizationLanguageType Name="Polish" />
+    <cfgLocalizationLanguageType Name="Portuguese" />
+    <cfgLocalizationLanguageType Name="Romanian" />
+    <cfgLocalizationLanguageType Name="Russian" />
+    <cfgLocalizationLanguageType Name="Serbian" />
+    <cfgLocalizationLanguageType Name="Slovak" />
+    <cfgLocalizationLanguageType Name="Slovenian" />
+    <cfgLocalizationLanguageType Name="Spanish" />
+    <cfgLocalizationLanguageType Name="Swedish" />
+    <cfgLocalizationLanguageType Name="Thai" />
+    <cfgLocalizationLanguageType Name="Turkish" />
+    <cfgLocalizationLanguageType Name="Ukrainian" />
+    <cfgLocalizationLanguageType Name="Vietnamese" />
+  </cfgSupportedLanguages>
+  <cfgNavPageItems>
+  </cfgNavPageItems>
+  <cfgSystemCheckConditions>
+    <BlockConditions>
+      <Condition Name="WindowsXP64" ErrorMessageLoc="strErrorDetailUnsupportedOS" />
+    </BlockConditions>
+    <SupportedConditions>
+      <Condition Name="Win32NTPlatform" ErrorMessageLoc="strErrorDetailUnsupportedOS" />
+      <Condition Name="WindowsVistaOrNewer or WindowsXPSP2OrGreater or Windows2003SP1OrGreater" ErrorMessageLoc="strErrorDetailUnsupportedOS" />
+      <Condition Name="32bit or 64bit" ErrorMessageLoc="strErrorDetailUnsupportedArchitecture" />
+      <Condition Name="DiskSpace200MB" ErrorMessageLoc="strErrorDetailInsufficientDiskSpace" />
+      <Condition Name="PhysicalMemory512MB" ErrorMessageLoc="strErrorDetailInsufficientPhysicalMemory" />
+    </SupportedConditions>
+    <MinimumOnlyConditions>
+      <Condition Name="ServerProductTypes" />
+    </MinimumOnlyConditions>
+  </cfgSystemCheckConditions>
+  <cfgPDUItems>
+
+  <!-- Scrubber:   -->
+    <cfgPDUItem Name="Scrubber - HP LaserJet Service">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDU</ClassName>
+      <Version>0.0.0.2</Version>
+      <DateCode>20090908</DateCode>
+      <PDUID>5EC3D792-B5F3-4da8-AE19-F0E5FEB3DCE8</PDUID>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+      <IsCustomerVisibleAtInstall>false</IsCustomerVisibleAtInstall>
+      <IsCustomerVisiblePostInstall>false</IsCustomerVisiblePostInstall>
+      <IsCritical>false</IsCritical>
+      <IsSelectedByDefault>true</IsSelectedByDefault>
+      <IsIndividuallySelectable>false</IsIndividuallySelectable>
+      <PDUDataPath />
+      <PDUElements>
+        <cfgInstallablePDUElements>
+          <PrepareToInstallActions>
+          </PrepareToInstallActions>
+          <InstallActions>
+          </InstallActions>
+          <UninstallActions>
+            <!-- Remove Fusion 0.6 Core hpzTLBXFX, Let's try removing it six times, since it potentially could have gotten installed at least three times.  -->
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A3A18593-62BE-4AE1-AF3F-E35179CF042E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A3A18593-62BE-4AE1-AF3F-E35179CF042E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A3A18593-62BE-4AE1-AF3F-E35179CF042E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A3A18593-62BE-4AE1-AF3F-E35179CF042E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A3A18593-62BE-4AE1-AF3F-E35179CF042E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {A3A18593-62BE-4AE1-AF3F-E35179CF042E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+			
+            <!-- Remove Fusion 2.0 hppM375_M475LaserJetService.msi  -->
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {DB6E615F-F0F3-4211-BD79-0D9B62D77B0E} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+
+            <!-- Remove Fusion 2.0 hppM351_M451LaserJetService.msi  -->
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {96C103D3-F058-4F9A-BDD9-BBE9C1431376} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+
+            <!-- Remove Fusion 2.5 hppM275LaserJetService.msi  -->
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {BC6E765C-C6C9-48B5-AACB-00FB039648CE} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+
+            <!-- Remove Fusion 3.0 StatusAlertsM251 (Core Folder)  Let's try removing it six times, since it potentially could have gotten installed at least three times.  -->
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {7C960641-0A27-45C6-96F8-BE4E04A4CC2C} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {7C960641-0A27-45C6-96F8-BE4E04A4CC2C} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {7C960641-0A27-45C6-96F8-BE4E04A4CC2C} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {7C960641-0A27-45C6-96F8-BE4E04A4CC2C} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {7C960641-0A27-45C6-96F8-BE4E04A4CC2C} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {7C960641-0A27-45C6-96F8-BE4E04A4CC2C} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+			
+            <!-- Remove Fusion 3.5 hppM375_M475LaserJetService  -->
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {33BBDBEA-6E19-4A12-8570-E5E43192B9CB} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            
+            <!-- Remove Fusion 3.5 hppM351_M451LaserJetService  -->
+            <cfgPDUEngineActionItem>
+              <ActionType>
+                <cfgPDUEngineActionType>MSIExec</cfgPDUEngineActionType>
+              </ActionType>
+              <MSIExecCommand>/X {8D692AC8-E471-4AEE-AE64-102264A33D72} /qn REBOOT=ReallySuppress</MSIExecCommand>
+            </cfgPDUEngineActionItem>
+            
+            
+          </UninstallActions>
+        </cfgInstallablePDUElements>
+      </PDUElements>
+    </cfgPDUItem>
+    
+  </cfgPDUItems>
+  <cfgWirelessCommunicationModel xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AssemblyName>hpbcsiDevCom</AssemblyName>
+    <ClassName>HP.DeviceCommunication.CSI.WirelessDataModelAccessor</ClassName>
+    <Version>0.0.0.2</Version>
+    <DateCode>20100511</DateCode>
+  </cfgWirelessCommunicationModel>
+  <cfgPDUEngineItems>
+    <cfgPDUEngineItem Name="Software Install PDU Engine">
+      <AssemblyName>hpbcsiPDUSWInstall</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.SWInstallPDUEngine</ClassName>
+      <Version>0.0.0.0</Version>
+      <DateCode>20090506</DateCode>
+      <PDUTypeID>AE3D779A-B02D-4840-8155-A3AD9E84292B</PDUTypeID>
+    </cfgPDUEngineItem>
+    <cfgPDUEngineItem Name="Driver PDU Engine">
+      <AssemblyName>hpbcsiPDUDriver</AssemblyName>
+      <ClassName>HP.PDUObjects.CSI.DriverPDUEngine</ClassName>
+      <Version>0.0.0.0</Version>
+      <DateCode>20090501</DateCode>
+      <PDUTypeID>0717A112-9C56-4a93-AF94-6B1176E77A75</PDUTypeID>
+    </cfgPDUEngineItem>
+  </cfgPDUEngineItems>
+  <cfgSystemConditionItems>
+    <cfgSystemConditionItem Name="WindowsSevenOrNewer">
+      <MinOSVersionMajor>6</MinOSVersionMajor>
+      <MinOSVersionMinor>1</MinOSVersionMinor>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsVistaOrNewer">
+      <MinOSVersionMajor>6</MinOSVersionMajor>
+      <MinOSVersionMinor>0</MinOSVersionMinor>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsVistaSP1OrGreater">
+      <CurrentOSVersionMajor>6</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>0</CurrentOSVersionMinor>
+      <MinOSVersionServicePack>1</MinOSVersionServicePack>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsXPSP2OrGreater">
+      <CurrentOSVersionMajor>5</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>1</CurrentOSVersionMinor>
+      <CurrentOSVersionProductType>1</CurrentOSVersionProductType>
+      <MinOSVersionServicePack>2</MinOSVersionServicePack>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="Windows2003SP1OrGreater">
+      <CurrentOSVersionMajor>5</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>2</CurrentOSVersionMinor>
+      <MinOSVersionProductType>2</MinOSVersionProductType>
+      <MinOSVersionServicePack>1</MinOSVersionServicePack>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="WindowsXP64">
+      <CurrentOSPlatform>2</CurrentOSPlatform>
+      <CurrentOSVersionMajor>5</CurrentOSVersionMajor>
+      <CurrentOSVersionMinor>2</CurrentOSVersionMinor>
+      <CurrentArchitecture>64bit</CurrentArchitecture>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="32bit">
+      <CurrentArchitecture>32bit</CurrentArchitecture>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="64bit">
+      <CurrentArchitecture>64bit</CurrentArchitecture>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="Win32NTPlatform">
+      <CurrentOSPlatform>2</CurrentOSPlatform>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="ServerProductTypes">
+      <MinOSVersionProductType>2</MinOSVersionProductType>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="DiskSpace200MB">
+      <MinDiskSpace>209715200</MinDiskSpace>
+    </cfgSystemConditionItem>
+    <cfgSystemConditionItem Name="PhysicalMemory512MB">
+      <MinRAM>536870912</MinRAM>
+    </cfgSystemConditionItem>
+  </cfgSystemConditionItems>
+</InstallerConfigXML>

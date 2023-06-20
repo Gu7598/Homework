@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document>
+	<text name="searchHP" targetName="searchHPCom"><span class="yellow12Bold">» Поиск на HP.com</span></text>
+	<text name="search">Поиск</text>
+	<text name="close">Закрыть</text>
+	<text name="productTitle" anchor="center" aX="556" y="133"><span class="white16Center">Серия HP LaserJet Pro<br/>M1530 MFP</span></text>
+	<text name="applicationTitle" anchor="right" aX="41" y="27"><span class="white24Right">Справочный центр</span></text>
+	<text name="laserjet" anchor="left" aX="100" y="24"><span class="white24Bold">LASERJET</span></text>
+	<topBarLinks>
+		<text name="webSupport" x="14" y="87" targetName="webSupport"><span class="white12">» Web support (Веб-поддержка)</span></text>
+		<text name="sureSupply" x="215" y="87" targetName="sureSupply"><span class="white12">» SureSupply</span></text>
+		<text name="hpSite" x="365" y="87" targetName="hPSite"><span class="white12">» www.hp.com</span></text>
+	</topBarLinks>
+	<bottomButtons>
+		<button name="everydayJobs" menuName="menu1" x="9" y="532"><span class="white14Bold">Ежедневные задачи</span></button>
+		<button name="manageMaintain" menuName="menu2" x="238" y="532"><span class="white14Bold">Управление и обслуживание</span></button>
+		<button name="solveProblem" menuName="menu3" x="467" y="532"><span class="white14Bold">Решение проблем</span></button>
+	</bottomButtons>
+	<menuList menuType="main" name="main1" x="20" y="170">
+		<text>
+			<span class="yellow16Bold">QUICK FIND (БЫСТРЫЙ ПОИСК)</span>
+		</text>
+		<text targetName="Controlpanelbuttons"><span class="white14">» Устройство панели управления</span></text><text targetName="controlPanelMessages"><span class="white14">» Сообщения панели управления</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white14">» Замена картриджа</span></text>
+		<text targetName="loadPaperTrays"><span class="white14">» Загрузка лотков для бумаги</span></text><text targetName="getIpAddressOfAPrinterInNetwork"><span class="white14">» Настройка IP-адреса</span></text><text targetName="Faxtroubleshootingchecklist"><span class="white14">» Контрольный список устранения неполадок</span></text>
+		<text targetName="HPePrint"><span class="white14">» HP ePrint</span></text>
+	</menuList>
+	<menuList menuType="main" name="main2" x="20" y="380">
+		<text targetName="userGuideDialogTarget">
+			<span class="white18">» Просмотр справочника пользователя</span>
+		</text>
+
+	</menuList>
+	<menuList name="menu1">
+		<text><span class="yellow12Bold">Задания печати </span></text>
+		<text targetName="cancelPrintJob"><span class="white12">» Отмена задания</span></text>
+		<text targetName="openPrinterDriver"><span class="white12">» Открытие драйвера принтера в Windows</span></text>
+		<text targetName="printOnBothSidesDuplex"><span class="white12">» Двусторонняя печать (дуплекс)</span></text>
+		<text targetName="printMultiplePagesPerSheet"><span class="white12">» Печать нескольких страниц на листе в Windows</span></text><text targetName="PrintonSpecialPaper"><span class="white12">» Печать на специальной бумаге, этикетках или прозрачных пленках</span></text>		<text><span class="yellow12Bold">Задания копирования</span></text>
+		<text targetName="makeMultipleCopies"><span class="white12">» Несколько копий</span></text>
+		<text targetName="reduceOrEnlargeCopies"><span class="white12">» Уменьшение или увеличение размера копии</span></text>
+		<text targetName="copyIdentificationCards"><span class="white12">» Копирование удостоверений личности</span></text>
+		<text><span class="yellow12Bold">Работа со сканером </span></text>
+		<text targetName="scanADocument"><span class="white12">» Scan a document (Сканирование документа)</span></text>
+		<text targetName="makeMyScanLookBetter"><span class="white12">» Указания по выбору параметров разрешения и цветопередачи</span></text>
+		<text><span class="yellow12Bold">Работа с факсом </span></text>
+		<text targetName="useThePhoneBook"><span class="white12">» Использование телефонной книги</span></text>
+		<text targetName="sendAFax"><span class="white12">» Отправка факса</span></text>
+		<text targetName="scheduleAFaxToBeSentLater"><span class="white12">» Запланированная отправка факсов</span></text>
+		<text targetName="printAStoredFax"><span class="white12">» Печать сохраненного факса</span></text>
+		<text targetName="deleteFaxesFromMemory"><span class="white12">» Удаление факсов из памяти</span></text>
+	</menuList>
+	<menuList name="menu2">
+		<text targetName="printInformationPages"><span class="white12">» Печать информационных страниц</span></text>
+		<text targetName="replaceThePrintCartridge"><span class="white12">» Замена картриджа</span></text>
+		<text targetName="printACleaningPage"><span class="white12">» Печать страницы очистки</span></text>
+		<text targetName="cleanTheScannerGlass"><span class="white12">» Очистка стекла сканера</span></text>
+		<text targetName="cleanThePickupRoller"><span class="white12">» Очистка подающего ролика</span></text>
+		<text targetName="cleanTheSeparationPad"><span class="white12">» Очистите подающие ролики и подающую пластину устройства подачи документов.</span></text>
+		<text targetName="changeFaxSettings"><span class="white12">» Настройка параметров факса</span></text>
+	</menuList>
+	<menuList name="menu3">
+		<text targetName="ProblemSolvingChecklist"><span class="white12">» Контрольный список по устранению неполадок</span></text>
+<text targetName="clearAPaperJam"><span class="white12">» Устранение замятия бумаги</span></text>
+		
+<text targetName="clearJamsFromTheDocumentFeeder"><span class="white12">» Устранение замятий в податчике документов</span></text>
+		<text targetName="controlPanelMessages"><span class="white12">» Сообщения панели управления</span></text>
+		<text targetName="solvePaperHandlingProblems"><span class="white12">» Неправильная подача бумаги и возникновение замятий</span></text>
+<text targetName="solvePrintQualityProblems"><span class="white12">» Улучшение качества печати</span></text>
+	
+		<text targetName="solveCopyQualityProblems"><span class="white12">» Улучшение качества печати при копировании</span></text>
+		<text targetName="solveScanQualityProblems"><span class="white12">» Качество сканирования</span></text>
+		<text targetName="solveFaxProblems"><span class="white12">» Устранение проблем с факсом</span></text>
+	</menuList>
+	<dialog name="userGuideDialog">
+		<menuList>
+			<text targetName="localUserGuide"><span class="white14">» Открыть справочник пользователя на компьютере.</span></text>
+			<text><span class="white14">или</span></text>
+			<text targetName="onlineUserGuide"><span class="white14">» Открыть последнюю версию в сети.</span></text>
+		</menuList>
+	</dialog>
+</document>

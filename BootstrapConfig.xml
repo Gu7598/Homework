@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BootstrapConfigXML xsi:noNamespaceSchemaLocation="BootstrapConfigXML.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <cfgData>
+    <CDorWeb>Web</CDorWeb>
+    <CSIConfigFile>Installer\InstallerConfig.xml</CSIConfigFile>
+    <CSIInstallerExe>Installer\hpbcsiInstaller.exe</CSIInstallerExe>
+    <ApplicationConfigFile>Installer\InstallerConfig.xml</ApplicationConfigFile>
+    <ApplicationToLaunch>Installer\hpbcsiInstaller.exe</ApplicationToLaunch>
+    <ApplicationEventName>hpbcsiInstaller</ApplicationEventName>
+    <ApplicationTitle>HP Installer</ApplicationTitle>
+    <ApplicationWindowTitle>HP Installer</ApplicationWindowTitle>
+    <WindowsInstallerExe>Prerequisites\msi31\WindowsInstaller-KB893803-v2-x86.exe /norestart</WindowsInstallerExe>
+    <DotNetExe>Prerequisites\dotNetFramework\dotnetfx35setup.exe /norestart /lang:ENU</DotNetExe>
+    <MaxDiskSpaceRequired>231</MaxDiskSpaceRequired>
+    <DPInst32Dir>Legacy_Installer\DPInst_x32</DPInst32Dir>
+    <DPInst64Dir>Legacy_Installer\DPInst_x64</DPInst64Dir>
+    <LanguageDir>Languages</LanguageDir>
+  </cfgData>
+</BootstrapConfigXML>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><document><en>
+<title type="content"><title>Printer Help</title></title>
+<t00 type="content"><bold16gold>Printer not found on wireless network</bold16gold><br/><body>The installer cannot find the printer on the wireless network.
+Click the link below that best describes your situation:</body></t00>
+<t00L1 type="content"><bodyLink>» My printer is connected to a wireless network, but the installer cannot find it.</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>» My printer cannot connect to the wireless network.</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>» I am unsure if I have a wireless network.</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>» I am changing my printer's network connection from wired to wireless.</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>Discover the printer on the network</bold16gold><br/><body>If the product is correctly connected to the network, it should have an IP address. Print a product Configuration Page, and locate the IP address on the Configuration Page.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>» How to print a Configuration Page</bodyLinkLine1><br/><bodyLinkLine2></bodyLinkLine2></t01L1>
+<t01a type="content"><bold16gold>Discover the printer on the network</bold16gold><br/><body>Enter the IP address manually into the appropriate box in the Installer, and then continue installing the software.
+If the installer still cannot find the product on the network, you might have firewall software preventing the product's discovery. HP recommends that you leave your firewall software enabled. But do allow all HP programs to proceed by selecting "Continue" or "Unblock" or "Allow" when prompted by firewall or anti-virus software. Blocking an installation can cause it to fail.
+If security software is not blocking the discovery, the product might be connected to a subnetwork different from your computer. Contact your network administrator for further assistance.</body></t01a>
+<t02 type="content"><bold16gold>Set up the printer on a wireless network</bold16gold><br/><body>Ensure the product is powered on and indicates <bold12>Ready</bold12>.</body></t02>
+<t03 type="content"><bold16gold>Set up the printer on a wireless network</bold16gold><br/><body>If you first attempted to set up the wireless network connection via Wi-Fi Protected Setup (WPS), and it failed, try the <bold12>USB setup of wireless</bold12>. If the USB setup fails, click <bold12>Continue</bold12> below.</body></t03>
+<t04 type="content"><bold16gold>Set up the printer on a wireless network</bold16gold><br/><body><bold12>Note:</bold12> Follow these instructions only if you have tried the <bold12>USB setup of wireless</bold12> and it has failed.
+Confirm you have an active wireless network with a wireless router.</body></t04>
+<t05 type="content"><bold16gold>Set up the printer on a wireless network</bold16gold><br/><body>Most newer wireless routers offer a Wi-Fi Protected Setup (WPS) button somewhere on the router. This button enables simple pushbutton access for wireless products that also support WPS.
+Confirm whether or not your wireless router supports WPS.</body></t05>
+<t06 type="content"><bold16gold>Set up the printer on a wireless network</bold16gold><br/><body>Identify the type of display your printer has. Click <bold12>Touch-screen</bold12>, <bold12>Two-line</bold12>, or <bold12>No display</bold12> below.</body></t06>
+<t06L01 type="content"><bodyLink>» Touch-screen</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>» Two-line</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>» No display</bodyLink></t06L03>
+<t07 type="content"><bold16gold>Power on the product</bold16gold><br/><body><bold12>Note:</bold12> Ensure that all packing tape and shipping locks are removed. Ensure that paper is loaded in the paper tray.
+Connect the power cord between the product and a grounded AC outlet, and then press the product power button to <bold12>On</bold12>.</body></t07>
+<t08 type="content"><bold16gold>USB setup of wireless</bold16gold><br/><body>1. Click the <bold12>Back</bold12> button in the installer, and go to the screen that instructs you to "Choose a wireless setup method."
+2. Select <bold12>USB setup of wireless</bold12>, and then click <bold12>Next</bold12>. Follow the on-screen instructions.</body></t08>
+<t09 type="content"><bold16gold>Determine if you have a wireless network and router</bold16gold><br/><body>A "wireless network" refers to a computer network where computers and printers connect to a network router without the use of network cables. In many homes and small offices, the DSL or Cable modem is also the wireless router. If you connect to the Internet via a DSL or Cable modem, and your computer connects to the modem wirelessly, you likely have a wireless network.
+However, if your computer connects to the modem or router via a cable, you might not have a wireless router or a wireless network. Still, we recommend proceeding further before concluding that you have no wireless network.
+<bold12>Note:</bold12> The use of Bluetooth™ accessories, such as a wireless mouse or wireless keyboard, does not indicate the presence of a wireless network. Such Bluetooth accessories neither require nor make a wireless network. A better indicator is the presence of always-on Internet access on your computer—access without using a dial-up service. (If you do use dial-up Internet, you likely do not have a wireless network.)
+<bold12>Note:</bold12> Laptop or mobile computers, especially "Netbooks," can have always-on Internet without cables, but the presence of such computers does not always indicate the presence of a local wireless router.
+If you still are unsure whether or not you have a network based on a local wireless router, click <bold12>Continue</bold12> below.</body></t09>
+<t11 type="content"><bold16gold>Connect using WPS</bold16gold><br/><body>Press the WPS button on the router, and then on the printer. If the printer has a touch-screen display, the WPS button will be in the <bold12>Wireless Menu</bold12>. Once the two devices have recognized each other, click <bold12>Next</bold12> below.</body></t11>
+<t14 type="content"><bold16gold>Wireless setup using a touch-screen display</bold16gold><br/><body>On the display, touch the <bold12>Wireless Menu</bold12> button, and then touch <bold12>Wireless Setup Wizard</bold12>. Follow the instructions.
+<bold12>Note:</bold12> You will need to know the network name (SSID), plus the password (WEP key or WPA passphrase) if the network is a secure network.</body></t14>
+<t14a type="content"><body>If the printer successfully connects to the wireless network, click <bold12>Next</bold12> below.
+If the printer still cannot connect to the wireless network, see <bold12>Wireless setup via the EWS</bold12>.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>» Locate the network name and password</bodyLinkLine1><br/><bodyLinkLine2></bodyLinkLine2></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>» Wireless setup via the EWS</bodyLinkLine1><br/><bodyLinkLine2></bodyLinkLine2></t14L02><note01 type="content"><note>If you do not know the network name (SSID) and password (WEP key or WPA passphrase), they might be displayed in your computer's Network &amp; Sharing Center.
+They might also be displayed in your router's embedded Web server (EWS). Locate your router's IP address in the documentation that came with the router. To open the router's EWS, enter the IP address in the address field of a browser on your computer.</note></note01>
+<t16 type="content"><bold16gold>Wireless setup via the EWS</bold16gold><br/><body>At this point, a wireless connection cannot be established without first establishing a wired network connection by connecting the printer to the router via a network cable.
+<bodyNumList>1. Connect a network cable to the printer and to the router.
+2. Wait a few minutes for the printer to receive an IP address from the router, and then print a Network Report or Configuration Page from the printer's <bold12>Reports</bold12> menu. Locate the printer's IP address on the page.
+3. Open a Web browser and enter the printer's IP address in the address box (and press <bold12>Enter</bold12>). The printer's embedded Web server (EWS) should open in the browser. If the EWS does not open, the printer is likely connected to a subnetwork different from the computer.
+4. In the EWS, go to the <bold12>Networking</bold12> tab, and then click <bold12>Wireless Configuration</bold12>.
+5. Click the <bold12>Enabled</bold12> button. And then click <bold12>Join an existing wireless network</bold12>.
+6. A list of available wireless networks will appear. Click the network you want to connect to.
+7. If the selected network indicates that it is an unnamed network, click the <bold12>Enter a Network Name</bold12> button, and then enter the Network Name (SSID) in the text box.
+8. If the network requires a WEP key or WPA passphrase, enter the correct key or passphrase in the text box.
+9. Click <bold12>Apply</bold12> at the bottom of the page.
+10. Wait a minute for the settings on the printer to be saved, and then remove the network cable from the printer. The printer will attempt to wirelessly connect to the network.</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>Return to the installer</bold16gold><br/><bodyNumList>1. Ensure there is no USB cable connected to the printer. In the software installer, click the <bold12>Back</bold12> button until you get to the screen that asks you to choose a "Connection Type."
+2. Select <bold12>Connect through a wireless network</bold12>, and then click <bold12>Next</bold12>.
+3. The installer will search for the printer on the network. Once the printer is discovered, continue installing the software. </bodyNumList></t17>
+<t18 type="content"><bold16gold>Print a Network Report</bold16gold><br/><body>A Network Report can reveal some conflicts that might be preventing the printer from connecting to the wireless network.
+To print a Network Report, go to the <bold12>Wireless Menu</bold12> on the printer control panel, and then select <bold12>Run Network Test</bold12>. Follow the instructions in the report. Once the conflict has been resolved, click <bold12>Next</bold12> below.</body></t18>
+<t19 type="content"><bold16gold>Restore default settings and reinstall</bold16gold><br/><body><bold12>Note:</bold12> Ensure that the printer has NO network cable connected to it before proceeding.
+HP recommends returning the printer’s network settings to the factory default settings, and then trying the installation again.
+<bodyNumList>1. If a USB cable is connected to the printer, disconnect the USB cable from the printer.
+2. On the printer control panel, go to the <bold12>Setup Menu</bold12>.
+3. Select <bold12>Network Setup</bold12>.
+4. Select <bold12>Restore Defaults</bold12>.
+5. In the software installer, click the <bold12>Back</bold12> button until you get to the screen that asks you to "Choose a wireless setup method."
+6. Select the setup method you prefer, and follow the instructions normally.</bodyNumList></body></t19>
+<guideButt type="content"><butt11>Guide Me</butt11></guideButt>
+<backButt type="content"><butt11>Back</butt11></backButt>
+<showButt type="content"><butt11>Show Me</butt11></showButt>
+<nextButt type="content"><butt11>Next</butt11></nextButt>
+<contButt type="content"><butt11>Continue</butt11></contButt>
+<exitButt type="content"><butt11>Exit</butt11></exitButt>
+<WPSnotWorkButt type="content"><butt11>WPS not working</butt11></WPSnotWorkButt>
+<successNextButt type="content"><butt11>Success/Next</butt11></successNextButt>
+<failedTSbutt type="content"><butt11>Failed/Troubleshoot</butt11></failedTSbutt>
+<noWPSradio type="content"><radioButt>No WPS</radioButt></noWPSradio>
+<yesWPSradio type="content"><radioButt>Yes WPS</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>Print a Configuration Page</bold16gold><br/><body>Select the type of control panel on your printer:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Text only (small)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Touch screen (small)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>» No display</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Text only (large)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Touch screen (large)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. If your printer has a Setup Menu button (A), press the Setup Menu button. If your printer has no Setup Menu button, go to the next step.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Use the arrow buttons (B) to navigate to <bold12>Reports</bold12>, and then press the <bold12>OK</bold12> button (C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Use the arrow buttons to navigate to <bold12>Config Report</bold12>, and then press the <bold12>OK</bold12> button.</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. A Configuration Report prints. The IP address is listed as IPv4 or IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>With this type of control panel, the IP address is viewable on the display:
+<br/><li>If your printer is connected to the network via a network cable, touch the Network button (A) on the home screen to view the IP address. If the IP address does not appear, the printer is not communicating with the network. Recheck your cable connections.
+If your printer is connected to the network wirelessly, touch the Wireless button (B) on the home screen to view the IP address. If the IP address does not appear, follow the instructions on the control panel display.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>On printers that have buttons, but no display, the button or combination of buttons that will print a configuration page can vary.</body><br/><bodyNumList>1. If the printer has only a Cancel button (A), press and hold the Cancel button for two to three seconds. If no configuration page prints, go to the next step.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. If the printer has a Cancel button (A) and a Resume button (B), press and hold both buttons at the same time for two seconds. If no configuration page prints, press only the Resume button (B) for two to three seconds. If no configuration page prints, go to the next step.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. If a configuration page does not print, please contact your local support.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>With this type of control panel, the IP address is viewable on the display on the <bold12>Ready</bold12> screen. If no IP address is visible on the <bold12>Ready</bold12> screen, check your printer’s network connection.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>With this type of control panel, the IP address is viewable on the display.</body><br/><bodyNumList>1. Touch the <bold12>Network Address</bold12> button (A) on the home screen to view the IP address. If the IP address does not appear, the printer is not communicating with the network. Recheck your network connection.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Continue with help</bodyLinkLine1></txCont><cpstring01 type="content"><p>Reports</p></cpstring01><cpstring02 type="content"><p>Config report</p></cpstring02><cpstring03 type="content"><p>Ready</p></cpstring03><cpstring04 type="content"><p>Network Address</p></cpstring04>
+
+</en></document>

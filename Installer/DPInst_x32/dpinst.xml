@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<dpInst>
+  <deleteBinaries />
+  <suppressWizard />
+  <suppressAddRemovePrograms />
+  <group>
+    <Package Path="..\..\hpc1530c.inf" />
+    <Package Path="..\..\hpmldm01.inf" />
+    <Package Path="..\..\hppasc_lj1530.inf" />
+    <Package Path="..\..\hpbuio160f.inf" />
+    <installAllOrNone />
+  </group>
+</dpInst>

@@ -1,0 +1,95 @@
+body {
+	color:#FFFFFF;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	display:block;
+	text-align: right;
+}
+bodyLink {
+	color:#0098FF;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	display:inline;
+	textIndent:-10;
+	marginLeft:10;
+	textDecoration:underline;
+	text-align: right;
+}
+bodyLinkLine1 {
+	color:#0098FF;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	display:inline;
+	textDecoration:underline;
+	text-align: right;
+}
+bodyLinkLine2 {
+	color:#0098FF;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	display:inline;
+	marginLeft:10;
+	textDecoration:underline;
+	text-align: right;
+}
+bodyNumList {
+	color:#FFFFFF;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	display:block;
+	textIndent:-13;
+	marginLeft:13;
+	text-align: right;
+}
+bodyMargin {
+	color:#FFFFFF;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	display:block;
+	marginLeft:13;
+	text-align: right;
+}
+butt11 {
+  color:#FFFFFF;
+  fontFamily:Arial,Helvetica,sans-serif;
+  fontSize:10;
+  display:inline;
+textAlign:center;
+}
+bold12 {
+	color:#00FF98;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	fontWeight:bold;
+	display:inline;
+	text-align: right;
+}
+bold16gold {
+	color:#FFCC00;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:16;
+	fontWeight:bold;
+	display:block;
+	text-align: right;
+}
+title {
+	color:#FFFFFF;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:22;
+	display:block;
+	text-align: right;
+}
+note {
+	color:#000000;
+	fontFamily:Arial, Helvetica, sans-serif;
+	fontSize:12;
+	display:inline;
+	text-align: right;
+}
+a:link {
+	color:#0000FF;
+	fontWeight:bold;
+}
+a:hover {
+	textDecoration:underline;
+}

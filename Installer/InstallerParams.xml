@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x_InstallerParams xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="InstallerParamsXML.xsd">
+	<x_Params description="These options can be specified at the command line. use / ie: /silent or /IPaddr &lt;ippaddr&gt;">
+		<x_Param flag="help" usage="displays usage information" value="" />
+		<x_Param flag="?" usage="displays usage information" value="" />
+		<x_Param flag="UI" usage="defines the type of UI" value="GUI" validate="TestUI|GUI|TestIMService|Silent" />
+		<x_Param flag="uninstall" usage="Uninstalls the device driver and associated software." value="" />
+		<x_Param flag="ForcedUninstall" usage="Forces uninstall of the device driver and associated software." value="" />
+		<x_Param flag="HWFirst" usage="Indicates Hardware First install." value="" />
+		<x_Param flag="HWFirstPort" usage="Indicates the Post Name set up on a Hardware First install." value="" />
+		<x_Param flag="InstallerParamsConfigFilePath" usage="use the specified path to the InstallerParams XML config File" value= "" />
+    <x_Param flag="InstallerConfigFileName" usage="use the specified InstallerConfig XML config File Name" value= "" />
+    <x_Param flag="DriverOnly" usage="only installs the Driver and connects the device" value="False" validate="True|False" />
+		<x_Param flag="NetworkLogger" usage="run installer with additional Network logging" value="ReleaseLogging" validate="NoLogging|ReleaseLogging|DebugLogging" />
+    <x_Param flag="skipAdminCheck" usage="skips the checking for administrator privileges" value="" />
+	<x_Param flag="DevConnection" usage="parameter from smallville" value=""/>
+    <x_Param flag="DevIpAddress" usage="parameter from smallville" value=""/>
+    
+    <x_Param flag="USB" usage="Silent: do preload of components to prepare for USB PnP" value="" validate="True|False" />
+    <x_Param flag="IPv4" usage="Silent: find device with ipv4 address " value="" />
+    <x_Param flag="IPv6" usage="Silent: find device with ipv6 address " value="" />
+    <x_Param flag="HostName" usage="Silent: find device by HostName " value=""  />
+    <x_Param flag="Mac" usage="Silent: find device by Mac address (HW Addresss) " value="" />
+    <x_Param flag="AcceptEULA" usage="Silent: allows install to proceed " value ="False"  validate="True|False" />
+    
+	</x_Params>
+</x_InstallerParams>

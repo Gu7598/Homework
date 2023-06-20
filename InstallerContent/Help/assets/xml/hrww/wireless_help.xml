@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><document><hr>
+<title type="content"><title>Pomoć za pisač</title></title>
+<t00 type="content"><bold16gold>Pisač nije pronašao bežičnu mrežu</bold16gold><br/><body>Program za instaliranje ne može pronaći pisač na bežičnoj mreži.
+Kliknite na vezu u nastavku koja najbolje opisuje vašu situaciju.</body></t00>
+<t00L1 type="content"><bodyLink>„Moj pisač povezan je na bežičnu mrežu, no program za instaliranje ga ne može pronaći".</bodyLink><br/></t00L1>
+<t00L2 type="content"><bodyLink>„Moj se pisač ne može povezati na bežičnu mrežu“.</bodyLink><br/></t00L2>
+<t00L3 type="content"><bodyLink>„Nisam siguran da imam bežičnu vezu“.</bodyLink><br/></t00L3>
+<t00L4 type="content"><bodyLink>„Promijenio sam mrežnu vezu svog pisača iz žično u bežično”.</bodyLink><br/></t00L4>
+<t01 type="content"><bold16gold>Pronađite pisač na mreži</bold16gold><br/><body>Ako je proizvod pravilno priključen na mrežu, trebao bi imati IP adresu. Ispišite stranicu s konfiguracijom proizvoda i locirajte IP adresu na stranici s konfiguracijom.</body></t01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t01L1 type="content"><bodyLinkLine1>„Kako ispisati stranicu s konfiguracijom</bodyLinkLine1><br/><bodyLinkLine2/></t01L1>
+<t01a type="content"><bold16gold>Pronađite pisač na mreži</bold16gold><br/><body>Ručno unesite IP adresu u odgovarajući okvir u programu za instaliranje i potom nastavite instalirati softver.
+Ako program za instaliranje i dalje na mreži ne može pronaći proizvod, možda imate softver vatrozida koji sprječava otkrivanje proizvoda. HP preporučuje da ostavite omogućen vaš softver vatrozida. No, omogućite nastavak svim HP programima tako da odaberete "Nastavi", "Odblokiraj" ili "Dopusti" kada budete upitani od vatrozida ili antivirisnug softvera. Blokiranje instalacije može dovesti do rušenja.
+Ako sigurnosni softver ne blokira otkrivanje, proizvod može biti povezan na podmrežu drugačiju od vašeg računala. Za dodatnu pomoć obratite se administratoru mreže.</body></t01a>
+<t02 type="content"><bold16gold>Postavite pisač na bežičnu mrežu</bold16gold><br/><body>Osigurajte da je proizvod uključen i da pokazuje <bold12>Spremno</bold12>.</body></t02>
+<t03 type="content"><bold16gold>Postavite pisač na bežičnu mrežu</bold16gold><br/><body>Ako ste najprije pokušali postaviti vezu na bežičnu mrežu putem Wi-Fi zaštićenog postavljanja i nije uspjelo, pokušajte <bold12>USB postavljanje bežične veze</bold12>. Ako ne uspije USB postavljanje, u nastavku kliknite na <bold12>Nastavi</bold12>.</body></t03>
+<t04 type="content"><bold16gold>Postavite pisač na bežičnu mrežu</bold16gold><br/><body><bold12>Napomena:</bold12> Slijedite ove upute samo ako ste pokušali i nije uspjelo <bold12>USB postavljanje bežične veze</bold12>.
+Potvrdite da imate aktivnu bežičnu vezu s bežičnim usmjernikom.</body></t04>
+<t05 type="content"><bold16gold>Postavite pisač na bežičnu mrežu</bold16gold><br/><body>Većina novijih bežičnih usmjernika ima gumb za Wi-fi zaštićeno postavljanje (WPS) negdje na usmjerniku. Jednostavnim pritiskom tog gumba omogućen je pristup za bežične proizvode koji također podržavaju WPS.
+Potvrdite podržava li vaš bežični usmjernik WPS.</body></t05>
+<t06 type="content"><bold16gold>Postavite pisač na bežičnu mrežu</bold16gold><br/><body>Identificirajte vrstu prikaza koju ima vaš pisač. U nastavku kliknite na <bold12>Dodirni zaslon</bold12>, <bold12>Dvije linije</bold12> ili <bold12>Nema prikaza</bold12>.</body></t06>
+<t06L01 type="content"><bodyLink>„Dodirni zaslon</bodyLink></t06L01>
+<t06L02 type="content"><bodyLink>„Dvije linije</bodyLink></t06L02>
+<t06L03 type="content"><bodyLink>„Nema prikaza</bodyLink></t06L03>
+<t07 type="content"><bold16gold>Uključite proizvod</bold16gold><br/><body><bold12>Napomena:</bold12> Osigurajte da su sve trake pakiranja i blokiranja za isporuku uklonjene. Osigurajte da je papir umetnut u ladicu za papir.
+Priključite kabel napajanja između proizvoda i uzemljene AC utičnice i potom pritisnite gumb napajanja proizvoda na <bold12>Uključeno</bold12>.</body></t07>
+<t08 type="content"><bold16gold>USB postavljanje bežične veze</bold16gold><br/><body>1. Kliknite na gumb <bold12>Natrag</bold12> u programu za instaliranje i idite na zaslon koji vas upućuje na "Odaberite način postavljanja bežične veze."
+2. Odaberite <bold12>USB postavljanje bežične veze</bold12> i potom kliknite na <bold12>Dalje</bold12>. Slijedite upute na zaslonu.</body></t08>
+<t09 type="content"><bold16gold>Utvrdite imate li bežičnu mrežu i usmjernik</bold16gold><br/><body>&quot;Bežična mreža&quot; odnosi se na računalnu mrežu u kojoj se računala i pisači povezuju na mrežni usmjernik bez korištenja mrežnih kabela. U većini domova i malih ureda, DSL ili kabelski modem također su bežični usmjernik.  Ako ste povezani na Internet putem DSL-a ili kabelskog modema i vaše računalo se bežično povezuje na modem, vjerojatno imate bežičnu mrežu.
+Međutim, ako se vaše računalo povezuje na modem ili usmjernik putem kabela, možda nemate bežični usmjernik ili bežičnu mrežu. Preporučujemo da prije zaključka da nemate bežičnu mrežu nastavite dalje.
+<bold12>Napomena:</bold12> Korištenje Bluetooth™ dodataka kao što je bežični miš ili bežična tipkovnica ne naznačuje prisutnost bežične mreže. Takvi Bluetooth dodaci niti trebaju niti čine bežičnu mrežu. Bolji pokazatelj je prisutnost pristupa uključenosti na Internet na vašem računalu — pristup bez korištenja modemske usluge. (ako ne koristite modemski Internet vjerojatno nemate bežičnu mrežu.)
+<bold12>Napomena:</bold12> Prijenosna ili mobilna računala, osobito &quot;prijenosna računala&quot;, imaju uvijek uključen Internet bez kabela, no prisutnost takvih računala ne naznačuju uvijek prisutnost lokalnog usmjernika bežične veze.
+Ako i dalje niste sigurni imate li ili ne mrežu koja se temelji na lokalnom bežičnom usmjerniku, u nastavku kliknite na <bold12>Nastavak</bold12>.</body></t09>
+<t11 type="content"><bold16gold>Povezivanje korištenjem WPS-a</bold16gold><br/><body>Pritisnite gumb WPS-a na usmjerniku i potom na pisaču. Ako pisač ima dodirni zaslon, gumb WPS-a bit će u <bold12>Izbornik bežično</bold12>. Nakon što dva uređaja prepoznaju jedan drugoga kliknite na <bold12>Dalje</bold12>.</body></t11>
+<t14 type="content"><bold16gold>Postavljanje bežične veze korištenjem dodirnog zaslona</bold16gold><br/><body>Na zaslonu dodirnite gumb <bold12>Izbornik bežično</bold12> te potom dodirnite <bold12>Čarobnjak za postavljanje bežične veze</bold12>. Slijedite upute.
+<bold12>Napomena:</bold12> Ako je mreža sigurna mreža trebate znati naziv mreže (SSID), plus lozinku (WEP ključ ili WPA lozinku).</body></t14>
+<t14a type="content"><body>Ako se pisač uspješno povezao na bežičnu mrežu, u nastavku kliknite na <bold12>Dalje</bold12>.
+Ako se pisač i dalje ne može povezati na bežičnu mrežu, pogledajte <bold12>Postavljanje bežične veze putem EWS-a</bold12>.</body></t14a><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L01 type="content"><bodyLinkLine1>„Locirajte naziv mreže i lozinku</bodyLinkLine1><br/><bodyLinkLine2/></t14L01><!-- Translators: If the link below is more than 50 characters (with spaces), you must split the string placing up to 50 characters (with spaces) in the <bodyLinkLine1> tag and the remaining characters in the <bodyLinkLine2> tag.--> 
+<t14L02 type="content"><bodyLinkLine1>„Postavljanje bežične veze putem EWS-a</bodyLinkLine1><br/><bodyLinkLine2/></t14L02><note01 type="content"><note>Ako ne znate naziv mreže (SSID) i lozinku (WEP ključ ili WPA lozinku), oni mogu biti prikazani u vašem Centru za dijeljenje i mrežu na računalu.
+Također mogu biti prikazani u vašem usmjerniku Ugrađenog web poslužitelja (EWS). Locirajte IP adresu svog usmjernika u dokumentaciji koja je isporučena s usmjernikom. Za otvaranje EWS usmjernika unesite IP adresu u adresno polje u pretraživač na vašem računalu.</note> 
+</note01>
+<t16 type="content"><bold16gold>Postavljanje bežične veze putem EWS</bold16gold><br/><body>Bežična veza se ne može uspostaviti a da se najprije ne uspostavi žična mrežna veza na način da se poveže pisač na usmjernik preko mrežnog kabela.
+<bodyNumList>1. Priključite mrežni kabel na pisač i usmjernik.
+2. Pričekajte nekoliko minuta da pisač primi IP adresu iz usmjernika i potom ispišite Izvješće o mreži ili Stranicu za konfiguraciju iz izbornika <bold12>Izvješća</bold12> pisača. Locirajte IP adresu pisača na stranici.
+3. Otvorite web preglednik i unesite IP adresu pisača u adresni okvir (i pritisnite <bold12>Enter</bold12>). Ugrađeni web poslužitelj (EWS) pisača treba se otvoriti u pregledniku. Ako se EWS ne otvara, pisač je vjerojatno priključen na podmrežu drugačiju od računala.
+4. U EWS-u idite u karticu <bold12>Umrežavanje</bold12> te potom kliknite na <bold12>Konfiguracija bežične veze</bold12>.
+5. Kliknite na gumb <bold12>Omogućeno</bold12>. Potom kliknite <bold12>Spoji postojeće bežične mreže</bold12>.
+6. Prikazuje se popis dostupnih bežičnih mreža. Kliknite mrežu na koju se želite povezati.
+7. Ako odabrana mreža označuje da je bezimena mreža, kliknite na gumb <bold12>Unos naziva mreže</bold12> i u okvir za tekst unesite naziv mreže (SSID).
+8. Ako mreža zahtjeva WEP ključ ili WPA lozinku, unesite točan ključ ili lozinku u okvir za tekst.
+9. Kliknite na <bold12>Primjeni</bold12> na dnu stranice.
+10. Pričekajte minutu da se postavke na pisaču spreme i potom uklonite mrežni kabel iz pisača. Pisač će se pokušati bežično spojiti na mrežu.</bodyNumList></body></t16><!-- t14L02 flows here--> 
+<t17 type="content"><bold16gold>Povratak u program za instaliranje</bold16gold><br/><bodyNumList>1. Osigurajte da nema USB kabela priključenog na pisač. U programu za instaliranje kliknite na gumb <bold12>Natrag</bold12> sve dok ne dobijete zaslon u kojem se od vas traži da odaberete "Vrstu veze".
+2. Odaberite <bold12>Spajanje preko bežične veze</bold12> i potom kliknite na <bold12>Dalje</bold12>.
+3. Program za instaliranja tražit će pisač na mreži. Nakon pronalaska pisača, nastavite s instaliranjem softvera. </bodyNumList></t17>
+<t18 type="content"><bold16gold>Ispis izvješća o mreži</bold16gold><br/><body>Izvješće o mreži može prikazati neke sukobe koji mogu spriječiti pisač da se poveže na bežičnu mrežu.
+Za ispis izvješća o mreži idite u <bold12>Izbornik za bežično</bold12> na upravljačkoj ploči i odaberite <bold12>Pokreni test mreže</bold12>. Slijedite upute u izvješću. Nakon rješavanja sukoba, kliknite na <bold12>dalje</bold12>.</body></t18>
+<t19 type="content"><bold16gold>Vraćanje zadanih postavki i ponovna instalacija</bold16gold><br/><body><bold12>Napomena:</bold12> Prije nego što nastavite osigurajte da na pisaču NEMA priključenih mrežnih kabela.
+HP preporučuje vraćanje mrežne postavke pisača na tvornički zadane postavke i potom ponovni pokušaj instalacije.
+<bodyNumList>1. Ako je USB kabel priključen na pisač, odspojite USB kabel iz pisača.
+2. Na upravljačkoj ploči pisača idite u <bold12>Izbornik za postavljanje</bold12>.
+3. Odaberite <bold12>Postavljanje mreže</bold12>.
+4. Odaberite <bold12>Vrati zadane postavke</bold12>.
+5. U programu za instalaciju kliknite na gumb <bold12>Natrag</bold12> sve dok ne dođete u zaslon u kojem se traži "Odaberite način postavljanja bežične veze."
+6. Odaberite način postavljanja koji želite i slijedite redovne upute.</bodyNumList></body></t19><guideButt type="content"><butt11>Korisnički priručnik</butt11></guideButt><backButt type="content"><butt11>Natrag</butt11></backButt><showButt type="content"><butt11>Pokaži mi kako</butt11></showButt><nextButt type="content"><butt11>Dalje</butt11></nextButt><contButt type="content"><butt11>Nastavi</butt11></contButt><exitButt type="content"><butt11>Izlaz</butt11></exitButt><WPSnotWorkButt type="content"><butt11>WPS ne radi</butt11></WPSnotWorkButt><successNextButt type="content"><butt11>Uspješno/Dalje</butt11></successNextButt><failedTSbutt type="content"><butt11>Neuspjelo/Rješavanje problema</butt11></failedTSbutt><noWPSradio type="content"><radioButt>Ne WPS</radioButt></noWPSradio><yesWPSradio type="content"><radioButt>Da WPS</radioButt></yesWPSradio>
+
+<tx00 type="content"><bold16gold>Ispis stranice s konfiguracijom</bold16gold><br/><body>Odaberite vrstu upravljačke ploče na vašem pisaču:</body></tx00>
+<tx00L01 type="content"><bodyLink>» Samo tekst (malo)</bodyLink></tx00L01>
+<tx00L02 type="content"><bodyLink>» Dodirni zaslon (malo)</bodyLink></tx00L02>
+<tx00L03 type="content"><bodyLink>„Nema prikaza</bodyLink></tx00L03>
+<tx00L04 type="content"><bodyLink>» Samo tekst (veliko)</bodyLink></tx00L04>
+<tx00L05 type="content"><bodyLink>» Dodirni zaslon (veliko)</bodyLink></tx00L05><!-- image1 - low-end two-line CP display [instruction set I] --> 
+<tx101 type="content"><bodyNumList>1. Ako vaš pisač ima gumb za postavljanje izbornika (A), pritisnite ga. Ako vaš pisač nema gumb za postavljanje izbornika, idite na sljedeći korak.</bodyNumList></tx101>
+<tx102 type="content"><bodyNumList>2. Koristite gumbe sa strelicama (B) da biste došli na stavku <bold12>Izvješća</bold12> a zatim pritisnite gumb <bold12>U redu</bold12>(C).</bodyNumList></tx102>
+<tx103 type="content"><bodyNumList>3. Koristite gumbe sa strelicama da biste došli na stavku <bold12>Konfig. izvješće</bold12> a zatim pritisnite gumb <bold12>U redu</bold12>(C).</bodyNumList></tx103>
+<tx104 type="content"><bodyNumList>4. Izvješće o konfiguraciji se ispisuje. IP adresa je navedena kao IPv4 ili IPv6.</bodyNumList></tx104><!-- image2 - low-end touchscreen display [instruction set II] --> 
+<tx201 type="content"><body>Na ovoj vrsti upravljačke ploče IP adresu moguće je vidjeti na zaslonu:
+<br/><li>Ako je vaš pisač povezan s mrežom preko mrežnog kabela, dodirnite gumb Mreža (A) na početnom zaslonu za prikaz IP adrese. Ako se IP adresa ne prikaže, pisač ne komunicira s mrežom. Ponovo provjerite kabelske veze.
+Ako je vaš pisač bežično povezan s mrežom, dodirnite gumb Bežično (B) na početnom zaslonu za prikaz IP adrese. Ako se IP adresa ne prikaže, slijedite upute na zaslonu upravljačke ploče.</li></body></tx201><!-- image3 - low-end button icons from a no-display model [instruction set III] --> 
+<tx301 type="content"><body>Na pisačima s gumbima, no bez zaslona, gumb ili kombinacija gumba koja će ispisati stranicu konfiguracije može se razlikovati.</body><br/><bodyNumList>1. Ako pisač ima samo gumb Odustani (A), pritisnite i držite ga dvije do tri sekunde.  Ako se stranica konfiguracije ne ispisuje, idite na sljedeći korak.</bodyNumList></tx301>
+<tx302 type="content"><bodyNumList>2. Ako pisač ima gumb Odustani (A) i gumb Nastavi (B), pritisnite i držite oba gumba istodobno dvije sekunde.  Ako se stranica konfiguracije ne ispisuje, pritisnite samo gumb Nastavi (B) i držite ga dvije do tri sekunde.  Ako se stranica konfiguracije ne ispisuje, idite na sljedeći korak.</bodyNumList></tx302>
+<tx303 type="content"><bodyNumList>3. Ako stranica konfiguracije ne ispisuje, obratite se lokalnoj podršci.</bodyNumList></tx303><!-- image4 - high-end four-line CP display [instruction set IV] -->
+<tx401 type="content"><body>Na ovoj vrsti upravljačke ploče IP adresu je moguće vidjeti na prikazu na zaslonu <bold12>Spremno</bold12>. Ako IP adresu ne možete vidjeti na zaslonu <bold12>Spremno</bold12>, provjerite mrežnu vezu vašeg pisača.</body></tx401><!-- image5 - high-end touch-screen displays-there are two versions [instruction set V]-->
+<tx501 type="content"><body>Na ovoj vrsti upravljačke ploče IP adresu je moguće vidjeti na zaslonu.</body><br/><bodyNumList>1. Dodirnite gumb <bold12>Mrežna adresa</bold12> (A) na početnom zaslonu za prikaz IP adrese. Ako se IP adresa ne prikaže, pisač ne komunicira s mrežom. Ponovo provjerite mrežnu vezu.</bodyNumList></tx501>
+<txCont type="content"><bodyLinkLine1>» Nastavak pomoći</bodyLinkLine1></txCont><cpstring01 type="content"><p>Izvješća</p></cpstring01><cpstring02 type="content"><p>Konfig. izvješće</p></cpstring02><cpstring03 type="content"><p>Spreman</p></cpstring03><cpstring04 type="content"><p>Mrežna adresa</p></cpstring04></hr></document>
